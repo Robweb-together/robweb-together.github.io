@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bio-inspired | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/tag/bio-inspired/</link>
+      <atom:link href="https://robweb-together.github.io/tag/bio-inspired/index.xml" rel="self" type="application/rss+xml" />
+    <description>bio-inspired</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2023 SRI-Lab</copyright><lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
+      <title>bio-inspired</title>
+      <link>https://robweb-together.github.io/tag/bio-inspired/</link>
+    </image>
+    
+    <item>
+      <title>A bio-inspired continuum robot for out-pipe climbing and confined space navigating</title>
+      <link>https://robweb-together.github.io/publication/wang2021bio/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021bio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robots for pipeline inspection tasks—A survey of design philosophy and implementation technologies</title>
+      <link>https://robweb-together.github.io/publication/wang2021robots/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021robots/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

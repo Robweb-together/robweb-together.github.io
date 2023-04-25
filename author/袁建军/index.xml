@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>袁建军 | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/author/%E8%A2%81%E5%BB%BA%E5%86%9B/</link>
+      <atom:link href="https://robweb-together.github.io/author/%E8%A2%81%E5%BB%BA%E5%86%9B/index.xml" rel="self" type="application/rss+xml" />
+    <description>袁建军</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2023 SRI-Lab</copyright><lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/author/%E8%A2%81%E5%BB%BA%E5%86%9B/avatar_hu124d4fce3cded09085961d58e3b83572_627676_270x270_fill_lanczos_center_3.png</url>
+      <title>袁建军</title>
+      <link>https://robweb-together.github.io/author/%E8%A2%81%E5%BB%BA%E5%86%9B/</link>
+    </image>
+    
+    <item>
+      <title>A Parameter Identification Method for Coupled Dynamics of Robotic Manipulator with Differential Modular Joints</title>
+      <link>https://robweb-together.github.io/publication/he2022parameter/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/he2022parameter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic modeling and analysis for a differential modular robot joint with the friction model</title>
+      <link>https://robweb-together.github.io/publication/liu2022dynamic/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/liu2022dynamic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structural design and analysis of a permanent-magnet wheeled pipe robot with pipe diameter adaption capability</title>
+      <link>https://robweb-together.github.io/publication/wang2022structural/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2022structural/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trajectory Optimization Algorithm of Trajectory Rehabilitation Training Mode for Rehabilitation Robot</title>
+      <link>https://robweb-together.github.io/publication/cen2022trajectory/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/cen2022trajectory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a modular continuum robot with alterable compliance using tubular-actuation</title>
+      <link>https://robweb-together.github.io/publication/wang2022design/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2022design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Objective Geometric Optimization of A Multi-Link Manipulator Using Parameterized Design Method</title>
+      <link>https://robweb-together.github.io/publication/hu2022multi/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/hu2022multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Robotic Gripper Design and Integrated Solution Towards Tunnel Boring Construction Equipment</title>
+      <link>https://robweb-together.github.io/publication/du2022robotic/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/du2022robotic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stiffness modeling of redundant robots with large load capacity and workspace</title>
+      <link>https://robweb-together.github.io/publication/li2022stiffness/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/li2022stiffness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A bio-inspired continuum robot for out-pipe climbing and confined space navigating</title>
+      <link>https://robweb-together.github.io/publication/wang2021bio/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021bio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Joint Friction Model of Robotic Manipulator for Low-speed Motion</title>
+      <link>https://robweb-together.github.io/publication/he2021joint/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/he2021joint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Integrated Software System Designed for Upper Limb Rehabilitation Robot</title>
+      <link>https://robweb-together.github.io/publication/cen2021integrated/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/cen2021integrated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integration mode of standing balance and trajectory training based on lower limb rehabilitation exoskeleton</title>
+      <link>https://robweb-together.github.io/publication/zhou2021integration/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhou2021integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Underactuated Picking Gripper for Grasping and Cutting Citrus</title>
+      <link>https://robweb-together.github.io/publication/yu2021underactuated/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yu2021underactuated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robots for pipeline inspection tasks—A survey of design philosophy and implementation technologies</title>
+      <link>https://robweb-together.github.io/publication/wang2021robots/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and analysis of a robotic out-pipe grinding system with friction actuating</title>
+      <link>https://robweb-together.github.io/publication/wang2021design/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Robots in Wuhan Cabin Hospitals</title>
+      <link>https://robweb-together.github.io/publication/bao2021service/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/bao2021service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualized Small-size Pipeline Model Building Using Multilink-articulated Wheeled In-pipe Inspection Robot</title>
+      <link>https://robweb-together.github.io/publication/guo2021visualized/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/guo2021visualized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a standalone joint module toward real EAST in-vessel operation use</title>
+      <link>https://robweb-together.github.io/publication/lai2021design/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/lai2021design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Robotic Gripper Design and Integrated Solution Towards Tunnel Boring Construction Equipment</title>
+      <link>https://robweb-together.github.io/publication/yuan2020robotic/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yuan2020robotic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and experimental tests of an active cooling system for a kind of in-vessel inspection manipulator</title>
+      <link>https://robweb-together.github.io/publication/du2020design/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/du2020design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active cooling system for Tokamak in-vessel operation manipulator</title>
+      <link>https://robweb-together.github.io/publication/yuan2015active/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yuan2015active/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

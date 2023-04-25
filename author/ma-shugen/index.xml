@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MA Shugen | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/author/ma-shugen/</link>
+      <atom:link href="https://robweb-together.github.io/author/ma-shugen/index.xml" rel="self" type="application/rss+xml" />
+    <description>MA Shugen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2023 SRI-Lab</copyright><lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/author/ma-shugen/avatar_hu955a7455626c7454835600299fd13e11_63976_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>MA Shugen</title>
+      <link>https://robweb-together.github.io/author/ma-shugen/</link>
+    </image>
+    
+    <item>
+      <title>Trajectory Optimization Algorithm of Trajectory Rehabilitation Training Mode for Rehabilitation Robot</title>
+      <link>https://robweb-together.github.io/publication/cen2022trajectory/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/cen2022trajectory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a modular continuum robot with alterable compliance using tubular-actuation</title>
+      <link>https://robweb-together.github.io/publication/wang2022design/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2022design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Objective Geometric Optimization of A Multi-Link Manipulator Using Parameterized Design Method</title>
+      <link>https://robweb-together.github.io/publication/hu2022multi/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/hu2022multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A bio-inspired continuum robot for out-pipe climbing and confined space navigating</title>
+      <link>https://robweb-together.github.io/publication/wang2021bio/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021bio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Joint Friction Model of Robotic Manipulator for Low-speed Motion</title>
+      <link>https://robweb-together.github.io/publication/he2021joint/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/he2021joint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Integrated Software System Designed for Upper Limb Rehabilitation Robot</title>
+      <link>https://robweb-together.github.io/publication/cen2021integrated/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/cen2021integrated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integration mode of standing balance and trajectory training based on lower limb rehabilitation exoskeleton</title>
+      <link>https://robweb-together.github.io/publication/zhou2021integration/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhou2021integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Underactuated Picking Gripper for Grasping and Cutting Citrus</title>
+      <link>https://robweb-together.github.io/publication/yu2021underactuated/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yu2021underactuated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robots for pipeline inspection tasks—A survey of design philosophy and implementation technologies</title>
+      <link>https://robweb-together.github.io/publication/wang2021robots/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and analysis of a robotic out-pipe grinding system with friction actuating</title>
+      <link>https://robweb-together.github.io/publication/wang2021design/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualized Small-size Pipeline Model Building Using Multilink-articulated Wheeled In-pipe Inspection Robot</title>
+      <link>https://robweb-together.github.io/publication/guo2021visualized/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/guo2021visualized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a standalone joint module toward real EAST in-vessel operation use</title>
+      <link>https://robweb-together.github.io/publication/lai2021design/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/lai2021design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Robotic Gripper Design and Integrated Solution Towards Tunnel Boring Construction Equipment</title>
+      <link>https://robweb-together.github.io/publication/yuan2020robotic/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yuan2020robotic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper Made Grippers for Soft Food Grasping</title>
+      <link>https://robweb-together.github.io/publication/ma2020made/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/ma2020made/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

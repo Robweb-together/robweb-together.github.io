@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>genetic algorithm | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/tag/genetic-algorithm/</link>
+      <atom:link href="https://robweb-together.github.io/tag/genetic-algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <description>genetic algorithm</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2023 SRI-Lab</copyright><lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
+      <title>genetic algorithm</title>
+      <link>https://robweb-together.github.io/tag/genetic-algorithm/</link>
+    </image>
+    
+    <item>
+      <title>Trajectory Optimization Algorithm of Trajectory Rehabilitation Training Mode for Rehabilitation Robot</title>
+      <link>https://robweb-together.github.io/publication/cen2022trajectory/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/cen2022trajectory/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COVID-19 | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/tag/covid-19/</link>
+      <atom:link href="https://robweb-together.github.io/tag/covid-19/index.xml" rel="self" type="application/rss+xml" />
+    <description>COVID-19</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2023 SRI-Lab</copyright><lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
+      <title>COVID-19</title>
+      <link>https://robweb-together.github.io/tag/covid-19/</link>
+    </image>
+    
+    <item>
+      <title>Service Robots in Wuhan Cabin Hospitals</title>
+      <link>https://robweb-together.github.io/publication/bao2021service/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/bao2021service/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
