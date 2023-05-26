@@ -5,7 +5,7 @@
     <link>https://robweb-together.github.io/</link>
       <atom:link href="https://robweb-together.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>上海机器人研究所</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2023 SRI-Lab</copyright><lastBuildDate>Mon, 24 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2023 SRI-Lab</copyright><lastBuildDate>Fri, 26 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
       <title>上海机器人研究所</title>
@@ -13,42 +13,12 @@
     </image>
     
     <item>
-      <title>乌东德电厂机器人科来实验室参观交流</title>
-      <link>https://robweb-together.github.io/post/23-04-24-vistor-wudongde/</link>
-      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://robweb-together.github.io/post/23-04-24-vistor-wudongde/</guid>
-      <description>&lt;p&gt;参观交流&lt;/p&gt;
-&lt;p&gt;4月23日，乌东德电厂外出考察机器人科研项目，莅临上海大学机自系，袁建军教授团队代表上海机器人所接待并组织技术交流，双方为推进“水电站大型金属结构多功能爬壁机器人研发及应用”、“适用于各种复杂环境下的集水井清淤机器人研发及应用”、“封闭母线内部检查清扫机器人研究应用”等七个科研项目实施，促进乌东德水电站智能化运维，提升水电检修效率，特制需求与技术细节讨论。杜老师与王博士向考察团队介绍了上海机器人所的详细情况以及相关在研项目，分析了智能化特种机器人在大型水电站的应用前景。&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-合影&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;screen reader text&#34; srcset=&#34;
-               /post/23-04-24-vistor-wudongde/all_in_one_hu0cca7682a5c71042617292814aba3cc7_313230_12520f99f37959eec8dbeafd6441f5ae.webp 400w,
-               /post/23-04-24-vistor-wudongde/all_in_one_hu0cca7682a5c71042617292814aba3cc7_313230_4ab5853bf3a0c19f1f65644bf5cf6159.webp 760w,
-               /post/23-04-24-vistor-wudongde/all_in_one_hu0cca7682a5c71042617292814aba3cc7_313230_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://robweb-together.github.io/post/23-04-24-vistor-wudongde/all_in_one_hu0cca7682a5c71042617292814aba3cc7_313230_12520f99f37959eec8dbeafd6441f5ae.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;568&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      合影
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/p&gt;</description>
+      <title>祝贺！获科技进步二等奖</title>
+      <link>https://robweb-together.github.io/post/23-05-26-awards-yuan/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-05-26-awards-yuan/</guid>
+      <description>&lt;p&gt;袁建军团队主持完成的《面向油气场站复杂环境的多元任务智能检测机器人关键技术及应用》荣获上海市科技进步奖二等奖。&lt;/p&gt;
+&lt;p&gt;2023年5月26日上午，2022年度上海市科学技术奖励大会在上海展览中心中央大厅召开，隆重表彰为国家、为上海科技事业和现代化建设作出突出贡献的科技工作者。袁建军团队主持完成的《面向油气场站复杂环境的多元任务智能检测机器人关键技术及应用》荣获上海市科技进步奖二等奖。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -66,7 +36,7 @@
 &lt;li&gt;Notification of acceptance: Oct. 01, 2023&lt;/li&gt;
 &lt;li&gt;Submission of final papers and advance registration: Oct. 15, 2023&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.robio2023.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.robio2023.org&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://www.robio2023.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.robio2023.org&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
