@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>human–robot interaction | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/tag/humanrobot-interaction/</link>
+      <atom:link href="https://robweb-together.github.io/tag/humanrobot-interaction/index.xml" rel="self" type="application/rss+xml" />
+    <description>human–robot interaction</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
+      <title>human–robot interaction</title>
+      <link>https://robweb-together.github.io/tag/humanrobot-interaction/</link>
+    </image>
+    
+    <item>
+      <title>Design of a Differential Modular Joint-based Nursing Manipulator and its Digital Twin System</title>
+      <link>https://robweb-together.github.io/publication/guang2023design/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/guang2023design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Robots in Wuhan Cabin Hospitals</title>
+      <link>https://robweb-together.github.io/publication/bao2021service/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/bao2021service/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

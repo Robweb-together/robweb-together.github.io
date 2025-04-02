@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhou, Meijie | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/author/zhou-meijie/</link>
+      <atom:link href="https://robweb-together.github.io/author/zhou-meijie/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhou, Meijie</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
+      <title>Zhou, Meijie</title>
+      <link>https://robweb-together.github.io/author/zhou-meijie/</link>
+    </image>
+    
+    <item>
+      <title>Lie-theory-based dynamic model identification of serial robots considering nonlinear friction and optimal excitation trajectory</title>
+      <link>https://robweb-together.github.io/publication/luo2024lie/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/luo2024lie/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
