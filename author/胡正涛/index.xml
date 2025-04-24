@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>胡正涛 | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/</link>
+      <atom:link href="https://robweb-together.github.io/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/index.xml" rel="self" type="application/rss+xml" />
+    <description>胡正涛</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Mon, 21 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/avatar_hu3beea8551e1fc12956af7f2156ce087d_5873_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>胡正涛</title>
+      <link>https://robweb-together.github.io/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/</link>
+    </image>
+    
+    <item>
+      <title>Visual Servoing With Grid‐Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement</title>
+      <link>https://robweb-together.github.io/publication/yang2025visual/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yang2025visual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact Force Estimation by Fusing Current and Tactile Information Through KF for Robot Arm</title>
+      <link>https://robweb-together.github.io/publication/tian2024contact/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/tian2024contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Neural Computed Torque Control for Robot Joints With Asymmetric Friction Model</title>
+      <link>https://robweb-together.github.io/publication/luo2024adaptive/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/luo2024adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lie-theory-based dynamic model identification of serial robots considering nonlinear friction and optimal excitation trajectory</title>
+      <link>https://robweb-together.github.io/publication/luo2024lie/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/luo2024lie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a Pipeline Inside Anti-corrosion Robot Using Axiomatic Design Method</title>
+      <link>https://robweb-together.github.io/publication/wang2024design/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2024design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a magnetic hemispherical wheeled pipeline robot</title>
+      <link>https://robweb-together.github.io/publication/xu2024design/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/xu2024design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a multifunctional end-effector for robotic replacement of TBM disc cutters</title>
+      <link>https://robweb-together.github.io/publication/zhou2024design/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhou2024design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of an active suspension mechanism for obstacle traversal of in-pipe robots</title>
+      <link>https://robweb-together.github.io/publication/ni2024design/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/ni2024design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Friction Model with Velocity and Asymmetric Load Dependency for Robot Joints</title>
+      <link>https://robweb-together.github.io/publication/liu2024dynamic/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/liu2024dynamic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal Exciting Trajectories for Identifying Dynamic Parameters of Serial Robots</title>
+      <link>https://robweb-together.github.io/publication/luo2023optimal/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/luo2023optimal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

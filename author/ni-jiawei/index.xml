@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ni, Jiawei | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/author/ni-jiawei/</link>
+      <atom:link href="https://robweb-together.github.io/author/ni-jiawei/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ni, Jiawei</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Mon, 19 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
+      <title>Ni, Jiawei</title>
+      <link>https://robweb-together.github.io/author/ni-jiawei/</link>
+    </image>
+    
+    <item>
+      <title>Design of an active suspension mechanism for obstacle traversal of in-pipe robots</title>
+      <link>https://robweb-together.github.io/publication/ni2024design/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/ni2024design/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

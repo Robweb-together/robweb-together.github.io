@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CHEN Hao | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/author/chen-hao/</link>
+      <atom:link href="https://robweb-together.github.io/author/chen-hao/index.xml" rel="self" type="application/rss+xml" />
+    <description>CHEN Hao</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Mon, 21 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/author/chen-hao/avatar_hu512b0ef0b563c93d5d610ae4bebe448a_728906_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>CHEN Hao</title>
+      <link>https://robweb-together.github.io/author/chen-hao/</link>
+    </image>
+    
+    <item>
+      <title>Visual Servoing With Grid‐Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement</title>
+      <link>https://robweb-together.github.io/publication/yang2025visual/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yang2025visual/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

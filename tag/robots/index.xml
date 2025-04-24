@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robots | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/tag/robots/</link>
+      <atom:link href="https://robweb-together.github.io/tag/robots/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robots</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
+      <title>Robots</title>
+      <link>https://robweb-together.github.io/tag/robots/</link>
+    </image>
+    
+    <item>
+      <title>Contact Force Estimation by Fusing Current and Tactile Information Through KF for Robot Arm</title>
+      <link>https://robweb-together.github.io/publication/tian2024contact/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/tian2024contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Neural Computed Torque Control for Robot Joints With Asymmetric Friction Model</title>
+      <link>https://robweb-together.github.io/publication/luo2024adaptive/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/luo2024adaptive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
