@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>最新动态 | 上海机器人研究所</title>
+    <link>https://robweb-together.github.io/post/</link>
+      <atom:link href="https://robweb-together.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>最新动态</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Sun, 25 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
+      <title>最新动态</title>
+      <link>https://robweb-together.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>实验室机器人控制研究成果获&#34;IEEE Robotics and Automation Letters 最佳论文奖&#34;</title>
+      <link>https://robweb-together.github.io/post/25-05-25-awards-luo/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/25-05-25-awards-luo/</guid>
+      <description>&lt;p&gt;国际机器人领域顶级期刊《IEEE Robotics and Automation Letters （RAL）》2024年度最佳论文奖（Best Paper Award）&lt;/p&gt;
+&lt;p&gt;近日，罗瑞卿博士在机器人关节控制领域的研究成果“Adaptive Neural Computed Torque Control for Robot Joints With Asymmetric Friction Model”获得国际机器人领域顶级期刊《IEEE Robotics and Automation Letters》（RAL）2024年度最佳论文奖（Best Paper Award）。RAL是IEEE机器人与自动化协会（IEEE Robotics and Automation Society, RAS）于2015年推出的机器人领域权威期刊（中科院2区Top期刊，JCR Q1区，影响因子4.6），该期刊每年于全球1500多篇发表文章中仅评选五篇最佳论文奖。该奖项于2025年5月19日至5月23日于美国亚特兰大举办的IEEE国际机器人于自动化大会（2025 IEEE International Conference on Robotics and Automation）正式颁发。&lt;/p&gt;
+&lt;p&gt;该研究针对机器人关节动态特性的非线性和不确定性，提出了一种创新的自适应神经网络计算力矩控制方案。该方案融合了一种新的参数化非对称摩擦模型（考虑速度、负载与温度依赖效应）与多个并行分布训练的非参数化径向基神经网络（MRBFNNs）实时补偿框架；并通过提出的非对称摩擦力模型与滑模方法协同设计，有效抑制了扰动波动边界层，实现了全局渐近收敛。实验证明，非对称模型在摩擦方面显著提高了与现实的对应性;所提出的控制策略展示了具有可变有效载荷的关节的卓越跟踪性能。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;自适应网络计算扭矩控制方案图&#34; srcset=&#34;
+               /post/25-05-25-awards-luo/highlights_hu3aabc5c63ef046951b94748ed007ebd6_64363_e3b08f65a97e38d7659ab9dfc41ee3ae.webp 400w,
+               /post/25-05-25-awards-luo/highlights_hu3aabc5c63ef046951b94748ed007ebd6_64363_1ee0b40605faaa263ca1449103a6ccdd.webp 760w,
+               /post/25-05-25-awards-luo/highlights_hu3aabc5c63ef046951b94748ed007ebd6_64363_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/post/25-05-25-awards-luo/highlights_hu3aabc5c63ef046951b94748ed007ebd6_64363_e3b08f65a97e38d7659ab9dfc41ee3ae.webp&#34;
+               width=&#34;396&#34;
+               height=&#34;357&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;全文链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/10778318/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DOI: 10.1109/LRA.2024.3512372&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ruiqing Luo, Zhengtao Hu, Minghui Liu, Liang Du, Sheng Bao, and Jianjun Yuan, &amp;ldquo;Adaptive Neural Computed Torque Control for Robot Joints With Asymmetric Friction Model,&amp;rdquo; in IEEE Robotics and Automation Letters, vol. 10, no. 1, pp. 732-739, Jan. 2025&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>盾构机换刀机器人项目视觉伺服方向研究成果在JFR发表</title>
+      <link>https://robweb-together.github.io/post/25-4-21-publish-yang/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/25-4-21-publish-yang/</guid>
+      <description>&lt;p&gt;《Visual Servoing With Grid-Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement》&lt;/p&gt;
+&lt;p&gt;硕士生杨强在《Journal of Field Robotics》期刊发表论文，题目为《Visual Servoing With Grid-Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement》。文章提出了一个由图像网格组成的基于图像的期望向量场。其次，提出了一个直接和恒定的交互矩阵，以从基于图像的所需向量映射相机速度。这两个部分提高了基于视觉的控制器的视觉伺服的稳健性，特别是在污染环境中工作和伺服滚刀的不确定状态时。实验验证了它是一种稳定、易用的视觉控制器，克服了在非静态环境条件下控制刀具更换机器人的困难，从而促进了机器人技术在更多现场应用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室承担的科委科技创新行动计划项目顺利结题验收</title>
+      <link>https://robweb-together.github.io/post/25-01-02-projectclosure-dungouji/index-/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/25-01-02-projectclosure-dungouji/index-/</guid>
+      <description>&lt;p&gt;实验室承担的科委科技创新行动计划项目顺利结题验收&lt;/p&gt;
+&lt;p&gt;2025年1月2日下午，上海大学承担、袁建军教授总负责的盾构机机器人换刀关键技术研究与验证项目在盾地甲机器人公司顺利举行综合绩效评价会，标志着该项目在盾构机智能化与自动化领域取得了阶段性突破。该项目致力于解决盾构机换刀过程中复杂的操作问题，为盾构机行业的自动化和智能化发展奠定了坚实的技术基础。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://robweb-together.github.io/images/post/featured1.png&#34; alt=&#34;项目图片&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+图1：上海大学研究团队在盾地甲机器人公司进行盾构机换刀机器人关键技术研究与验证验收汇报&lt;/p&gt;
+&lt;p&gt;项目背景
+目前，盾构机换刀均采用人工进舱更换的方法，为了完成盾构机换刀任务，作业人员需要借助一系列工具进行刀具的拆卸、安装和搬运。在施工过程，作业人员还面临着诸如掌子面坍塌等安全隐患，利用盾构机换刀机器人换刀能够提高工作人员的作业效率，降低了作业危险系数。另一方面，人工进行刀具的更换，其消耗的费用约占设备维修的百分之四十，采用机器人更换刀具可以降低维修成本，缩短施工周期，为盾构机行业带来显著的经济效益。
+本研究在前期盾构机换刀机器人样机工作的基础上，分析了换刀机器人及其工作环境的结构，确认了其主要结构参数，并基于WRS平台建立了换刀机器人的参数化仿真模型。
+技术创新
+研究团队克服了复杂狭窄操作空间、稀疏特征视觉定位等机器人关键难题，针对盾构机故障滚刀更换的任务，提出了4种机械臂性能指标，并且完成了相关运动规划算法匹配，设计并实施面向故障滚刀更换的操作流程。
+通过构建视觉感知系统，提出了基于位姿观测器的机械臂自适应位置视觉伺服控制方法。解决了运动学和动力学参数存在不确定性情况下的机械臂自适应位置视觉伺服轨迹跟踪控制问题。实现实时操作中精确定位，视觉相机系统最低定位精度为0.134mm、最高定位精度为 0.002mm、平均定位精度为 0.031mm，视觉伺服控制算法最小控制周期为28ms、最大控制周期为39ms、平均控制周期为30ms，系统控制周期为0.486mm，保证了视觉系统的实时反馈。
+该研究还开发了基于Unity环境的虚拟现实仿真平台，该平台与盾构机换刀机器人紧密协作，共同对经过图像处理和点云处理的运动轨迹算法进行验证，设计并开发了一套能够充分模拟刀具各种位置和姿态的结构，在样机实验平台以及虚拟现实仿真平台搭建完成后针对虚拟环境数据构建了专门的数据库，数据库用于存储机器人的关键操作参数，如位置、速度、加速度等，通过分析数据，可以实现机器人操作状态的精确再现，为未来的数据分析和数据挖掘工作提供坚实的基础。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://robweb-together.github.io/images/post/featured2.png&#34; alt=&#34;项目图片&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+图2：上海大学研究团队在盾地甲机器人科技公司进行盾构机换刀机器人现场测试。图中展示了机器人操作的核心部件及其与盾构机系统的配合。&lt;/p&gt;
+&lt;p&gt;技术成果
+本项目申请国家发明专利10项，发表科技论文12篇，培养博士2名、硕士7名。基于此推动盾构机整机自动化、智能化发展和盾构施工的效率、安全提升，巩固我国企业在盾构机领域的技术领头地位。
+项目以盾构机复杂狭窄结构下机器人检测清除故障滚刀的迫切需求为牵引，以提高机器人系统自动化、智能化、安全性为目的，形成了盾构机换刀机器人样机。由于换刀机器人仓狭窄、刀盘上的滚刀嵌入在刀箱中，这使得换刀机器人需要很强的灵活度来进行避障及更换滚刀的操作，因此提出了一种基于末端位姿灵活度的操作灵活度指标来衡量避障及拆/装刀任务可行性的算法，在盾构机自主换刀场景下处于领先地位。基于项目研究成果，获得了中建二局的商务订单，完成盾构机换刀机器人的应用示范，标志着这一技术从实验室走向了实际应用。
+展望未来
+该项目的成功实现，不仅推动了盾构机整机的智能化发展，还为盾构机行业的高效、安全施工提供了强有力的技术支持。未来，项目成果有望在更广泛的自动化应用场景中推广，为我国盾构机产业在全球技术竞争中占据更加重要的地位奠定基础。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>香港科技大学（广州）机器人与自主系统学域马书根教授参观实验室研发基地</title>
+      <link>https://robweb-together.github.io/post/24-07-17-vistor-ma/index-/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/24-07-17-vistor-ma/index-/</guid>
+      <description>&lt;p&gt;马书根教授到访实验室，莅临参观研发基地，指导项目研发&lt;/p&gt;
+&lt;p&gt;电子电气工程师协会会士（IEEE Fellow）、亚太人工智能学会会士（AAIA Fellow）、日本机械学会会士（JSME Fellow），机器人领域国际顶级会议IROS 2022大会主席马书根教授对研发基地进行了参观，随后于会议室开展了座谈会议，对实验室管道机器人等项目展开了深入的交流。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室与北京凌天智能装备集团共同承接工信部废墟搜救机器人项目顺利结项</title>
+      <link>https://robweb-together.github.io/post/24-6-20-projectclosure-guandao/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/24-6-20-projectclosure-guandao/</guid>
+      <description>&lt;p&gt;上海大学机器人研究所与北京凌天智能装备集团股份有限公司共同承接中华人民共和国工业和信息化部2022年自然灾害防治技术装备工程化攻关专项-变形重构废墟搜救机器人于北京顺利结项。&lt;/p&gt;
+&lt;p&gt;该项目设计了一种可重构的变形搜救履带机器人。在小型化，轻量化方面做出了显著成效，机器人自重10kg，可以便携地携带至复杂废墟环境。机器人搭载三自由度云台，四种气体传感器，温湿度传感器，声光报警器，能够对废墟当中的各种环境信息进行采集。机器人创新设计了可重构机构，通过带传动驱动滚珠丝杠驱动滑块滑动，实现了机器人底盘抬高以及改变履带机构和地面接触角度的功能。底盘的抬高可以跨越简单的小型障碍物，同时履带的变形能够带来更好的地面接触面积，提供更强的驱动力。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室机器视觉方向研究成果在RAL在线发表</title>
+      <link>https://robweb-together.github.io/post/24-2-28-publish-zhangbo/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/24-2-28-publish-zhangbo/</guid>
+      <description>&lt;p&gt;《LVIO-Fusion:Tightly-Coupled LiDAR-Visual-Inertial Odometry and Mapping in Degenerate Environments&lt;/p&gt;
+&lt;p&gt;博士生章弘凯在《IEEE Robotics and Automation Letters》期刊发表论文，题目为《LVIO-Fusion:Tightly-Coupled LiDAR-Visual-Inertial Odometry and Mapping in Degenerate Environments》。文章提出了一种创新的、紧密耦合的激光雷达-视觉-惯性里程计与地图方法，称为LVIO-Fusion，可在几何退化以及纹理缺失场景实现稳健而精确的定位与建图。LVIO-Fusion将LIO子系统的点云地图直接投影到图像中以构建光流匹配，在更深层次上耦合激光雷达和相机测量。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ROBIO 2023</title>
+      <link>https://robweb-together.github.io/post/23-12-19-conf-robio2023/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-12-19-conf-robio2023/</guid>
+      <description>&lt;p&gt;Robio 2023 在泰国苏梅岛举办&lt;/p&gt;
+&lt;p&gt;Robio 2023 学术交流会议在泰国苏梅岛圆满举办，实验室多位学生与老师一同参加，并作为大会志愿者顺利完成大会各项流程。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实地参观ABB超级工厂</title>
+      <link>https://robweb-together.github.io/post/23-11-24-visit-du-hu/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-11-24-visit-du-hu/</guid>
+      <description>&lt;p&gt;参观ABB超级工厂&lt;/p&gt;
+&lt;p&gt;杜亮老师、胡正涛老师和陈晨同学、黎雪婷同学参观ABB机器人超级工厂，实地观察项目部分设备，与合作人员共同商讨科研项目细节。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室科研成果获上海市科技进步二等奖</title>
+      <link>https://robweb-together.github.io/post/23-05-26-awards-yuan/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-05-26-awards-yuan/</guid>
+      <description>&lt;p&gt;袁建军团队主持完成的《面向油气场站复杂环境的多元任务智能检测机器人关键技术及应用》荣获上海市科技进步奖二等奖。&lt;/p&gt;
+&lt;p&gt;2023年5月26日上午，2022年度上海市科学技术奖励大会在上海展览中心中央大厅召开，隆重表彰为国家、为上海科技事业和现代化建设作出突出贡献的科技工作者。袁建军团队主持完成的《面向油气场站复杂环境的多元任务智能检测机器人关键技术及应用》荣获上海市科技进步奖二等奖。&lt;/p&gt;
+&lt;p&gt;“面向油气场站复杂环境的多元任务智能检测机器人关键技术及应用”项目：主要针对油气场站非结构化复杂环境巡检难度大、自动化程度低、机器人及装备安全评价技术不完备等难题，自主研制了油气场站多目标多任务全天候智能化巡检机器人系统，创新形成了油气场站自动化检测系列机器人装备及成套技术，建立了“巡-检-诊-用”一体化油气场站巡检安全评估标准体系，支撑了油气场站运维质量和使用安全。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ROBIO 2023 Call for Paper</title>
+      <link>https://robweb-together.github.io/post/23-04-01-conf-robio2022-cfp/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-04-01-conf-robio2022-cfp/</guid>
+      <description>&lt;p&gt;袁建军教授作为大会主席主持承办ROBIO2023，欢迎大家投稿参会！&lt;/p&gt;
+&lt;h2 id=&#34;welcome-to-robio-2023&#34;&gt;Welcome to ROBIO 2023!&lt;/h2&gt;
+&lt;p&gt;The 2023 IEEE International Conference on Robotics and Biomimetics (IEEE ROBIO 2023) will take place from Dec. 4th to 9th, 2023 in Samui, Thailand . The conference is expected to be a platform for researchers in the interdisciplinary areas of robotics and biomimetics to disseminate their latest research results and explore the possible research collaborations. The scope of ROBIO 2023 covers research, development, and applications in all areas related to robotics, biomimetics, etc.&lt;/p&gt;
+&lt;h2 id=&#34;important-dates&#34;&gt;Important Dates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Submission of original full papers: Aug. 15, 2023&lt;/li&gt;
+&lt;li&gt;Submission of organized session proposals: Sep. 15, 2023&lt;/li&gt;
+&lt;li&gt;Notification of acceptance: Oct. 01, 2023&lt;/li&gt;
+&lt;li&gt;Submission of final papers and advance registration: Oct. 15, 2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.robio2023.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.robio2023.org&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>日本立命馆大学田阳教授和仇哲教授到访</title>
+      <link>https://robweb-together.github.io/post/23-03-20-vistor-rit-tian/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-03-20-vistor-rit-tian/</guid>
+      <description>&lt;p&gt;立命馆大学田阳教授和仇哲教授&lt;/p&gt;
+&lt;p&gt;立命馆大学田阳教授和仇哲教授到访实验室，探讨了机器视觉、人工智能技术相关的合作研究计划。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ROBIO 2022</title>
+      <link>https://robweb-together.github.io/post/22-12-31-conf-robio2022/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-12-31-conf-robio2022/</guid>
+      <description>&lt;p&gt;Robio 2022 在云南西双版纳举办&lt;/p&gt;
+&lt;p&gt;Robio 2022 在云南西双版纳举办，实验室多位学生与老师一同参加。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室科研成果获得中国石油和化学工业联合会奖</title>
+      <link>https://robweb-together.github.io/post/23-01-20-awards-union/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-01-20-awards-union/</guid>
+      <description>&lt;p&gt;科研成果&lt;/p&gt;
+&lt;p&gt;实验室科研成果获得中国石油和化学工业联合会科技进步奖，获奖内容为油气场站智能检测机器人与安全评价关键技术及应用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室聚餐</title>
+      <link>https://robweb-together.github.io/post/22-12-25-dinner-all/</link>
+      <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-12-25-dinner-all/</guid>
+      <description>&lt;p&gt;实验室团建活动&lt;/p&gt;
+&lt;p&gt;临近年终，实验室组织了聚餐，一同辞旧迎新。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>博士生王明远同学获得2022年度方周自强奖</title>
+      <link>https://robweb-together.github.io/post/22-09-30-awards-scholarship-wang/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-09-30-awards-scholarship-wang/</guid>
+      <description>&lt;p&gt;科研成果&lt;/p&gt;
+&lt;p&gt;博士生王明远同学获得2022年度方周自强奖&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>参加长三角国家技术创新中心项目分享活动</title>
+      <link>https://robweb-together.github.io/post/22-08-12-speech-du/</link>
+      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-08-12-speech-du/</guid>
+      <description>&lt;p&gt;盾构机换刀机器人项目分享&lt;/p&gt;
+&lt;p&gt;杜亮老师参加长三角国家技术创新中心专场路演活动，介绍了实验室盾构机换刀机器人研究背景和进展等。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>产学研合作</title>
+      <link>https://robweb-together.github.io/post/22-08-05-visit-du-li/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-08-05-visit-du-li/</guid>
+      <description>&lt;p&gt;参观工厂&lt;/p&gt;
+&lt;p&gt;杜亮老师和李蒙同学参观江苏康普印刷科技有限公司，了解橡皮布研磨设备中的智能化升级改造需求。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室科研进展</title>
+      <link>https://robweb-together.github.io/post/22-07-19-test-out/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-07-19-test-out/</guid>
+      <description>&lt;p&gt;盾构机换刀机器人运动规划研究&lt;/p&gt;
+&lt;p&gt;实验室学生对盾构机换刀机器人抓刀动作进行测试。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>博士生王明远同学获得ROBIO2021最佳会议论文入围奖</title>
+      <link>https://robweb-together.github.io/post/21-12-31-awards-robio-wang/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/21-12-31-awards-robio-wang/</guid>
+      <description>&lt;p&gt;科研成果&lt;/p&gt;
+&lt;p&gt;博士生王明远同学获得ROBIO2021最佳会议论文入围奖。论文题目为：A bio-inspired continuum robot for out-pipe climbing and confined space navigating，介绍了一种新型模块化柔性机器人驱动器结构。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>日本立命馆大学马书根教授到访实验室</title>
+      <link>https://robweb-together.github.io/post/21-11-17-vistor-ma/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/21-11-17-vistor-ma/</guid>
+      <description>&lt;p&gt;马书根教授到访实验室，并做主题演讲，题目为：From Study of Biologically-InspiredRobots to Design of Environment-Adaptive Robots。&lt;/p&gt;
+&lt;p&gt;马书根教授到访实验室&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室团建活动</title>
+      <link>https://robweb-together.github.io/post/21-10-23-outing/</link>
+      <pubDate>Sat, 23 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/21-10-23-outing/</guid>
+      <description>&lt;p&gt;秋高气爽，实验室部分同学、老师一同前往郊外近亲大自然。&lt;/p&gt;
+&lt;p&gt;实验室组织了远足活动&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>本科生参观实验室</title>
+      <link>https://robweb-together.github.io/post/21-09-30-vistor-friends/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/21-09-30-vistor-friends/</guid>
+      <description>&lt;p&gt;杜亮老师作为本科生全程导师，邀请学生参观机器人实验室，了解该领域的研究内容。学生表达了对众多机器人的浓厚兴趣。&lt;/p&gt;
+&lt;p&gt;合作老师来实验室参观交流&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>日本大阪大学胡正涛博士到访实验室</title>
+      <link>https://robweb-together.github.io/post/21-06-09-vistor-hu/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/21-06-09-vistor-hu/</guid>
+      <description>&lt;p&gt;胡正涛博士到访实验室，杜亮老师陪同参观实验室机器人装备，探讨科研合作机会。&lt;/p&gt;
+&lt;p&gt;胡正涛老师来实验室参观交流&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

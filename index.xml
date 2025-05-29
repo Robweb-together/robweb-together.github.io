@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>上海机器人研究所</title>
+    <link>https://robweb-together.github.io/</link>
+      <atom:link href="https://robweb-together.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>上海机器人研究所</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Sun, 25 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
+      <title>上海机器人研究所</title>
+      <link>https://robweb-together.github.io/</link>
+    </image>
+    
+    <item>
+      <title>实验室机器人控制研究成果获&#34;IEEE Robotics and Automation Letters 最佳论文奖&#34;</title>
+      <link>https://robweb-together.github.io/post/25-05-25-awards-luo/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/25-05-25-awards-luo/</guid>
+      <description>&lt;p&gt;国际机器人领域顶级期刊《IEEE Robotics and Automation Letters （RAL）》2024年度最佳论文奖（Best Paper Award）&lt;/p&gt;
+&lt;p&gt;近日，罗瑞卿博士在机器人关节控制领域的研究成果“Adaptive Neural Computed Torque Control for Robot Joints With Asymmetric Friction Model”获得国际机器人领域顶级期刊《IEEE Robotics and Automation Letters》（RAL）2024年度最佳论文奖（Best Paper Award）。RAL是IEEE机器人与自动化协会（IEEE Robotics and Automation Society, RAS）于2015年推出的机器人领域权威期刊（中科院2区Top期刊，JCR Q1区，影响因子4.6），该期刊每年于全球1500多篇发表文章中仅评选五篇最佳论文奖。该奖项于2025年5月19日至5月23日于美国亚特兰大举办的IEEE国际机器人于自动化大会（2025 IEEE International Conference on Robotics and Automation）正式颁发。&lt;/p&gt;
+&lt;p&gt;该研究针对机器人关节动态特性的非线性和不确定性，提出了一种创新的自适应神经网络计算力矩控制方案。该方案融合了一种新的参数化非对称摩擦模型（考虑速度、负载与温度依赖效应）与多个并行分布训练的非参数化径向基神经网络（MRBFNNs）实时补偿框架；并通过提出的非对称摩擦力模型与滑模方法协同设计，有效抑制了扰动波动边界层，实现了全局渐近收敛。实验证明，非对称模型在摩擦方面显著提高了与现实的对应性;所提出的控制策略展示了具有可变有效载荷的关节的卓越跟踪性能。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;自适应网络计算扭矩控制方案图&#34; srcset=&#34;
+               /post/25-05-25-awards-luo/highlights_hu3aabc5c63ef046951b94748ed007ebd6_64363_e3b08f65a97e38d7659ab9dfc41ee3ae.webp 400w,
+               /post/25-05-25-awards-luo/highlights_hu3aabc5c63ef046951b94748ed007ebd6_64363_1ee0b40605faaa263ca1449103a6ccdd.webp 760w,
+               /post/25-05-25-awards-luo/highlights_hu3aabc5c63ef046951b94748ed007ebd6_64363_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/post/25-05-25-awards-luo/highlights_hu3aabc5c63ef046951b94748ed007ebd6_64363_e3b08f65a97e38d7659ab9dfc41ee3ae.webp&#34;
+               width=&#34;396&#34;
+               height=&#34;357&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;全文链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/10778318/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DOI: 10.1109/LRA.2024.3512372&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ruiqing Luo, Zhengtao Hu, Minghui Liu, Liang Du, Sheng Bao, and Jianjun Yuan, &amp;ldquo;Adaptive Neural Computed Torque Control for Robot Joints With Asymmetric Friction Model,&amp;rdquo; in IEEE Robotics and Automation Letters, vol. 10, no. 1, pp. 732-739, Jan. 2025&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Visual Servoing With Grid‐Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement</title>
+      <link>https://robweb-together.github.io/publication/yang2025visual/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yang2025visual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>盾构机换刀机器人项目视觉伺服方向研究成果在JFR发表</title>
+      <link>https://robweb-together.github.io/post/25-4-21-publish-yang/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/25-4-21-publish-yang/</guid>
+      <description>&lt;p&gt;《Visual Servoing With Grid-Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement》&lt;/p&gt;
+&lt;p&gt;硕士生杨强在《Journal of Field Robotics》期刊发表论文，题目为《Visual Servoing With Grid-Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement》。文章提出了一个由图像网格组成的基于图像的期望向量场。其次，提出了一个直接和恒定的交互矩阵，以从基于图像的所需向量映射相机速度。这两个部分提高了基于视觉的控制器的视觉伺服的稳健性，特别是在污染环境中工作和伺服滚刀的不确定状态时。实验验证了它是一种稳定、易用的视觉控制器，克服了在非静态环境条件下控制刀具更换机器人的困难，从而促进了机器人技术在更多现场应用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室承担的科委科技创新行动计划项目顺利结题验收</title>
+      <link>https://robweb-together.github.io/post/25-01-02-projectclosure-dungouji/index-/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/25-01-02-projectclosure-dungouji/index-/</guid>
+      <description>&lt;p&gt;实验室承担的科委科技创新行动计划项目顺利结题验收&lt;/p&gt;
+&lt;p&gt;2025年1月2日下午，上海大学承担、袁建军教授总负责的盾构机机器人换刀关键技术研究与验证项目在盾地甲机器人公司顺利举行综合绩效评价会，标志着该项目在盾构机智能化与自动化领域取得了阶段性突破。该项目致力于解决盾构机换刀过程中复杂的操作问题，为盾构机行业的自动化和智能化发展奠定了坚实的技术基础。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://robweb-together.github.io/images/post/featured1.png&#34; alt=&#34;项目图片&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+图1：上海大学研究团队在盾地甲机器人公司进行盾构机换刀机器人关键技术研究与验证验收汇报&lt;/p&gt;
+&lt;p&gt;项目背景
+目前，盾构机换刀均采用人工进舱更换的方法，为了完成盾构机换刀任务，作业人员需要借助一系列工具进行刀具的拆卸、安装和搬运。在施工过程，作业人员还面临着诸如掌子面坍塌等安全隐患，利用盾构机换刀机器人换刀能够提高工作人员的作业效率，降低了作业危险系数。另一方面，人工进行刀具的更换，其消耗的费用约占设备维修的百分之四十，采用机器人更换刀具可以降低维修成本，缩短施工周期，为盾构机行业带来显著的经济效益。
+本研究在前期盾构机换刀机器人样机工作的基础上，分析了换刀机器人及其工作环境的结构，确认了其主要结构参数，并基于WRS平台建立了换刀机器人的参数化仿真模型。
+技术创新
+研究团队克服了复杂狭窄操作空间、稀疏特征视觉定位等机器人关键难题，针对盾构机故障滚刀更换的任务，提出了4种机械臂性能指标，并且完成了相关运动规划算法匹配，设计并实施面向故障滚刀更换的操作流程。
+通过构建视觉感知系统，提出了基于位姿观测器的机械臂自适应位置视觉伺服控制方法。解决了运动学和动力学参数存在不确定性情况下的机械臂自适应位置视觉伺服轨迹跟踪控制问题。实现实时操作中精确定位，视觉相机系统最低定位精度为0.134mm、最高定位精度为 0.002mm、平均定位精度为 0.031mm，视觉伺服控制算法最小控制周期为28ms、最大控制周期为39ms、平均控制周期为30ms，系统控制周期为0.486mm，保证了视觉系统的实时反馈。
+该研究还开发了基于Unity环境的虚拟现实仿真平台，该平台与盾构机换刀机器人紧密协作，共同对经过图像处理和点云处理的运动轨迹算法进行验证，设计并开发了一套能够充分模拟刀具各种位置和姿态的结构，在样机实验平台以及虚拟现实仿真平台搭建完成后针对虚拟环境数据构建了专门的数据库，数据库用于存储机器人的关键操作参数，如位置、速度、加速度等，通过分析数据，可以实现机器人操作状态的精确再现，为未来的数据分析和数据挖掘工作提供坚实的基础。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://robweb-together.github.io/images/post/featured2.png&#34; alt=&#34;项目图片&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+图2：上海大学研究团队在盾地甲机器人科技公司进行盾构机换刀机器人现场测试。图中展示了机器人操作的核心部件及其与盾构机系统的配合。&lt;/p&gt;
+&lt;p&gt;技术成果
+本项目申请国家发明专利10项，发表科技论文12篇，培养博士2名、硕士7名。基于此推动盾构机整机自动化、智能化发展和盾构施工的效率、安全提升，巩固我国企业在盾构机领域的技术领头地位。
+项目以盾构机复杂狭窄结构下机器人检测清除故障滚刀的迫切需求为牵引，以提高机器人系统自动化、智能化、安全性为目的，形成了盾构机换刀机器人样机。由于换刀机器人仓狭窄、刀盘上的滚刀嵌入在刀箱中，这使得换刀机器人需要很强的灵活度来进行避障及更换滚刀的操作，因此提出了一种基于末端位姿灵活度的操作灵活度指标来衡量避障及拆/装刀任务可行性的算法，在盾构机自主换刀场景下处于领先地位。基于项目研究成果，获得了中建二局的商务订单，完成盾构机换刀机器人的应用示范，标志着这一技术从实验室走向了实际应用。
+展望未来
+该项目的成功实现，不仅推动了盾构机整机的智能化发展，还为盾构机行业的高效、安全施工提供了强有力的技术支持。未来，项目成果有望在更广泛的自动化应用场景中推广，为我国盾构机产业在全球技术竞争中占据更加重要的地位奠定基础。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact Force Estimation by Fusing Current and Tactile Information Through KF for Robot Arm</title>
+      <link>https://robweb-together.github.io/publication/tian2024contact/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/tian2024contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Neural Computed Torque Control for Robot Joints With Asymmetric Friction Model</title>
+      <link>https://robweb-together.github.io/publication/luo2024adaptive/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/luo2024adaptive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lie-theory-based dynamic model identification of serial robots considering nonlinear friction and optimal excitation trajectory</title>
+      <link>https://robweb-together.github.io/publication/luo2024lie/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/luo2024lie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a Pipeline Inside Anti-corrosion Robot Using Axiomatic Design Method</title>
+      <link>https://robweb-together.github.io/publication/wang2024design/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2024design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a magnetic hemispherical wheeled pipeline robot</title>
+      <link>https://robweb-together.github.io/publication/xu2024design/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/xu2024design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a multifunctional end-effector for robotic replacement of TBM disc cutters</title>
+      <link>https://robweb-together.github.io/publication/zhou2024design/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhou2024design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of an active suspension mechanism for obstacle traversal of in-pipe robots</title>
+      <link>https://robweb-together.github.io/publication/ni2024design/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/ni2024design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Friction Model with Velocity and Asymmetric Load Dependency for Robot Joints</title>
+      <link>https://robweb-together.github.io/publication/liu2024dynamic/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/liu2024dynamic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>香港科技大学（广州）机器人与自主系统学域马书根教授参观实验室研发基地</title>
+      <link>https://robweb-together.github.io/post/24-07-17-vistor-ma/index-/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/24-07-17-vistor-ma/index-/</guid>
+      <description>&lt;p&gt;马书根教授到访实验室，莅临参观研发基地，指导项目研发&lt;/p&gt;
+&lt;p&gt;电子电气工程师协会会士（IEEE Fellow）、亚太人工智能学会会士（AAIA Fellow）、日本机械学会会士（JSME Fellow），机器人领域国际顶级会议IROS 2022大会主席马书根教授对研发基地进行了参观，随后于会议室开展了座谈会议，对实验室管道机器人等项目展开了深入的交流。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室与北京凌天智能装备集团共同承接工信部废墟搜救机器人项目顺利结项</title>
+      <link>https://robweb-together.github.io/post/24-6-20-projectclosure-guandao/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/24-6-20-projectclosure-guandao/</guid>
+      <description>&lt;p&gt;上海大学机器人研究所与北京凌天智能装备集团股份有限公司共同承接中华人民共和国工业和信息化部2022年自然灾害防治技术装备工程化攻关专项-变形重构废墟搜救机器人于北京顺利结项。&lt;/p&gt;
+&lt;p&gt;该项目设计了一种可重构的变形搜救履带机器人。在小型化，轻量化方面做出了显著成效，机器人自重10kg，可以便携地携带至复杂废墟环境。机器人搭载三自由度云台，四种气体传感器，温湿度传感器，声光报警器，能够对废墟当中的各种环境信息进行采集。机器人创新设计了可重构机构，通过带传动驱动滚珠丝杠驱动滑块滑动，实现了机器人底盘抬高以及改变履带机构和地面接触角度的功能。底盘的抬高可以跨越简单的小型障碍物，同时履带的变形能够带来更好的地面接触面积，提供更强的驱动力。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LVIO-Fusion:Tightly-Coupled LiDAR-Visual-Inertial Odometry and Mapping in Degenerate Environments</title>
+      <link>https://robweb-together.github.io/publication/zhang2024lvio-fusion/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhang2024lvio-fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>实验室机器视觉方向研究成果在RAL在线发表</title>
+      <link>https://robweb-together.github.io/post/24-2-28-publish-zhangbo/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/24-2-28-publish-zhangbo/</guid>
+      <description>&lt;p&gt;《LVIO-Fusion:Tightly-Coupled LiDAR-Visual-Inertial Odometry and Mapping in Degenerate Environments&lt;/p&gt;
+&lt;p&gt;博士生章弘凯在《IEEE Robotics and Automation Letters》期刊发表论文，题目为《LVIO-Fusion:Tightly-Coupled LiDAR-Visual-Inertial Odometry and Mapping in Degenerate Environments》。文章提出了一种创新的、紧密耦合的激光雷达-视觉-惯性里程计与地图方法，称为LVIO-Fusion，可在几何退化以及纹理缺失场景实现稳健而精确的定位与建图。LVIO-Fusion将LIO子系统的点云地图直接投影到图像中以构建光流匹配，在更深层次上耦合激光雷达和相机测量。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ROBIO 2023</title>
+      <link>https://robweb-together.github.io/post/23-12-19-conf-robio2023/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-12-19-conf-robio2023/</guid>
+      <description>&lt;p&gt;Robio 2023 在泰国苏梅岛举办&lt;/p&gt;
+&lt;p&gt;Robio 2023 学术交流会议在泰国苏梅岛圆满举办，实验室多位学生与老师一同参加，并作为大会志愿者顺利完成大会各项流程。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实地参观ABB超级工厂</title>
+      <link>https://robweb-together.github.io/post/23-11-24-visit-du-hu/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-11-24-visit-du-hu/</guid>
+      <description>&lt;p&gt;参观ABB超级工厂&lt;/p&gt;
+&lt;p&gt;杜亮老师、胡正涛老师和陈晨同学、黎雪婷同学参观ABB机器人超级工厂，实地观察项目部分设备，与合作人员共同商讨科研项目细节。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Design of a Differential Modular Joint-based Nursing Manipulator and its Digital Twin System</title>
+      <link>https://robweb-together.github.io/publication/guang2023design/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/guang2023design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal Exciting Trajectories for Identifying Dynamic Parameters of Serial Robots</title>
+      <link>https://robweb-together.github.io/publication/luo2023optimal/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/luo2023optimal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>实验室科研成果获上海市科技进步二等奖</title>
+      <link>https://robweb-together.github.io/post/23-05-26-awards-yuan/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-05-26-awards-yuan/</guid>
+      <description>&lt;p&gt;袁建军团队主持完成的《面向油气场站复杂环境的多元任务智能检测机器人关键技术及应用》荣获上海市科技进步奖二等奖。&lt;/p&gt;
+&lt;p&gt;2023年5月26日上午，2022年度上海市科学技术奖励大会在上海展览中心中央大厅召开，隆重表彰为国家、为上海科技事业和现代化建设作出突出贡献的科技工作者。袁建军团队主持完成的《面向油气场站复杂环境的多元任务智能检测机器人关键技术及应用》荣获上海市科技进步奖二等奖。&lt;/p&gt;
+&lt;p&gt;“面向油气场站复杂环境的多元任务智能检测机器人关键技术及应用”项目：主要针对油气场站非结构化复杂环境巡检难度大、自动化程度低、机器人及装备安全评价技术不完备等难题，自主研制了油气场站多目标多任务全天候智能化巡检机器人系统，创新形成了油气场站自动化检测系列机器人装备及成套技术，建立了“巡-检-诊-用”一体化油气场站巡检安全评估标准体系，支撑了油气场站运维质量和使用安全。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ROBIO 2023 Call for Paper</title>
+      <link>https://robweb-together.github.io/post/23-04-01-conf-robio2022-cfp/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-04-01-conf-robio2022-cfp/</guid>
+      <description>&lt;p&gt;袁建军教授作为大会主席主持承办ROBIO2023，欢迎大家投稿参会！&lt;/p&gt;
+&lt;h2 id=&#34;welcome-to-robio-2023&#34;&gt;Welcome to ROBIO 2023!&lt;/h2&gt;
+&lt;p&gt;The 2023 IEEE International Conference on Robotics and Biomimetics (IEEE ROBIO 2023) will take place from Dec. 4th to 9th, 2023 in Samui, Thailand . The conference is expected to be a platform for researchers in the interdisciplinary areas of robotics and biomimetics to disseminate their latest research results and explore the possible research collaborations. The scope of ROBIO 2023 covers research, development, and applications in all areas related to robotics, biomimetics, etc.&lt;/p&gt;
+&lt;h2 id=&#34;important-dates&#34;&gt;Important Dates&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Submission of original full papers: Aug. 15, 2023&lt;/li&gt;
+&lt;li&gt;Submission of organized session proposals: Sep. 15, 2023&lt;/li&gt;
+&lt;li&gt;Notification of acceptance: Oct. 01, 2023&lt;/li&gt;
+&lt;li&gt;Submission of final papers and advance registration: Oct. 15, 2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.robio2023.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.robio2023.org&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于实验室</title>
+      <link>https://robweb-together.github.io/introduction/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/introduction/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;labview&#34; srcset=&#34;
+               /introduction/pan_view_hudaa353df5744ec8c6f45a268744d5db2_639443_7563a875a0f18d722ca3859cf9f1a05d.webp 400w,
+               /introduction/pan_view_hudaa353df5744ec8c6f45a268744d5db2_639443_fdde6cbb1854e2c78f8ac0f43c86bfc4.webp 760w,
+               /introduction/pan_view_hudaa353df5744ec8c6f45a268744d5db2_639443_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/introduction/pan_view_hudaa353df5744ec8c6f45a268744d5db2_639443_7563a875a0f18d722ca3859cf9f1a05d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;163&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;上海机器人研究由上海市高等教育局（现上海市教育委员会）于1988年在上海大学校园内成立。2018年引进马书根教授和袁建军教授，分别担任上海机器人研究所所长和常务副所长。&lt;/p&gt;
+&lt;p&gt;实验室以上海机器人研究所为依托，拥有一支实力雄厚的科研团队，包括一名教授、三名讲师以及30余名博士和硕士研究生。团队成员均为相关领域的佼佼者，其中袁建军教授担任学术带头人，鲍晟、杜亮、胡正涛三位讲师分别在各自的研究方向上成果斐然。实验室总面积达150平方米，科研条件优越。&lt;/p&gt;
+&lt;p&gt;实验室聚焦前沿技术领域，主要研究方向涵盖特种环境机器人系统、协作机器人操作技术、软体仿生机器人以及自动化装备等。凭借扎实的科研基础和创新的研究思路，实验室在科研成果方面硕果累累：已承担省部级以上科研项目10余项；获得授权国家发明专利40余项；荣获上海市科技进步二等奖一项；在国际知名学术期刊如《Automation in Construction》《Journal of Field Robotics》《IEEE/ASME Transactions on Mechatronics》《IEEE Robotics and Automation Letters》《Industrial Robot》《Scientific Reports》等发表高水平SCI论文50余篇。&lt;/p&gt;
+&lt;p&gt;在对外合作方面，实验室积极拓展交流渠道，与清华大学、上海交通大学、上海机器人产业技术研究院、香港科技大学、日本大阪大学、日本立命馆大学等国内外知名高校和科研机构建立了深度且密切的合作关系，通过资源共享、优势互补，共同推动机器人技术的创新发展。&lt;/p&gt;
+&lt;h2 id=&#34;研究内容&#34;&gt;研究内容&lt;/h2&gt;
+&lt;p&gt;实验室聚焦机器人领域的前沿共性技术，致力于应用理论、技术发展的前沿成果解决生产、生活中的实际问题。研究内容涉及工业机器人、特种机器人、服务机器人、软体机器人等多个前沿热点领域。&lt;/p&gt;
+&lt;h3 id=&#34;机器人机构创新设计&#34;&gt;机器人机构创新设计&lt;/h3&gt;
+&lt;p&gt;机器人机构创新设计研究机器人的机构本体，通过新机构理论、新机构原理促进机器人技术的发展，在特种机器人构型设计、软体机器人仿生机构实现方向有重点体现。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;管道类机器人，包括管内移动机器人、管外攀爬机器人&lt;/li&gt;
+&lt;li&gt;轮式移动机器人&lt;/li&gt;
+&lt;li&gt;应用于盾构机换刀任务的大型重载机械臂研究&lt;/li&gt;
+&lt;li&gt;多种软体机器人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;机器人操作&#34;&gt;机器人操作&lt;/h3&gt;
+&lt;p&gt;机器人操作是机器人技术的核心研究领域之一，主要关注机器人如何通过机械臂或其他末端执行器精准地抓取、移动、操作物体，以完成各种复杂任务。其研究内容涵盖以下几个方面：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;机械臂的运动学与动力学：研究机械臂的运动规律，包括正运动学（根据关节角度计算末端位置）和逆运动学（根据末端位置求解关节角度），以及动力学建模（分析机械臂的力与运动的关系），为精确控制机械臂的运动轨迹提供理论基础。&lt;/li&gt;
+&lt;li&gt;抓取与夹持技术：探索如何设计合适的末端执行器（如夹爪、吸盘等），并研究物体的抓取策略，包括抓取点的选择、抓取力的控制等，确保机器人能够稳定、可靠地抓取不同形状、材质和大小的物体。&lt;/li&gt;
+&lt;li&gt;感知与反馈控制：借助传感器（如视觉传感器、力传感器等）获取环境信息和物体状态，通过反馈控制算法实时调整机器人的操作动作，实现对复杂环境的适应性和精准操作。例如，在视觉伺服控制中，机器人可以根据视觉反馈实时调整末端执行器的位置和姿态。&lt;/li&gt;
+&lt;li&gt;任务规划与路径规划：针对具体的操作任务，研究如何规划机械臂的运动路径，避开障碍物，同时优化操作效率和精度。任务规划还包括对操作顺序和策略的优化，以提高机器人完成复杂任务的能力。&lt;/li&gt;
+&lt;li&gt;人机协作中的操作技术：在人机协作场景中，研究如何使机器人能够安全、高效地与人类协同操作。这涉及到对人类操作意图的感知、理解以及机器人对人类动作的适应性调整，确保人机交互的自然性和安全性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;机器人实时控制&#34;&gt;机器人实时控制&lt;/h3&gt;
+&lt;p&gt;机器人实时控制系统的研究内容聚焦于如何通过电控系统和控制算法实现机器人的高效、精准与实时操作。主要研究方向包括以下几个方面：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基于 EtherCAT 技术的高性能实时控制系统：EtherCAT 技术因其高带宽和低延迟特性，被广泛应用于机器人实时控制。研究如何利用 EtherCAT 技术实现机器人系统的分布式分频控制，提升系统的灵活性和扩展性。&lt;/li&gt;
+&lt;li&gt;模块化设计与系统集成：通过模块化设计，使机器人控制系统能够适应实验室中多种形态和应用需求。例如，基于 ROS2 的分布式实时控制系统架构（ROS2-ADRCS），实现了底层运动控制与上层规划算法的集成。&lt;/li&gt;
+&lt;li&gt;控制算法的优化：研究高效的控制算法，如基于模型的全状态控制算法，以实现位置、阻抗和导纳控制策略。这些算法能够有效抑制振动，提升机器人的动态性能。&lt;/li&gt;
+&lt;li&gt;上位机与下位机的人机交互优化设计：研究如何优化上位机（控制中心）与下位机（执行部件）之间的交互，提升系统的响应速度和操作便捷性。例如，通过全抢占和事件驱动的系统内核设计，结合公平调度和先进先出调度策略，提高系统的实时性和可靠性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;机器视觉&#34;&gt;机器视觉&lt;/h3&gt;
+&lt;p&gt;实验室的机器视觉研究覆盖了基础理论与技术应用两大领域。在基础理论方面，重点研究低纹理环境下的移动机器人建图定位技术，探索如何利用视觉传感器在缺乏纹理信息的环境中实现精准的同步定位与建图（SLAM）。例如，基于视觉与惯性测量单元（IMU）融合的SLAM技术，通过结合视觉传感器的环境感知能力和IMU的运动信息，能够在视觉信息不足时提供更可靠的定位。&lt;/p&gt;
+&lt;p&gt;在技术应用方面，实验室开展了基于点云处理的物体位姿精确识别技术研究，通过优化点云数据的处理和分析算法，实现对复杂物体的高精度位姿检测。此外，还针对工业实际需求，开展了基于机器视觉的除锈质量检测研究，利用机器视觉系统对除锈后的表面进行高精度检测，确保除锈效果符合标准。&lt;/p&gt;
+&lt;h2 id=&#34;研究生培养&#34;&gt;研究生培养&lt;/h2&gt;
+&lt;p&gt;实验室致力于培养机电控全面覆盖的复合型高水平专业人才，强调机构、电控、算法的交叉融合，同时注重培养学生的领导能力和团队协作能力。&lt;/p&gt;
+&lt;h3 id=&#34;培养方案&#34;&gt;培养方案&lt;/h3&gt;
+&lt;p&gt;实验室的研究生培养从招生阶段延续到毕业之后：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;招生阶段：面试交流，确定发展方向。&lt;/li&gt;
+&lt;li&gt;入学前： 提供机器人基础知识学习指导。&lt;/li&gt;
+&lt;li&gt;研一（上）：课程学习，熟悉科研基础。&lt;/li&gt;
+&lt;li&gt;研一（下）：确定科研方向，进入课题组。&lt;/li&gt;
+&lt;li&gt;研二（上）：研究工作——初步。&lt;/li&gt;
+&lt;li&gt;研二（下）：研究工作——进阶。&lt;/li&gt;
+&lt;li&gt;研三（上）：总结研究成果，撰写毕业论文。&lt;/li&gt;
+&lt;li&gt;毕业后：定期回访交流。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;培养条件&#34;&gt;培养条件&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;设计软件CREO、仿真软件ABQUES、计算软件MATLAB等商业软件的应用许可，以及WRS、V-rep、Gazebo等开源仿真软件的使用基础。&lt;/li&gt;
+&lt;li&gt;高精度3D打印机、激光切割机、数控加工机等多种加工设备，以及库卡LBR iiwa、ABB的GoFa10、UR5e、新松SCR5等各类协作机器人。&lt;/li&gt;
+&lt;li&gt;高速工业相机、激光跟踪仪、动作捕捉系统等高端实验装备以及力觉、触觉、视觉、超声、加速度计等多种实验仪器仪表。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;毕业生统计&#34;&gt;毕业生统计&lt;/h2&gt;
+&lt;p&gt;近期累计毕业硕士研究生18名。&lt;/p&gt;
+&lt;h3 id=&#34;硕士&#34;&gt;硕士&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;毕业年份&lt;/th&gt;
+&lt;th&gt;人数&lt;/th&gt;
+&lt;th&gt;去向&lt;/th&gt;
+&lt;th&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2024.4&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;远景能源、精锋医疗等&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2023.4&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;小米等&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2022.4&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;理想汽车等&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2021.4&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;上汽集团等&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2020.4&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;ABB等&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>获奖</title>
+      <link>https://robweb-together.github.io/awards/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/awards/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;年份&lt;/th&gt;
+&lt;th&gt;奖项名称&lt;/th&gt;
+&lt;th&gt;授奖单位&lt;/th&gt;
+&lt;th&gt;获奖者&lt;/th&gt;
+&lt;th&gt;备注&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2025&lt;/td&gt;
+&lt;td&gt;IEEE RAL Best Paper Award&lt;/td&gt;
+&lt;td&gt;IEEE Robotics and Automation Letters&lt;/td&gt;
+&lt;td&gt;罗瑞卿等&lt;/td&gt;
+&lt;td&gt;证书&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2024&lt;/td&gt;
+&lt;td&gt;石油和化工自动化行业科学技术奖一等奖&lt;/td&gt;
+&lt;td&gt;中国石油和化工自动化应用协会&lt;/td&gt;
+&lt;td&gt;袁建军等&lt;/td&gt;
+&lt;td&gt;证书&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2022&lt;/td&gt;
+&lt;td&gt;上海市科技进步二等奖&lt;/td&gt;
+&lt;td&gt;上海市科学技术委员会&lt;/td&gt;
+&lt;td&gt;袁建军等&lt;/td&gt;
+&lt;td&gt;证书&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2022&lt;/td&gt;
+&lt;td&gt;上海市科技进步二等奖&lt;/td&gt;
+&lt;td&gt;上海市科学技术委员会&lt;/td&gt;
+&lt;td&gt;袁建军等&lt;/td&gt;
+&lt;td&gt;证书&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2022&lt;/td&gt;
+&lt;td&gt;中国石油和化工联合协会科技进步三等奖&lt;/td&gt;
+&lt;td&gt;中国石油和化工联合协会&lt;/td&gt;
+&lt;td&gt;袁建军等&lt;/td&gt;
+&lt;td&gt;证书&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2021&lt;/td&gt;
+&lt;td&gt;IEEE ROBIO 最佳论文入围奖&lt;/td&gt;
+&lt;td&gt;ROBIO2021组委会&lt;/td&gt;
+&lt;td&gt;王明远等&lt;/td&gt;
+&lt;td&gt;证书&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2021&lt;/td&gt;
+&lt;td&gt;上海市“浦江人才”&lt;/td&gt;
+&lt;td&gt;上海市科学技术委员会&lt;/td&gt;
+&lt;td&gt;杜亮&lt;/td&gt;
+&lt;td&gt;证书&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2020&lt;/td&gt;
+&lt;td&gt;工博会高校展品奖&lt;/td&gt;
+&lt;td&gt;工博会组委会&lt;/td&gt;
+&lt;td&gt;袁建军等&lt;/td&gt;
+&lt;td&gt;证书&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>日本立命馆大学田阳教授和仇哲教授到访</title>
+      <link>https://robweb-together.github.io/post/23-03-20-vistor-rit-tian/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-03-20-vistor-rit-tian/</guid>
+      <description>&lt;p&gt;立命馆大学田阳教授和仇哲教授&lt;/p&gt;
+&lt;p&gt;立命馆大学田阳教授和仇哲教授到访实验室，探讨了机器视觉、人工智能技术相关的合作研究计划。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ROBIO 2022</title>
+      <link>https://robweb-together.github.io/post/22-12-31-conf-robio2022/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-12-31-conf-robio2022/</guid>
+      <description>&lt;p&gt;Robio 2022 在云南西双版纳举办&lt;/p&gt;
+&lt;p&gt;Robio 2022 在云南西双版纳举办，实验室多位学生与老师一同参加。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室科研成果获得中国石油和化学工业联合会奖</title>
+      <link>https://robweb-together.github.io/post/23-01-20-awards-union/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/23-01-20-awards-union/</guid>
+      <description>&lt;p&gt;科研成果&lt;/p&gt;
+&lt;p&gt;实验室科研成果获得中国石油和化学工业联合会科技进步奖，获奖内容为油气场站智能检测机器人与安全评价关键技术及应用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>实验室聚餐</title>
+      <link>https://robweb-together.github.io/post/22-12-25-dinner-all/</link>
+      <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-12-25-dinner-all/</guid>
+      <description>&lt;p&gt;实验室团建活动&lt;/p&gt;
+&lt;p&gt;临近年终，实验室组织了聚餐，一同辞旧迎新。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Parameter Identification Method for Coupled Dynamics of Robotic Manipulator with Differential Modular Joints</title>
+      <link>https://robweb-together.github.io/publication/he2022parameter/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/he2022parameter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic modeling and analysis for a differential modular robot joint with the friction model</title>
+      <link>https://robweb-together.github.io/publication/liu2022dynamic/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/liu2022dynamic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structural design and analysis of a permanent-magnet wheeled pipe robot with pipe diameter adaption capability</title>
+      <link>https://robweb-together.github.io/publication/wang2022structural/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2022structural/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trajectory Optimization Algorithm of Trajectory Rehabilitation Training Mode for Rehabilitation Robot</title>
+      <link>https://robweb-together.github.io/publication/cen2022trajectory/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/cen2022trajectory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a modular continuum robot with alterable compliance using tubular-actuation</title>
+      <link>https://robweb-together.github.io/publication/wang2022design/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2022design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Objective Geometric Optimization of A Multi-Link Manipulator Using Parameterized Design Method</title>
+      <link>https://robweb-together.github.io/publication/hu2022multi/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/hu2022multi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>博士生王明远同学获得2022年度方周自强奖</title>
+      <link>https://robweb-together.github.io/post/22-09-30-awards-scholarship-wang/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-09-30-awards-scholarship-wang/</guid>
+      <description>&lt;p&gt;科研成果&lt;/p&gt;
+&lt;p&gt;博士生王明远同学获得2022年度方周自强奖&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>参加长三角国家技术创新中心项目分享活动</title>
+      <link>https://robweb-together.github.io/post/22-08-12-speech-du/</link>
+      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-08-12-speech-du/</guid>
+      <description>&lt;p&gt;盾构机换刀机器人项目分享&lt;/p&gt;
+&lt;p&gt;杜亮老师参加长三角国家技术创新中心专场路演活动，介绍了实验室盾构机换刀机器人研究背景和进展等。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>产学研合作</title>
+      <link>https://robweb-together.github.io/post/22-08-05-visit-du-li/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-08-05-visit-du-li/</guid>
+      <description>&lt;p&gt;参观工厂&lt;/p&gt;
+&lt;p&gt;杜亮老师和李蒙同学参观江苏康普印刷科技有限公司，了解橡皮布研磨设备中的智能化升级改造需求。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Robotic Gripper Design and Integrated Solution Towards Tunnel Boring Construction Equipment</title>
+      <link>https://robweb-together.github.io/publication/du2022robotic/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/du2022robotic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>实验室科研进展</title>
+      <link>https://robweb-together.github.io/post/22-07-19-test-out/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/22-07-19-test-out/</guid>
+      <description>&lt;p&gt;盾构机换刀机器人运动规划研究&lt;/p&gt;
+&lt;p&gt;实验室学生对盾构机换刀机器人抓刀动作进行测试。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Stiffness modeling of redundant robots with large load capacity and workspace</title>
+      <link>https://robweb-together.github.io/publication/li2022stiffness/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/li2022stiffness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>博士生王明远同学获得ROBIO2021最佳会议论文入围奖</title>
+      <link>https://robweb-together.github.io/post/21-12-31-awards-robio-wang/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/21-12-31-awards-robio-wang/</guid>
+      <description>&lt;p&gt;科研成果&lt;/p&gt;
+&lt;p&gt;博士生王明远同学获得ROBIO2021最佳会议论文入围奖。论文题目为：A bio-inspired continuum robot for out-pipe climbing and confined space navigating，介绍了一种新型模块化柔性机器人驱动器结构。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A bio-inspired continuum robot for out-pipe climbing and confined space navigating</title>
+      <link>https://robweb-together.github.io/publication/wang2021bio/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021bio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Joint Friction Model of Robotic Manipulator for Low-speed Motion</title>
+      <link>https://robweb-together.github.io/publication/he2021joint/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/he2021joint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Integrated Software System Designed for Upper Limb Rehabilitation Robot</title>
+      <link>https://robweb-together.github.io/publication/cen2021integrated/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/cen2021integrated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integration mode of standing balance and trajectory training based on lower limb rehabilitation exoskeleton</title>
+      <link>https://robweb-together.github.io/publication/zhou2021integration/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhou2021integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Underactuated Picking Gripper for Grasping and Cutting Citrus</title>
+      <link>https://robweb-together.github.io/publication/yu2021underactuated/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yu2021underactuated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日本立命馆大学马书根教授到访实验室</title>
+      <link>https://robweb-together.github.io/post/21-11-17-vistor-ma/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/21-11-17-vistor-ma/</guid>
+      <description>&lt;p&gt;马书根教授到访实验室，并做主题演讲，题目为：From Study of Biologically-InspiredRobots to Design of Environment-Adaptive Robots。&lt;/p&gt;
+&lt;p&gt;马书根教授到访实验室&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Robots for pipeline inspection tasks—A survey of design philosophy and implementation technologies</title>
+      <link>https://robweb-together.github.io/publication/wang2021robots/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>实验室团建活动</title>
+      <link>https://robweb-together.github.io/post/21-10-23-outing/</link>
+      <pubDate>Sat, 23 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/21-10-23-outing/</guid>
+      <description>&lt;p&gt;秋高气爽，实验室部分同学、老师一同前往郊外近亲大自然。&lt;/p&gt;
+&lt;p&gt;实验室组织了远足活动&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>机器人控制方向</title>
+      <link>https://robweb-together.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;p&gt;钻井平台中的水泥会在放喷管外表面堆积，野外的泥土也会堆积在放喷管外表面，当放喷管表面的油漆剥落后，表面会有大量的铁屑。因此可知，放喷管外表面的杂质主要有：水泥、泥土、铁锈等，杂质堆积后会增大后续无损检测探头的提离值，当探头工作在动态提离时检测信号差，易发生漏检，危害钻井现场的安全，因此打磨装置的主要作用是去除放喷管外表面的水泥、泥土等体积较大的杂质。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图1管道外打磨作业任务&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图1.管道外打磨作业任务&#34; srcset=&#34;
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_d8b9a58eddd023fb44e4b46a846ad39f.webp 400w,
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_f621e92c773fe16fdaf875ff04303f8f.webp 760w,
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_d8b9a58eddd023fb44e4b46a846ad39f.webp&#34;
+               width=&#34;427&#34;
+               height=&#34;156&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图1.管道外打磨作业任务
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;目前，管道外壁附着的杂质基本上是机械式的手动去除（图1），工作条件差、强度高。现场维护以确保旧公用管道的正常工作是世界上大多数管道运输系统的做法。通过学术探索与工业转化的合作，我们的管道打磨机器人产品已经在几代的时间里从一个最初的概念发展到一个完全运行的机器人原型，用于在现场环境中预防性地维护管道外表面（图2）。&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图2打磨作业机器人应用示范&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图2.打磨作业机器人应用示范&#34; srcset=&#34;
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_df89d51eaf8a681e7f3de991d263ed55.webp 400w,
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_afd09df3fc5ca5a9fb43c1a003f74dd5.webp 760w,
+               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_df89d51eaf8a681e7f3de991d263ed55.webp&#34;
+               width=&#34;409&#34;
+               height=&#34;324&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图2.打磨作业机器人应用示范
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;研究创新点：
+1、设计了一种被动前进的强量化打磨装置，在放喷管线的两端布置驱动辊轮，驱动辊轮不需要前后运动。在放喷管线上安装带有倾斜角度的被动辊轮，依靠摩擦力实现了打磨装置的直线前进，避免了在打磨装置中安装驱动电机，从而大大减轻了打磨装置的重量，实现了轻量化设计，降低了操作工人的劳动强度。
+2、采用母线跟踪式螺旋打磨方法，一对打磨轮呈周向错开布置的工作方式，避免了打磨盲区的产生，实现全覆盖打磨。其中两个打磨轮转动方向相反，打磨轮产生的周向摩擦力互相抵消，避免了打磨轮摩擦力过大造成打磨机构难以前进，即可实现高效打磨又可降低前进的驱动力。
+3、考虑到被打磨放喷直管线表面有水泥和泥土等杂质后其外径会发生变化，固定式的打磨轮难以满足要求，故本装置采用浮动式打磨轮替代固定式打磨轮，通过弹性铰链的作用，使得打磨轮能够与被打磨放喷直管线的母线实时接触，避免了打磨盲区的产生。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>机器视觉方向</title>
+      <link>https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;p&gt;脊髓损伤（spinal cord injury, SCI）是一种严重致残性疾病，常造成截瘫或四肢瘫，会对患者感觉功能、运动功能以及自主神经功能造成影响。SCI 会导致多种并发症，如压疮、肺部感染、尿路感染，并最终造成患者期望寿命的缩短。&lt;/p&gt;
+&lt;p&gt;目前，针对脊髓损伤患者的治疗医学界主要采取康复训练进行治疗，传统的康复训练是治疗师根据自身主观经验，对患者进行人工手动康复运动，康复动作具有重复性高，动作简单的特点。但这种传统的康复训练方式也存在着治疗师易感疲劳，治疗师的水平不一、缺乏客观评价，难以达到高水准的治疗效果等缺点。另外，我国康复医疗现状滞后，设有康复治疗的医院偏少，而且存在着康复治疗师配备不足等问题，这也加剧了脊髓损伤治疗需求与康复资源不足的矛盾。随着现代康复医学和机器人技术的发展，采用康复机器人代替人工方式恢复脊髓损伤患者肢体运动功能成为可能，并且可有效解决人工方式的效率低、效果差的问题。
+本课题旨在研制与脊髓损伤康复机器人机械结构适配的电气控制系统样机，采用模块化集成设计，实现“坐-躺-站”多体位一体化四肢多模式康复训练功能，研究并制定脊髓损伤康复机器人工作过程中的运动安全保护机制，提高机器人辅助康复的安全性和舒适性。
+本课题已完成康复机器人控制系统从理论到实物的整体系统开发。控制系统分为硬件系统和软件系统，其中硬件系统为一个电气控制柜，如图1所示，软件系统为一个Windows桌面软件，如图2、图3所示。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图1康复机器人上下肢电气控制柜&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图1.康复机器人上、下肢电气控制柜&#34; srcset=&#34;
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_07735347588d9b771cefb6857d4048e7.webp 400w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_138d663dc7161038b83e233df55c42d7.webp 760w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_07735347588d9b771cefb6857d4048e7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;498&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图1.康复机器人上、下肢电气控制柜
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图2上肢康复机器人训练界面&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图2.上肢康复机器人训练界面&#34; srcset=&#34;
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_4003077cda00500c82a32631aaa91a88.webp 400w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_050c39742d28dd63df3ea9dd6957003d.webp 760w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_4003077cda00500c82a32631aaa91a88.webp&#34;
+               width=&#34;711&#34;
+               height=&#34;389&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图2.上肢康复机器人训练界面
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图3下肢康复机器人训练界面&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图3.下肢康复机器人训练界面&#34; srcset=&#34;
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_11fd2a7f9e7f4d657a9435a5aab94f4d.webp 400w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_971d3b61d26551bbcd2c6b39b0945e47.webp 760w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_11fd2a7f9e7f4d657a9435a5aab94f4d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;410&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图3.下肢康复机器人训练界面
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;在硬件系统方面，结合国家医用电气设备电磁兼容要求和安全规范两个方面完成了硬件选型、整体布局和走线设计等内容，实现了模块化系统集成的要求。在软件系统方面，利用Visual Studio集成开发环境，基于Winform技术实现了软件上位机界面、中位机通信和下位机底层控制算法的开发与集成，实现了上下肢康复机器人多功能系统集成的要求。
+脊髓损伤康复机器人的首要功能是康复训练。本样机具有丰富的训练方式，上下肢康复机器人可进行拆分和组合训练。当上下肢康复机器人处于拆分状态时，上肢康复机器人具有单关节训练、多关节训练和轨迹训练三种模式，下肢康复机器人具有单关节训练、轨迹训练和平衡训练三种模式。当上下肢康复机器人处于组合状态时，可进行摆臂步行联动训练，旨在提高患者训练的真实性和趣味性，帮助患者重新体验正常走路的感觉。每种训练模式均可根据医生的对患者情况的判断设定训练参数，训练参数包括训练次数、训练周期和训练幅度，以帮助患者进行更有效率的康复训练。康复机器人训练过程如图4所示。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图4脊髓损伤康复机器人训练过程&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图4.脊髓损伤康复机器人训练过程&#34; srcset=&#34;
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_185daf24b293a56bdc06da4bc71917a6.webp 400w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_08e69bb49c4afa3589f67cf624a3c8cf.webp 760w,
+               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_185daf24b293a56bdc06da4bc71917a6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;496&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图4.脊髓损伤康复机器人训练过程
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>机构创新设计方向</title>
+      <link>https://robweb-together.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
+      <description>&lt;p&gt;盾构机是现代隧道掘进施工过程中不可或缺的大型自动化装备。然而在对硬质地层进行施工导致刀具频繁发生磨损时，国内外仍然普遍采用传统方式深入地下进行人工换刀。换刀过程伴随着高气压、地层塌方、危险气体等多重恶劣环境危险因素影响，加之刀具质量大、作业环境密闭狭窄等负面特征，人工换刀造成的伤亡事故在全世界范围频频发生。因此采用自动化方案代替人工换刀迫在眉睫。&lt;/p&gt;
+&lt;p&gt;本实验室对于盾构机换刀机器人的研究取得了如下成果：&lt;/p&gt;
+&lt;p&gt;(1)	根据盾构机内部空间以及工作任务需求设计了相应的自动换刀机器人系统，包括系统自由度的确定、各关节构型、动力元器件选型以及强度校核等；&lt;/p&gt;
+&lt;p&gt;(2)	实现盾构机自动换刀机器人的电气系统设计，并为上下位机编写相应的控制程序（图1）；
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图1电气系统设计示意图&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图1.电气系统设计示意图&#34; srcset=&#34;
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_52d5860f154bc535cf97f53c8d19b991.webp 400w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_e72326dbc651a06f2144517e63a24568.webp 760w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_52d5860f154bc535cf97f53c8d19b991.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;404&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图1.电气系统设计示意图
+    &lt;/figcaption&gt;&lt;/figure&gt;
+(3)	通过对盾构机自动换刀机器人进行数学建模，完成相应运动学正逆解以及相应的轨迹设计（图2）；
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图2盾构机自动换刀机器人数字模型&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图2.盾构机自动换刀机器人数字模型&#34; srcset=&#34;
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_7ccd4b4335a72167043b49012587e3c6.webp 400w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_d7e1753b76731ca6f8f95c098b345deb.webp 760w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_7ccd4b4335a72167043b49012587e3c6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;329&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图2.盾构机自动换刀机器人数字模型
+    &lt;/figcaption&gt;&lt;/figure&gt;
+(4)	基于模拟的盾构机测试环境，针对样机进行相应的测试（图3）。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-图3样机测试&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图3.样机测试&#34; srcset=&#34;
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_15d2db98249cfc2e90025b981d5343f5.webp 400w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_5d94f9610e480da000c97e45df85a726.webp 760w,
+               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_15d2db98249cfc2e90025b981d5343f5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;394&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      图3.样机测试
+    &lt;/figcaption&gt;&lt;/figure&gt;
+经过模拟的实验环境，验证了所设计的盾构机自动换刀机器人的可行性，整体操作过程中，无明显机械结构方面的问题，上下位在控制过程中能够顺利的完成相应操作命令，能够实现完整的换刀流程，为实现盾构机的进一步自动化做出了突出贡献。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>本科生参观实验室</title>
+      <link>https://robweb-together.github.io/post/21-09-30-vistor-friends/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/21-09-30-vistor-friends/</guid>
+      <description>&lt;p&gt;杜亮老师作为本科生全程导师，邀请学生参观机器人实验室，了解该领域的研究内容。学生表达了对众多机器人的浓厚兴趣。&lt;/p&gt;
+&lt;p&gt;合作老师来实验室参观交流&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Design and analysis of a robotic out-pipe grinding system with friction actuating</title>
+      <link>https://robweb-together.github.io/publication/wang2021design/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/wang2021design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Robots in Wuhan Cabin Hospitals</title>
+      <link>https://robweb-together.github.io/publication/bao2021service/</link>
+      <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/bao2021service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualized Small-size Pipeline Model Building Using Multilink-articulated Wheeled In-pipe Inspection Robot</title>
+      <link>https://robweb-together.github.io/publication/guo2021visualized/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/guo2021visualized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a standalone joint module toward real EAST in-vessel operation use</title>
+      <link>https://robweb-together.github.io/publication/lai2021design/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/lai2021design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日本大阪大学胡正涛博士到访实验室</title>
+      <link>https://robweb-together.github.io/post/21-06-09-vistor-hu/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/post/21-06-09-vistor-hu/</guid>
+      <description>&lt;p&gt;胡正涛博士到访实验室，杜亮老师陪同参观实验室机器人装备，探讨科研合作机会。&lt;/p&gt;
+&lt;p&gt;胡正涛老师来实验室参观交流&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Robotic Gripper Design and Integrated Solution Towards Tunnel Boring Construction Equipment</title>
+      <link>https://robweb-together.github.io/publication/yuan2020robotic/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yuan2020robotic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and experimental tests of an active cooling system for a kind of in-vessel inspection manipulator</title>
+      <link>https://robweb-together.github.io/publication/du2020design/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/du2020design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper Made Grippers for Soft Food Grasping</title>
+      <link>https://robweb-together.github.io/publication/ma2020made/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/ma2020made/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A teleoperated robotic hot stick platform for the overhead live powerline maintenance tasks</title>
+      <link>https://robweb-together.github.io/publication/du2019teleoperated/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/du2019teleoperated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of a standalone joint module toward real EAST in-vessel operation use</title>
+      <link>https://robweb-together.github.io/publication/du2017design/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/du2017design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active cooling system for Tokamak in-vessel operation manipulator</title>
+      <link>https://robweb-together.github.io/publication/yuan2015active/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/yuan2015active/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://robweb-together.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://robweb-together.github.io/member/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/member/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
