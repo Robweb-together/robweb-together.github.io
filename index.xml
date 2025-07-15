@@ -5,7 +5,7 @@
     <link>https://robweb-together.github.io/</link>
       <atom:link href="https://robweb-together.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>上海机器人研究所</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Sun, 25 May 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
       <title>上海机器人研究所</title>
@@ -63,9 +63,9 @@
     
     <item>
       <title>盾构机换刀机器人项目视觉伺服方向研究成果在JFR发表</title>
-      <link>https://robweb-together.github.io/post/25-4-21-publish-yang/</link>
+      <link>https://robweb-together.github.io/post/25-04-21-publish-yang/</link>
       <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://robweb-together.github.io/post/25-4-21-publish-yang/</guid>
+      <guid>https://robweb-together.github.io/post/25-04-21-publish-yang/</guid>
       <description>&lt;p&gt;《Visual Servoing With Grid-Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement》&lt;/p&gt;
 &lt;p&gt;硕士生杨强在《Journal of Field Robotics》期刊发表论文，题目为《Visual Servoing With Grid-Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement》。文章提出了一个由图像网格组成的基于图像的期望向量场。其次，提出了一个直接和恒定的交互矩阵，以从基于图像的所需向量映射相机速度。这两个部分提高了基于视觉的控制器的视觉伺服的稳健性，特别是在污染环境中工作和伺服滚刀的不确定状态时。实验验证了它是一种稳定、易用的视觉控制器，克服了在非静态环境条件下控制刀具更换机器人的困难，从而促进了机器人技术在更多现场应用。&lt;/p&gt;</description>
     </item>
