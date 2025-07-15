@@ -240,45 +240,6 @@
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0000000000"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'G-0000000000', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
   
@@ -713,6 +674,8 @@
     
       <li><a href="/post/25-07-11-outing/">实验室赴浙江象山开展团建活动，凝心聚力共绘科研新篇章</a></li>
     
+      <li><a href="/post/1/">实验室赴浙江象山开展团建活动，凝心聚力共绘科研新篇章</a></li>
+    
       <li><a href="/post/">Posts</a></li>
     
       <li><a href="/post/25-05-25-awards-luo/">实验室机器人控制研究成果获&#34;IEEE Robotics and Automation Letters 最佳论文奖&#34;</a></li>
@@ -728,8 +691,6 @@
       <li><a href="/publication/tian2024contact/">Contact Force Estimation by Fusing Current and Tactile Information Through KF for Robot Arm</a></li>
     
       <li><a href="/publication/luo2024adaptive/">Adaptive Neural Computed Torque Control for Robot Joints With Asymmetric Friction Model</a></li>
-    
-      <li><a href="/publication/luo2024lie/">Lie-theory-based dynamic model identification of serial robots considering nonlinear friction and optimal excitation trajectory</a></li>
     
   </ul>
   

@@ -240,45 +240,6 @@
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0000000000"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'G-0000000000', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
   
@@ -729,6 +690,96 @@
   
 
   
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/1/" >实验室赴浙江象山开展团建活动，凝心聚力共绘科研新篇章</a>
+    </div>
+
+    
+    <a href="/post/1/"  class="summary-link">
+      <div class="article-style">
+        <p>实验室赴浙江象山开展团建活动</p>
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 11, 2025
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/1/" >
+      <img src="/post/1/featured_hu872644f0173b2f5d6a3c147058c02dc2_2682436_150x0_resize_q75_h2_lanczos.webp" height="338" width="150"
+           alt="实验室赴浙江象山开展团建活动，凝心聚力共绘科研新篇章" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
   
     
 
@@ -1522,96 +1573,6 @@
     <a href="/post/23-11-24-visit-du-hu/" >
       <img src="/post/23-11-24-visit-du-hu/featured_hua8ab5c7ac27f2e9be0efcf065cd0f654_433078_150x0_resize_q75_h2_lanczos.webp" height="113" width="150"
            alt="实地参观ABB超级工厂" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/23-05-26-awards-yuan/" >实验室科研成果获上海市科技进步二等奖</a>
-    </div>
-
-    
-    <a href="/post/23-05-26-awards-yuan/"  class="summary-link">
-      <div class="article-style">
-        <p>袁建军团队主持完成的《面向油气场站复杂环境的多元任务智能检测机器人关键技术及应用》荣获上海市科技进步奖二等奖。</p>
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    May 26, 2023
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/post/23-05-26-awards-yuan/" >
-      <img src="/post/23-05-26-awards-yuan/featured_hu344c0d2e48800d8ec7003cf15e8cda9b_4839603_150x0_resize_q75_h2_lanczos.webp" height="113" width="150"
-           alt="实验室科研成果获上海市科技进步二等奖" loading="lazy">
     </a>
     
   </div>

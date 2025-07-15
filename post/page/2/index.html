@@ -240,45 +240,6 @@
 
 
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0000000000"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'G-0000000000', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
   
 
   
@@ -729,6 +690,96 @@
   
 
   
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/23-05-26-awards-yuan/" >实验室科研成果获上海市科技进步二等奖</a>
+    </div>
+
+    
+    <a href="/post/23-05-26-awards-yuan/"  class="summary-link">
+      <div class="article-style">
+        <p>袁建军团队主持完成的《面向油气场站复杂环境的多元任务智能检测机器人关键技术及应用》荣获上海市科技进步奖二等奖。</p>
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 26, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/23-05-26-awards-yuan/" >
+      <img src="/post/23-05-26-awards-yuan/featured_hu344c0d2e48800d8ec7003cf15e8cda9b_4839603_150x0_resize_q75_h2_lanczos.webp" height="113" width="150"
+           alt="实验室科研成果获上海市科技进步二等奖" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
   
     
 
@@ -1534,96 +1585,6 @@
     <a href="/post/22-07-19-test-out/" >
       <img src="/post/22-07-19-test-out/featured_hu701e155e9940ce6939832794bfca3040_2815471_150x0_resize_q75_h2_lanczos.webp" height="113" width="150"
            alt="实验室科研进展" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/21-12-31-awards-robio-wang/" >博士生王明远同学获得ROBIO2021最佳会议论文入围奖</a>
-    </div>
-
-    
-    <a href="/post/21-12-31-awards-robio-wang/"  class="summary-link">
-      <div class="article-style">
-        <p>科研成果</p>
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Dec 31, 2021
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/post/21-12-31-awards-robio-wang/" >
-      <img src="/post/21-12-31-awards-robio-wang/featured_huac058431aa797dd7f1df11cf4ee700a4_559464_150x0_resize_q75_h2_lanczos_3.webp" height="105" width="150"
-           alt="博士生王明远同学获得ROBIO2021最佳会议论文入围奖" loading="lazy">
     </a>
     
   </div>
