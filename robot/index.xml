@@ -5,7 +5,7 @@
     <link>https://robweb-together.github.io/robot/</link>
       <atom:link href="https://robweb-together.github.io/robot/index.xml" rel="self" type="application/rss+xml" />
     <description>科研方向</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2025 SRI-Lab</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
       <title>科研方向</title>
@@ -13,11 +13,18 @@
     </image>
     
     <item>
-      <title>机器人控制方向</title>
-      <link>https://robweb-together.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
-      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://robweb-together.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
-      <description>&lt;p&gt;钻井平台中的水泥会在放喷管外表面堆积，野外的泥土也会堆积在放喷管外表面，当放喷管表面的油漆剥落后，表面会有大量的铁屑。因此可知，放喷管外表面的杂质主要有：水泥、泥土、铁锈等，杂质堆积后会增大后续无损检测探头的提离值，当探头工作在动态提离时检测信号差，易发生漏检，危害钻井现场的安全，因此打磨装置的主要作用是去除放喷管外表面的水泥、泥土等体积较大的杂质。&lt;/p&gt;
+      <title>伺服控制</title>
+      <link>https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/</guid>
+      <description>&lt;p&gt;伺服控制是机器人系统的核心技术，致力于通过先进的控制算法和系统架构，实现机器人的精确、稳定、高效运动。我们的研究涵盖了从底层嵌入式控制到高层智能控制的多个层面，形成了完整的控制技术体系。&lt;/p&gt;
+&lt;h2 id=&#34;研究概述&#34;&gt;研究概述&lt;/h2&gt;
+&lt;p&gt;伺服控制研究聚焦于开发高性能的控制算法和系统架构，解决机器人在复杂环境中的控制问题。我们的研究团队在多个关键技术上取得了重要突破，特别是在摩擦建模、自适应控制、实时系统等方面形成了独特的技术优势。&lt;/p&gt;
+&lt;h2 id=&#34;核心研究方向&#34;&gt;核心研究方向&lt;/h2&gt;
+&lt;h3 id=&#34;1-实时控制系统&#34;&gt;1. 实时控制系统&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;现代机器人系统需要在复杂、动态的环境中实现高精度、高可靠性的控制，对实时性提出了极高要求。传统的控制系统往往存在实时性不足、扩展性差、通信延迟等问题，难以满足现代工业应用和特种作业的需求。特别是在多轴协调控制、分布式系统集成等场景中，需要建立高带宽、低延迟的实时控制架构，确保控制指令的及时响应和系统状态的准确反馈。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
 
 
 
@@ -32,20 +39,30 @@
 
 
 
-&lt;figure  id=&#34;figure-图1管道外打磨作业任务&#34;&gt;
+&lt;figure  id=&#34;figure-实时控制系统罗&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图1.管道外打磨作业任务&#34; srcset=&#34;
-               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_d8b9a58eddd023fb44e4b46a846ad39f.webp 400w,
-               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_f621e92c773fe16fdaf875ff04303f8f.webp 760w,
-               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://robweb-together.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hua0087972baccffc6bcbc748cc7ce53eb_203448_d8b9a58eddd023fb44e4b46a846ad39f.webp&#34;
-               width=&#34;427&#34;
-               height=&#34;156&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;real-time-control.jpg&#34; alt=&#34;实时控制系统[罗]&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      图1.管道外打磨作业任务
+      实时控制系统[罗]
     &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;目前，管道外壁附着的杂质基本上是机械式的手动去除（图1），工作条件差、强度高。现场维护以确保旧公用管道的正常工作是世界上大多数管道运输系统的做法。通过学术探索与工业转化的合作，我们的管道打磨机器人产品已经在几代的时间里从一个最初的概念发展到一个完全运行的机器人原型，用于在现场环境中预防性地维护管道外表面（图2）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开发了基于EtherCAT的分布式实时控制系统，实现高带宽、低延迟通信&lt;/li&gt;
+&lt;li&gt;设计了模块化的嵌入式控制架构，支持多轴协调控制&lt;/li&gt;
+&lt;li&gt;实现了基于ROS2的分布式实时控制系统架构（ROS2-ADRCS）&lt;/li&gt;
+&lt;li&gt;建立了高精度位置控制方法，包括位置、阻抗和导纳控制策略&lt;/li&gt;
+&lt;li&gt;开发了全抢占式事件驱动内核，提高系统实时性和可靠性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cen Yuhui, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/cen2021integrated/&#34;&gt;An Integrated Software System Designed for Upper Limb Rehabilitation Robot&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2021&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Guang Chengfang, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/guang2023design/&#34;&gt;Design of a Differential Modular Joint-based Nursing Manipulator and its Digital Twin System&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ICMA&lt;/em&gt;, 2023&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zhou Tong, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/zhou2021integration/&#34;&gt;Integration mode of standing balance and trajectory training based on lower limb rehabilitation exoskeleton&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2021&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 实时控制系统架构图片 --&gt;
+&lt;h3 id=&#34;2-基于电流信息的力控研究&#34;&gt;2. 基于电流信息的力控研究&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;力控制是机器人实现精确操作和柔顺交互的关键技术，在精密装配、人机协作、医疗康复等应用场景中具有重要价值。传统的力控制方法需要额外的力传感器，不仅增加了系统复杂性和成本，还面临传感器安装困难、维护复杂等问题。基于电流信息的力估计方法通过分析电机电流与输出力矩的关系，实现无传感器的力控制，为机器人系统的简化和成本降低提供了有效途径。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
 
 
 
@@ -60,34 +77,86 @@
 
 
 
-&lt;figure  id=&#34;figure-图2打磨作业机器人应用示范&#34;&gt;
+&lt;figure  id=&#34;figure-基于电流信息的力控研究罗&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图2.打磨作业机器人应用示范&#34; srcset=&#34;
-               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_df89d51eaf8a681e7f3de991d263ed55.webp 400w,
-               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_afd09df3fc5ca5a9fb43c1a003f74dd5.webp 760w,
-               /robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://robweb-together.github.io/robot/%E7%AE%A1%E9%81%93%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu58b98ee0396bacd31ae08bd547aee834_55406_df89d51eaf8a681e7f3de991d263ed55.webp&#34;
-               width=&#34;409&#34;
-               height=&#34;324&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;current-based-force-control.jpg&#34; alt=&#34;基于电流信息的力控研究[罗]&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      图2.打磨作业机器人应用示范
+      基于电流信息的力控研究[罗]
     &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;研究创新点：
-1、设计了一种被动前进的强量化打磨装置，在放喷管线的两端布置驱动辊轮，驱动辊轮不需要前后运动。在放喷管线上安装带有倾斜角度的被动辊轮，依靠摩擦力实现了打磨装置的直线前进，避免了在打磨装置中安装驱动电机，从而大大减轻了打磨装置的重量，实现了轻量化设计，降低了操作工人的劳动强度。
-2、采用母线跟踪式螺旋打磨方法，一对打磨轮呈周向错开布置的工作方式，避免了打磨盲区的产生，实现全覆盖打磨。其中两个打磨轮转动方向相反，打磨轮产生的周向摩擦力互相抵消，避免了打磨轮摩擦力过大造成打磨机构难以前进，即可实现高效打磨又可降低前进的驱动力。
-3、考虑到被打磨放喷直管线表面有水泥和泥土等杂质后其外径会发生变化，固定式的打磨轮难以满足要求，故本装置采用浮动式打磨轮替代固定式打磨轮，通过弹性铰链的作用，使得打磨轮能够与被打磨放喷直管线的母线实时接触，避免了打磨盲区的产生。&lt;/p&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;开发了基于电流信息的力估计方法，实现无传感器力控制&lt;/li&gt;
+&lt;li&gt;设计了自适应神经网络计算力矩控制，提高控制精度&lt;/li&gt;
+&lt;li&gt;实现了非对称摩擦模型建模，考虑速度、负载和温度依赖效应&lt;/li&gt;
+&lt;li&gt;建立了基于电流的阻抗控制策略，实现柔顺交互&lt;/li&gt;
+&lt;li&gt;开发了卡尔曼滤波融合方法，结合电流信息和触觉传感器信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;He Yimin, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/he2021joint/&#34;&gt;A Joint Friction Model of Robotic Manipulator for Low-speed Motion&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2021&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Liu Yukun, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/liu2022dynamic/&#34;&gt;Dynamic modeling and analysis for a differential modular robot joint with the friction model&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tian Yujie, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/tian2024contact/&#34;&gt;Contact Force Estimation by Fusing Current and Tactile Information Through KF for Robot Arm&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;He Minghui, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/he2022parameter/&#34;&gt;A Parameter Identification Method for Coupled Dynamics of Robotic Manipulator with Differential Modular Joints&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 基于电流信息的力控制系统图片 --&gt;
+&lt;h3 id=&#34;3-自适应控制算法&#34;&gt;3. 自适应控制算法&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;机器人在实际应用中面临参数不确定、外部干扰、负载变化等问题，传统的固定参数控制方法难以保证系统的稳定性和控制精度。特别是在复杂环境和动态任务中，机器人系统需要具备自适应能力，能够在线识别系统参数、补偿未知干扰、适应环境变化。自适应控制算法通过实时调整控制参数和策略，提高系统的鲁棒性和适应性，是实现智能机器人控制的关键技术。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-自适应控制算法罗&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;adaptive-control.jpg&#34; alt=&#34;自适应控制算法[罗]&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      自适应控制算法[罗]
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;开发了自适应神经网络计算力矩控制方案，融合参数化和非参数化模型&lt;/li&gt;
+&lt;li&gt;设计了多径向基神经网络补偿器（MRBFNNs），实时补偿系统不确定性&lt;/li&gt;
+&lt;li&gt;实现了参数在线识别算法，适应负载和温度变化&lt;/li&gt;
+&lt;li&gt;建立了鲁棒控制策略，抑制外部干扰和建模误差&lt;/li&gt;
+&lt;li&gt;开发了滑模控制方法，实现全局渐近收敛&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Luo Ruiqing, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/luo2024adaptive/&#34;&gt;Adaptive Neural Computed Torque Control for Robot Joints With Asymmetric Friction Model&lt;/a&gt;&amp;rdquo;, &lt;em&gt;IEEE Robotics and Automation Letters&lt;/em&gt;, 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Liu Menghui, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/liu2024dynamic/&#34;&gt;Dynamic Friction Model with Velocity and Asymmetric Load Dependency for Robot Joints&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ICMA&lt;/em&gt;, 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luo Ruiqing, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/luo2024lie/&#34;&gt;Lie-theory-based dynamic model identification of serial robots considering nonlinear friction and optimal excitation trajectory&lt;/a&gt;&amp;rdquo;, &lt;em&gt;Robotica&lt;/em&gt;, 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cen Yuhui, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/cen2022trajectory/&#34;&gt;Trajectory Optimization Algorithm of Trajectory Rehabilitation Training Mode for Rehabilitation Robot&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luo Ruiqing, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/luo2023optimal/&#34;&gt;Optimal Exciting Trajectories for Identifying Dynamic Parameters of Serial Robots&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ICMA&lt;/em&gt;, 2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 自适应控制系统图片 --&gt;
+&lt;h2 id=&#34;研究意义与发展&#34;&gt;研究意义与发展&lt;/h2&gt;
+&lt;p&gt;伺服控制研究在机器人技术发展中具有重要的理论意义和实用价值。通过高精度摩擦建模和实时系统架构设计，我们建立了适应复杂环境的机器人控制理论体系。基于神经网络的智能补偿技术为处理系统不确定性和非线性提供了有效方法，而模块化设计理念为控制系统的可扩展性和维护性提供了技术支撑。&lt;/p&gt;
+&lt;p&gt;目前的研究成果在工业自动化、医疗康复、服务机器人、特种作业等领域展现出良好的应用潜力。特别是在精密装配、手术机器人、高精度实验设备等场景中，我们的伺服控制技术为实现精确、稳定的机器人操作提供了可靠保障。&lt;/p&gt;
+&lt;p&gt;未来研究将重点关注人工智能集成、云端控制、边缘计算、数字孪生等前沿技术，探索群体控制等新兴领域，为机器人控制技术的进一步发展提供理论和技术支撑。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>机器视觉方向</title>
-      <link>https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
-      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
-      <description>&lt;p&gt;脊髓损伤（spinal cord injury, SCI）是一种严重致残性疾病，常造成截瘫或四肢瘫，会对患者感觉功能、运动功能以及自主神经功能造成影响。SCI 会导致多种并发症，如压疮、肺部感染、尿路感染，并最终造成患者期望寿命的缩短。&lt;/p&gt;
-&lt;p&gt;目前，针对脊髓损伤患者的治疗医学界主要采取康复训练进行治疗，传统的康复训练是治疗师根据自身主观经验，对患者进行人工手动康复运动，康复动作具有重复性高，动作简单的特点。但这种传统的康复训练方式也存在着治疗师易感疲劳，治疗师的水平不一、缺乏客观评价，难以达到高水准的治疗效果等缺点。另外，我国康复医疗现状滞后，设有康复治疗的医院偏少，而且存在着康复治疗师配备不足等问题，这也加剧了脊髓损伤治疗需求与康复资源不足的矛盾。随着现代康复医学和机器人技术的发展，采用康复机器人代替人工方式恢复脊髓损伤患者肢体运动功能成为可能，并且可有效解决人工方式的效率低、效果差的问题。
-本课题旨在研制与脊髓损伤康复机器人机械结构适配的电气控制系统样机，采用模块化集成设计，实现“坐-躺-站”多体位一体化四肢多模式康复训练功能，研究并制定脊髓损伤康复机器人工作过程中的运动安全保护机制，提高机器人辅助康复的安全性和舒适性。
-本课题已完成康复机器人控制系统从理论到实物的整体系统开发。控制系统分为硬件系统和软件系统，其中硬件系统为一个电气控制柜，如图1所示，软件系统为一个Windows桌面软件，如图2、图3所示。
+      <title>机构创新</title>
+      <link>https://robweb-together.github.io/robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/</guid>
+      <description>&lt;p&gt;机构创新是实验室的核心研究方向之一，致力于通过创新的机构设计理论和方法，开发适应特定环境和任务需求的新型机器人系统。我们的研究涵盖了从特种机器人到软体机器人的多个前沿领域。&lt;/p&gt;
+&lt;h2 id=&#34;研究概述&#34;&gt;研究概述&lt;/h2&gt;
+&lt;p&gt;机构创新研究聚焦于解决特种作业环境中的实际工程问题，主要包括盾构机换刀自动化、管道检测维护、软质物体抓取和复杂地形移动等关键应用场景。我们的研究团队在TBM换刀机械臂设计、管道机器人磁吸附技术、软体夹爪机构、连续体机器人变形机构等核心技术方面取得了重要突破，形成了从重载工业机器人到轻量化软体机器人的完整技术体系。&lt;/p&gt;
+&lt;h2 id=&#34;核心研究方向&#34;&gt;核心研究方向&lt;/h2&gt;
+&lt;h3 id=&#34;1-tbm换刀机械臂&#34;&gt;1. TBM换刀机械臂&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;盾构机是现代隧道掘进施工的核心装备，在硬质地层施工中刀具频繁磨损需要更换。传统人工换刀方式存在高气压、地层塌方、危险气体等多重安全风险，作业环境恶劣且危险性极高。特别是在深埋隧道施工中，人工换刀不仅效率低下，还面临严重的生命安全威胁。因此，开发适应盾构机内部空间约束的自动换刀机器人系统成为隧道施工安全化和智能化的关键技术需求。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
 
 
 
@@ -102,19 +171,39 @@
 
 
 
-&lt;figure  id=&#34;figure-图1康复机器人上下肢电气控制柜&#34;&gt;
+&lt;figure  id=&#34;figure-盾构机换刀机器人&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图1.康复机器人上、下肢电气控制柜&#34; srcset=&#34;
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_07735347588d9b771cefb6857d4048e7.webp 400w,
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_138d663dc7161038b83e233df55c42d7.webp 760w,
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4f4b178fa12fcb2a663e8bbbed6c32f5_1365746_07735347588d9b771cefb6857d4048e7.webp&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;盾构机换刀机器人&#34; srcset=&#34;
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/tbm-robot_hu41b9d248548832d11a6d514627f055cc_393789_e98b53a5c961ec651678d7054eac03c6.webp 400w,
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/tbm-robot_hu41b9d248548832d11a6d514627f055cc_393789_aa511a2626c4ec432190267bf5329beb.webp 760w,
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/tbm-robot_hu41b9d248548832d11a6d514627f055cc_393789_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/tbm-robot_hu41b9d248548832d11a6d514627f055cc_393789_e98b53a5c961ec651678d7054eac03c6.webp&#34;
                width=&#34;760&#34;
-               height=&#34;498&#34;
+               height=&#34;505&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      图1.康复机器人上、下肢电气控制柜
+      盾构机换刀机器人
     &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;设计了适应盾构机内部空间约束的自动换刀机器人系统&lt;/li&gt;
+&lt;li&gt;开发了专用的机械臂构型和动力系统，实现重载高精度操作&lt;/li&gt;
+&lt;li&gt;建立了基于视觉伺服的精确定位系统，确保换刀精度&lt;/li&gt;
+&lt;li&gt;实现了完整的换刀流程自动化控制，包括刀具拆卸、安装和紧固&lt;/li&gt;
+&lt;li&gt;开发了多功能末端执行器，集成抓取、拧紧等功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Du Liang, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/du2022robotic/&#34;&gt;A Robotic Gripper Design and Integrated Solution Towards Tunnel Boring Construction Equipment&lt;/a&gt;&amp;rdquo;, &lt;em&gt;Automation in Construction&lt;/em&gt;, 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zhou Jinshu, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/zhou2024design/&#34;&gt;Design of a multifunctional end-effector for robotic replacement of TBM disc cutters&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ICMA&lt;/em&gt;, 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yang Qiang, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/news/25-04-21-publish-yang/&#34;&gt;Visual Servoing With Grid-Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement&lt;/a&gt;&amp;rdquo;, &lt;em&gt;Journal of Field Robotics&lt;/em&gt;, 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Du Liang, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/du2017design/&#34;&gt;Design of a standalone joint module toward real EAST in-vessel operation use&lt;/a&gt;&amp;rdquo;, &lt;em&gt;Fusion Engineering and Design&lt;/em&gt;, 2017&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yuan Jianjun, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/yuan2015active/&#34;&gt;Active cooling system for Tokamak in-vessel operation manipulator&lt;/a&gt;&amp;rdquo;, &lt;em&gt;Fusion Engineering and Design&lt;/em&gt;, 2015&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- TBM自动换刀机器人系统图片 --&gt;
+&lt;h3 id=&#34;2-管道维护机器人&#34;&gt;2. 管道维护机器人&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;管道系统是流体运输的重要基础设施，广泛应用于石油、天然气、化工等领域。传统人工检测方式效率低、风险高，特别是在复杂管道网络中，人工检测面临空间受限、环境恶劣、检测不全面等问题。管道机器人需要具备管径自适应能力、强磁吸附力、稳定爬行能力等特性，以实现在不同管径、不同曲率管道中的自主检测和维护任务。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
 
 
 
@@ -129,19 +218,42 @@
 
 
 
-&lt;figure  id=&#34;figure-图2上肢康复机器人训练界面&#34;&gt;
+&lt;figure  id=&#34;figure-管道机器人&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图2.上肢康复机器人训练界面&#34; srcset=&#34;
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_4003077cda00500c82a32631aaa91a88.webp 400w,
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_050c39742d28dd63df3ea9dd6957003d.webp 760w,
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hudeb9e51e092c06c805065b4060eb6113_37292_4003077cda00500c82a32631aaa91a88.webp&#34;
-               width=&#34;711&#34;
-               height=&#34;389&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;管道机器人&#34; srcset=&#34;
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/pipe-robot_hue70167b8aaf56e0966ff3e25d321b857_565349_70e9297f71293f4232a89d9e282ef8db.webp 400w,
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/pipe-robot_hue70167b8aaf56e0966ff3e25d321b857_565349_bcfb0bef1a0abcbe32b2ff55820defe9.webp 760w,
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/pipe-robot_hue70167b8aaf56e0966ff3e25d321b857_565349_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/pipe-robot_hue70167b8aaf56e0966ff3e25d321b857_565349_70e9297f71293f4232a89d9e282ef8db.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;397&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      图2.上肢康复机器人训练界面
+      管道机器人
     &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;开发了永磁轮式管道机器人，具备管径自适应能力&lt;/li&gt;
+&lt;li&gt;设计了半球形磁轮管道机器人，适应不同曲率管道的内外壁爬行&lt;/li&gt;
+&lt;li&gt;研制了管道内防腐机器人，实现自动化维护和检测&lt;/li&gt;
+&lt;li&gt;建立了管道机器人设计理论体系，包括磁吸附力分析和运动学建模&lt;/li&gt;
+&lt;li&gt;开发了主动悬架机构，提高机器人越障能力和稳定性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Wang Zechao, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/wang2022structural/&#34;&gt;Structural design and analysis of a permanent-magnet wheeled pipe robot with pipe diameter adaption capability&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Xu Yize, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/xu2024design/&#34;&gt;Design of a magnetic hemispherical wheeled pipeline robot&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ICMA&lt;/em&gt;, 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ni Yuxuan, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/ni2024design/&#34;&gt;Design of a pipeline inspection robot with active suspension mechanism&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ICMA&lt;/em&gt;, 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wang Zhiyang, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/wang2024design/&#34;&gt;Design of a Pipeline Inside Anti-corrosion Robot Using Axiomatic Design Method&lt;/a&gt;&amp;rdquo;, &lt;em&gt;RCAR&lt;/em&gt;, 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wang Mingyuan, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/wang2022design/&#34;&gt;Design of a modular continuum robot with alterable compliance using tubular-actuation&lt;/a&gt;&amp;rdquo;, &lt;em&gt;IROS&lt;/em&gt;, 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wang Mingyuan, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/wang2021design/&#34;&gt;Design and analysis of a robotic out-pipe grinding system with friction actuating&lt;/a&gt;&amp;rdquo;, &lt;em&gt;IROS&lt;/em&gt;, 2021&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wang Mingyuan, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/wang2021bio/&#34;&gt;A bio-inspired continuum robot for out-pipe climbing and confined space navigating&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2021&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wang Mingyuan, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/wang2021robots/&#34;&gt;Robots for pipeline inspection tasks—A survey of design philosophy and implementation technologies&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ACAIT&lt;/em&gt;, 2021&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 管道机器人系统图片 --&gt;
+&lt;h3 id=&#34;3-地面移动机器人&#34;&gt;3. 地面移动机器人&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;地面移动机器人在工业巡检、服务机器人、特种作业等领域有广泛应用需求，需要具备良好的环境适应性和运动能力。传统移动机器人在复杂地形、狭窄空间等环境中往往面临运动受限、适应性差等问题。连续体机器人作为一种新型机器人结构，具有高自由度、强适应性、安全交互等优势，在非结构化环境中展现出独特的技术优势。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
 
 
 
@@ -156,21 +268,36 @@
 
 
 
-&lt;figure  id=&#34;figure-图3下肢康复机器人训练界面&#34;&gt;
+&lt;figure  id=&#34;figure-地面移动机器人&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图3.下肢康复机器人训练界面&#34; srcset=&#34;
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_11fd2a7f9e7f4d657a9435a5aab94f4d.webp 400w,
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_971d3b61d26551bbcd2c6b39b0945e47.webp 760w,
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_hue3845ce0a1a0850a716bf4103da4dff8_42161_11fd2a7f9e7f4d657a9435a5aab94f4d.webp&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;地面移动机器人&#34; srcset=&#34;
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/mobile-robot_hu81adb56954356bb0033790e9bff5939e_41290_d9f3d515ce8d9d61dab32870dbc4d90d.webp 400w,
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/mobile-robot_hu81adb56954356bb0033790e9bff5939e_41290_ae382bb07f4e01fa08ed65bbe6fdc90b.webp 760w,
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/mobile-robot_hu81adb56954356bb0033790e9bff5939e_41290_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/mobile-robot_hu81adb56954356bb0033790e9bff5939e_41290_d9f3d515ce8d9d61dab32870dbc4d90d.webp&#34;
                width=&#34;760&#34;
-               height=&#34;410&#34;
+               height=&#34;514&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      图3.下肢康复机器人训练界面
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;在硬件系统方面，结合国家医用电气设备电磁兼容要求和安全规范两个方面完成了硬件选型、整体布局和走线设计等内容，实现了模块化系统集成的要求。在软件系统方面，利用Visual Studio集成开发环境，基于Winform技术实现了软件上位机界面、中位机通信和下位机底层控制算法的开发与集成，实现了上下肢康复机器人多功能系统集成的要求。
-脊髓损伤康复机器人的首要功能是康复训练。本样机具有丰富的训练方式，上下肢康复机器人可进行拆分和组合训练。当上下肢康复机器人处于拆分状态时，上肢康复机器人具有单关节训练、多关节训练和轨迹训练三种模式，下肢康复机器人具有单关节训练、轨迹训练和平衡训练三种模式。当上下肢康复机器人处于组合状态时，可进行摆臂步行联动训练，旨在提高患者训练的真实性和趣味性，帮助患者重新体验正常走路的感觉。每种训练模式均可根据医生的对患者情况的判断设定训练参数，训练参数包括训练次数、训练周期和训练幅度，以帮助患者进行更有效率的康复训练。康复机器人训练过程如图4所示。
+      地面移动机器人
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;开发了轮履复合变形移动机器人，适应复杂地形&lt;/li&gt;
+&lt;li&gt;设计了仿生爬行机器人，模拟生物运动模式&lt;/li&gt;
+&lt;li&gt;研制了模块化连续体机器人，具备可变刚度特性&lt;/li&gt;
+&lt;li&gt;建立了移动机器人机构设计理论，包括运动学分析和动力学建模&lt;/li&gt;
+&lt;li&gt;开发了管状驱动机构，实现无滑移传动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Li Meng, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/li2022stiffness/&#34;&gt;Stiffness modeling of redundant robots with large load capacity and workspace&lt;/a&gt;&amp;rdquo;, &lt;em&gt;RCAR&lt;/em&gt;, 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bao Sheng, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/bao2021service/&#34;&gt;Service Robots in Wuhan Cabin Hospitals&lt;/a&gt;&amp;rdquo;, &lt;em&gt;Sensors and Materials&lt;/em&gt;, 2021&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 地面移动机器人图片 --&gt;
+&lt;h3 id=&#34;4-灵巧机械手&#34;&gt;4. 灵巧机械手&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;传统机械手在抓取软质物体、不规则形状物体时存在局限性，特别是在食品加工、农业采摘等应用场景中，需要开发更加灵巧和适应性强的末端执行器。软质物体抓取面临易损伤、形状多变、卫生要求高等挑战，需要创新的机构设计理念和材料应用技术。欠驱动机构通过减少驱动元件数量，实现被动适应和简化控制，在灵巧机械手设计中具有重要应用价值。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
 
 
 
@@ -185,30 +312,52 @@
 
 
 
-&lt;figure  id=&#34;figure-图4脊髓损伤康复机器人训练过程&#34;&gt;
+&lt;figure  id=&#34;figure-灵巧机械手&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图4.脊髓损伤康复机器人训练过程&#34; srcset=&#34;
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_185daf24b293a56bdc06da4bc71917a6.webp 400w,
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_08e69bb49c4afa3589f67cf624a3c8cf.webp 760w,
-               /robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://robweb-together.github.io/robot/%E8%84%8A%E9%AB%93%E6%8D%9F%E4%BC%A4%E5%BA%B7%E5%A4%8D%E6%9C%BA%E5%99%A8%E4%BA%BA/image4_hu111d0676e8af490f0621da51a6ffa849_947051_185daf24b293a56bdc06da4bc71917a6.webp&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;灵巧机械手&#34; srcset=&#34;
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/adaptive-gripper_hu1c7df700c992cc25e06362d44481efc6_311067_ef0ee0cfbcabf11625f0b574040a894e.webp 400w,
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/adaptive-gripper_hu1c7df700c992cc25e06362d44481efc6_311067_6b28c2c5fd5c80fab26e0d53fc0a0328.webp 760w,
+               /robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/adaptive-gripper_hu1c7df700c992cc25e06362d44481efc6_311067_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E6%9C%BA%E6%9E%84%E5%88%9B%E6%96%B0/adaptive-gripper_hu1c7df700c992cc25e06362d44481efc6_311067_ef0ee0cfbcabf11625f0b574040a894e.webp&#34;
                width=&#34;760&#34;
-               height=&#34;496&#34;
+               height=&#34;574&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      图4.脊髓损伤康复机器人训练过程
-    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</description>
+      灵巧机械手
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;开发了纸制夹爪，适用于软质食品抓取，具有低成本、一次性使用特点&lt;/li&gt;
+&lt;li&gt;设计了欠驱动采摘夹爪，实现柑橘等水果的自动采摘&lt;/li&gt;
+&lt;li&gt;研制了仿生机械手，模拟人手抓取功能&lt;/li&gt;
+&lt;li&gt;建立了软体夹爪设计理论，包括力闭合和形状闭合抓取策略&lt;/li&gt;
+&lt;li&gt;开发了差速齿轮传动机构，实现单一电机驱动多自由度运动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ma Shugen, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/ma2020made/&#34;&gt;Paper Made Grippers for Soft Food Grasping&lt;/a&gt;&amp;rdquo;, &lt;em&gt;UR&lt;/em&gt;, 2020&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yu Zhaojiang, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/yu2021underactuated/&#34;&gt;Underactuated Picking Gripper for Grasping and Cutting Citrus&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2021&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yuan Jianjun, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/yuan2020robotic/&#34;&gt;A Robotic Gripper Design and Integrated Solution Towards Tunnel Boring Construction Equipment&lt;/a&gt;&amp;rdquo;, &lt;em&gt;IROS&lt;/em&gt;, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 灵巧机械手系统图片 --&gt;
+&lt;h2 id=&#34;研究意义与发展&#34;&gt;研究意义与发展&lt;/h2&gt;
+&lt;p&gt;机构创新研究在机器人技术发展中具有重要的理论意义和实用价值。通过模块化设计理念和仿生学原理的应用，我们探索了适应复杂环境的机器人机构设计方法。软体机器人技术的引入为安全人机交互提供了新的技术路径，而多学科交叉融合的研究方法为机器人机构设计理论的发展提供了系统性支撑。&lt;/p&gt;
+&lt;p&gt;目前的研究成果在工业自动化、农业自动化、医疗康复、服务机器人等领域展现出良好的应用潜力。特别是在特种作业环境中，如TBM施工、管道检测等场景，我们的机构创新技术为解决实际工程问题提供了有效方案。&lt;/p&gt;
+&lt;p&gt;未来研究将重点关注智能化机构设计、新材料应用、生物混合系统等前沿方向，探索微纳尺度机器人机构和群体机器人协同设计等新兴领域，为机器人技术的进一步发展提供理论和技术支撑。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>机构创新设计方向</title>
-      <link>https://robweb-together.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/</link>
-      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://robweb-together.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/</guid>
-      <description>&lt;p&gt;盾构机是现代隧道掘进施工过程中不可或缺的大型自动化装备。然而在对硬质地层进行施工导致刀具频繁发生磨损时，国内外仍然普遍采用传统方式深入地下进行人工换刀。换刀过程伴随着高气压、地层塌方、危险气体等多重恶劣环境危险因素影响，加之刀具质量大、作业环境密闭狭窄等负面特征，人工换刀造成的伤亡事故在全世界范围频频发生。因此采用自动化方案代替人工换刀迫在眉睫。&lt;/p&gt;
-&lt;p&gt;本实验室对于盾构机换刀机器人的研究取得了如下成果：&lt;/p&gt;
-&lt;p&gt;(1)	根据盾构机内部空间以及工作任务需求设计了相应的自动换刀机器人系统，包括系统自由度的确定、各关节构型、动力元器件选型以及强度校核等；&lt;/p&gt;
-&lt;p&gt;(2)	实现盾构机自动换刀机器人的电气系统设计，并为上下位机编写相应的控制程序（图1）；
+      <title>视觉感知</title>
+      <link>https://robweb-together.github.io/robot/%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/robot/%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/</guid>
+      <description>&lt;p&gt;视觉感知是机器人感知和理解环境的关键技术，致力于通过视觉传感器获取环境信息，为机器人的自主导航、精确操作和智能决策提供支撑。我们的研究涵盖了从基础理论到技术应用的多个层面，形成了系统的视觉感知技术体系。&lt;/p&gt;
+&lt;h2 id=&#34;研究概述&#34;&gt;研究概述&lt;/h2&gt;
+&lt;p&gt;视觉感知研究聚焦于开发鲁棒、高效的视觉感知算法，使机器人能够在复杂、动态的环境中实现精确的环境感知和目标识别。我们的研究团队在多个关键技术上取得了重要突破，特别是在SLAM、视觉伺服、环境感知等方面形成了独特的技术优势。&lt;/p&gt;
+&lt;h2 id=&#34;核心研究方向&#34;&gt;核心研究方向&lt;/h2&gt;
+&lt;h3 id=&#34;1-移动机器人slam技术&#34;&gt;1. 移动机器人SLAM技术&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;同步定位与地图构建（SLAM）是移动机器人自主导航的基础技术，在低纹理、动态变化的环境中面临重大挑战。传统的SLAM方法在激光雷达退化环境和纹理缺失场景中容易失效，导致定位精度下降和地图构建失败。特别是在工业环境、地下空间、长走廊等场景中，单一传感器往往无法提供足够的特征信息。多传感器融合SLAM技术通过整合激光雷达、相机、惯性测量单元等多种传感器的优势，实现互补增强，为移动机器人在复杂环境中的稳定导航提供了技术保障。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
 
 
 
@@ -223,20 +372,123 @@
 
 
 
-&lt;figure  id=&#34;figure-图1电气系统设计示意图&#34;&gt;
+&lt;figure  id=&#34;figure-移动机器人slam章&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图1.电气系统设计示意图&#34; srcset=&#34;
-               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_52d5860f154bc535cf97f53c8d19b991.webp 400w,
-               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_e72326dbc651a06f2144517e63a24568.webp 760w,
-               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://robweb-together.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image1_hu4fe1485f50fae2148ebb198eafb158ba_44637_52d5860f154bc535cf97f53c8d19b991.webp&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;mobile-SLAM.jpg&#34; alt=&#34;移动机器人SLAM【章】&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      移动机器人SLAM【章】
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;开发了LVIO-Fusion多传感器融合SLAM系统，实现激光雷达-视觉-惯性紧耦合&lt;/li&gt;
+&lt;li&gt;设计了适应退化环境的定位算法，处理激光雷达退化场景&lt;/li&gt;
+&lt;li&gt;实现了实时地图构建和更新，采用动态体素映射方法&lt;/li&gt;
+&lt;li&gt;建立了鲁棒的状态估计方法，基于粗到细的状态估计策略&lt;/li&gt;
+&lt;li&gt;开发了在线光度标定技术，获取真实辐射信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zhang Hongkai, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/zhang2024LVIO-Fusion/&#34;&gt;LVIO-Fusion:Tightly-Coupled LiDAR-Visual-Inertial Odometry and Mapping in Degenerate Environments&lt;/a&gt;&amp;rdquo;, &lt;em&gt;IEEE Robotics and Automation Letters&lt;/em&gt;, 2024&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Guo Dianzhen, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/guo2021visualized/&#34;&gt;Visualized Small-size Pipeline Model Building Using Multilink-articulated Wheeled In-pipe Inspection Robot&lt;/a&gt;&amp;rdquo;, &lt;em&gt;RCAR&lt;/em&gt;, 2021&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 移动机器人SLAM系统图片 --&gt;
+&lt;h3 id=&#34;2-内容识别与理解&#34;&gt;2. 内容识别与理解&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;机器人在执行操作任务时需要准确感知操作环境，包括目标物体的位置、姿态、形状等信息。传统的视觉方法在复杂环境中面临光照变化、遮挡、噪声等挑战，难以实现稳定可靠的目标识别。特别是在工业检测、质量评估、环境建模等应用场景中，需要处理大量、多样化的视觉数据，对算法的鲁棒性和实时性提出了极高要求。基于点云处理和多模态传感器融合的环境感知技术，通过整合多种传感器的信息，实现对复杂场景的全面理解和准确识别。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-内容识别与理解胡&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;object-recognition.jpg&#34; alt=&#34;内容识别与理解【胡】&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      内容识别与理解【胡】
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;开发了基于点云处理的物体位姿识别技术，实现高精度位姿检测&lt;/li&gt;
+&lt;li&gt;设计了多模态传感器融合感知系统，整合多种传感器信息&lt;/li&gt;
+&lt;li&gt;实现了复杂场景下的目标检测与跟踪，适应动态环境&lt;/li&gt;
+&lt;li&gt;建立了环境建模与理解方法，支持三维环境重建&lt;/li&gt;
+&lt;li&gt;开发了可视化管道模型构建技术，用于管道检测应用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Guo Dianzhen, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/guo2021visualized/&#34;&gt;Visualized Small-size Pipeline Model Building Using Multilink-articulated Wheeled In-pipe Inspection Robot&lt;/a&gt;&amp;rdquo;, &lt;em&gt;RCAR&lt;/em&gt;, 2021&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 机器人操作环境感知系统图片 --&gt;
+&lt;h3 id=&#34;3-视觉伺服控制技术&#34;&gt;3. 视觉伺服控制技术&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;视觉伺服控制是机器人实现精确操作的关键技术，需要在复杂环境中实现稳定、精确的视觉反馈控制。传统的视觉伺服方法在污染环境、光照变化、目标状态不确定等条件下往往表现不佳，导致控制精度下降和系统不稳定。特别是在工业应用和特种作业中，如TBM刀具更换、精密装配等场景，对视觉伺服的鲁棒性和精度提出了极高要求。基于网格方向误差映射的视觉伺服技术通过创新的控制策略和鲁棒算法设计，为机器人在恶劣环境中的精确操作提供了有效解决方案。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-视觉伺服控制技术&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;视觉伺服控制技术&#34; srcset=&#34;
+               /robot/%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/visual-servo_hu2c75a75c0f48448113030906a6be9abe_501837_4be2b967772d78ecf72a48d58658db47.webp 400w,
+               /robot/%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/visual-servo_hu2c75a75c0f48448113030906a6be9abe_501837_2debf6e9dc990ffabc53e86e71a73d19.webp 760w,
+               /robot/%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/visual-servo_hu2c75a75c0f48448113030906a6be9abe_501837_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5/visual-servo_hu2c75a75c0f48448113030906a6be9abe_501837_4be2b967772d78ecf72a48d58658db47.webp&#34;
                width=&#34;760&#34;
-               height=&#34;404&#34;
+               height=&#34;342&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      图1.电气系统设计示意图
+      视觉伺服控制技术
     &lt;/figcaption&gt;&lt;/figure&gt;
-(3)	通过对盾构机自动换刀机器人进行数学建模，完成相应运动学正逆解以及相应的轨迹设计（图2）；
+&lt;ul&gt;
+&lt;li&gt;开发了基于网格方向误差映射的视觉伺服方法，提高控制鲁棒性&lt;/li&gt;
+&lt;li&gt;设计了适应污染环境的鲁棒视觉控制器，处理环境干扰&lt;/li&gt;
+&lt;li&gt;实现了TBM刀具更换的视觉伺服系统，支持现场应用&lt;/li&gt;
+&lt;li&gt;建立了视觉伺服控制理论体系，包括交互矩阵设计&lt;/li&gt;
+&lt;li&gt;开发了直接恒定的交互矩阵映射方法，简化控制计算&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Yang Qiang, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/yang2025visual/&#34;&gt;Visual Servoing With Grid‐Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement&lt;/a&gt;&amp;rdquo;, &lt;em&gt;Journal of Field Robotics&lt;/em&gt;, 2025&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 视觉伺服控制系统图片 --&gt;
+&lt;h2 id=&#34;研究意义与发展&#34;&gt;研究意义与发展&lt;/h2&gt;
+&lt;p&gt;视觉感知研究在机器人技术发展中具有重要的理论意义和实用价值。通过多传感器融合技术和退化环境适应算法的开发，我们建立了适应复杂环境的机器人视觉感知理论体系。实时处理能力和鲁棒性设计的引入为机器人系统在动态环境中的稳定运行提供了技术保障，而模块化视觉软件框架的建立为视觉技术的工程化应用提供了系统性支撑。&lt;/p&gt;
+&lt;p&gt;目前的研究成果在工业自动化、移动机器人、服务机器人、医疗康复、农业自动化等领域展现出良好的应用潜力。特别是在质量检测、自主导航、人机交互、手术导航等场景中，我们的视觉感知技术为实现精确、可靠的环境感知和目标识别提供了有效方案。&lt;/p&gt;
+&lt;p&gt;未来研究将重点关注深度学习集成、边缘计算、云端协同、多机器人视觉、人机视觉交互等前沿技术，为机器人视觉感知技术的进一步发展提供理论和技术支撑。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>运动规划</title>
+      <link>https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/</guid>
+      <description>&lt;p&gt;运动规划是机器人技术的核心研究领域，致力于解决机器人在复杂环境中如何安全、高效地完成各种任务的问题。我们的研究涵盖了从机械臂操作到移动机器人导航的多个方面，形成了系统的运动规划理论和技术体系。&lt;/p&gt;
+&lt;h2 id=&#34;研究概述&#34;&gt;研究概述&lt;/h2&gt;
+&lt;p&gt;运动规划研究聚焦于开发智能化的路径规划和轨迹优化算法，使机器人能够在动态、不确定的环境中实现精确、安全的运动。我们的研究团队在多个关键技术上取得了重要突破，为机器人系统的实际应用提供了理论支撑和技术保障。&lt;/p&gt;
+&lt;h2 id=&#34;核心研究方向&#34;&gt;核心研究方向&lt;/h2&gt;
+&lt;h3 id=&#34;1-机器人操作&#34;&gt;1. 机器人操作&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;机器人操作是机器人系统与物理世界交互的核心能力，在工业制造、医疗康复、服务机器人等领域具有重要应用价值。传统的机器人操作往往依赖于精确的环境模型和预定义的抓取策略，在实际应用中面临环境不确定性、目标物体多样性、操作精度要求高等挑战。特别是在复杂、动态的环境中，机器人需要具备实时感知、智能决策和精确执行的能力，以实现稳定、可靠的物体操作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
 
 
 
@@ -251,48 +503,89 @@
 
 
 
-&lt;figure  id=&#34;figure-图2盾构机自动换刀机器人数字模型&#34;&gt;
+&lt;figure  id=&#34;figure-机器人操作胡&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图2.盾构机自动换刀机器人数字模型&#34; srcset=&#34;
-               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_7ccd4b4335a72167043b49012587e3c6.webp 400w,
-               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_d7e1753b76731ca6f8f95c098b345deb.webp 760w,
-               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://robweb-together.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image2_hu6b2972143a98cf9706d1847784d008c3_384739_7ccd4b4335a72167043b49012587e3c6.webp&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;robot-operation.jpg&#34; alt=&#34;机器人操作【胡】&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      机器人操作【胡】
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;开发了基于视觉伺服的抓取规划算法，实现实时目标定位和抓取&lt;/li&gt;
+&lt;li&gt;设计了适应不确定环境的抓取策略，提高操作成功率&lt;/li&gt;
+&lt;li&gt;实现了多目标物体的智能抓取，支持不同形状和材质的物体&lt;/li&gt;
+&lt;li&gt;建立了抓取力优化控制方法，确保安全可靠的物体抓取&lt;/li&gt;
+&lt;li&gt;开发了基于网格方向误差映射的视觉伺服方法，适应污染环境&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Yang Qiang, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/yang2025visual/&#34;&gt;Visual Servoing With Grid‐Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement&lt;/a&gt;&amp;rdquo;, &lt;em&gt;Journal of Field Robotics&lt;/em&gt;, 2025&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 机械臂抓取规划系统图片 --&gt;
+&lt;h3 id=&#34;2-复杂狭窄环境轨迹规划&#34;&gt;2. 复杂狭窄环境轨迹规划&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在工业应用和特种作业中，机械臂经常需要在狭窄、复杂的空间内工作，如管道内部、设备间隙、密闭容器等环境。传统的路径规划方法往往难以处理高维配置空间、复杂约束条件和实时性要求。特别是在多自由度机械臂系统中，需要同时考虑运动学约束、动力学约束、碰撞避免等多个目标，实现安全、高效的轨迹规划。复杂狭窄环境下的轨迹规划技术对于提高机器人系统的适用性和作业效率具有重要意义。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-复杂狭窄环境轨迹规划&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;复杂狭窄环境轨迹规划&#34; srcset=&#34;
+               /robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/trajectory-planning_hu0e3d86bfe386abbf6e03a72c4c41baa8_105907_13acb18d366e65a0785a93d30bd458a8.webp 400w,
+               /robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/trajectory-planning_hu0e3d86bfe386abbf6e03a72c4c41baa8_105907_42b9171cd59d4fc37d8b88126b1e1273.webp 760w,
+               /robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/trajectory-planning_hu0e3d86bfe386abbf6e03a72c4c41baa8_105907_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/trajectory-planning_hu0e3d86bfe386abbf6e03a72c4c41baa8_105907_13acb18d366e65a0785a93d30bd458a8.webp&#34;
                width=&#34;760&#34;
-               height=&#34;329&#34;
+               height=&#34;386&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
-      图2.盾构机自动换刀机器人数字模型
+      复杂狭窄环境轨迹规划
     &lt;/figcaption&gt;&lt;/figure&gt;
-(4)	基于模拟的盾构机测试环境，针对样机进行相应的测试（图3）。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-图3样机测试&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;图3.样机测试&#34; srcset=&#34;
-               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_15d2db98249cfc2e90025b981d5343f5.webp 400w,
-               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_5d94f9610e480da000c97e45df85a726.webp 760w,
-               /robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://robweb-together.github.io/robot/%E7%9B%BE%E6%9E%84%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8D%A2%E5%88%80%E6%9C%BA%E5%99%A8%E4%BA%BA/image3_huf4d07b1a5766a0508e235b3f4262863b_1107346_15d2db98249cfc2e90025b981d5343f5.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;394&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      图3.样机测试
-    &lt;/figcaption&gt;&lt;/figure&gt;
-经过模拟的实验环境，验证了所设计的盾构机自动换刀机器人的可行性，整体操作过程中，无明显机械结构方面的问题，上下位在控制过程中能够顺利的完成相应操作命令，能够实现完整的换刀流程，为实现盾构机的进一步自动化做出了突出贡献。&lt;/p&gt;</description>
+&lt;ul&gt;
+&lt;li&gt;开发了基于约束的路径规划算法，处理复杂几何约束&lt;/li&gt;
+&lt;li&gt;设计了动态避障策略，适应动态环境变化&lt;/li&gt;
+&lt;li&gt;实现了多自由度机械臂的协调控制，优化运动性能&lt;/li&gt;
+&lt;li&gt;建立了实时路径优化方法，满足实时性要求&lt;/li&gt;
+&lt;li&gt;开发了多目标几何优化框架，优化机械臂结构参数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hu Xiaomeng, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/hu2022multi/&#34;&gt;Multi-Objective Geometric Optimization of A Multi-Link Manipulator Using Parameterized Design Method&lt;/a&gt;&amp;rdquo;, &lt;em&gt;IROS&lt;/em&gt;, 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Du Liang, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/du2020design/&#34;&gt;Design and experimental tests of an active cooling system for a kind of in-vessel inspection manipulator&lt;/a&gt;&amp;rdquo;, &lt;em&gt;Industrial Robot&lt;/em&gt;, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 复杂环境避障系统图片 --&gt;
+&lt;h3 id=&#34;3-动态运动优化&#34;&gt;3. 动态运动优化&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;研究背景&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;轨迹优化是提高机器人运动性能的关键技术，需要在满足运动学、动力学约束的前提下，实现最优的运动轨迹。传统的轨迹规划方法往往只考虑基本的运动学约束，难以满足高精度、高效率的应用需求。特别是在康复训练、精密加工、动态任务等场景中，需要综合考虑轨迹平滑性、能量效率、时间优化等多个目标。动态运动优化技术通过智能算法和优化理论，为机器人系统提供高质量的运动轨迹，是实现高性能机器人控制的重要基础。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;研究内容&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开发了基于遗传算法的轨迹优化方法，实现多目标优化&lt;/li&gt;
+&lt;li&gt;设计了自适应轨迹平滑算法，提高轨迹质量&lt;/li&gt;
+&lt;li&gt;实现了多目标轨迹优化，平衡不同性能指标&lt;/li&gt;
+&lt;li&gt;建立了实时轨迹调整机制，适应动态需求&lt;/li&gt;
+&lt;li&gt;开发了最优激励轨迹算法，用于动态参数识别&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;部分成果&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cen Yuhui, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/cen2022trajectory/&#34;&gt;Trajectory Optimization Algorithm of Trajectory Rehabilitation Training Mode for Rehabilitation Robot&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ROBIO&lt;/em&gt;, 2022&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luo Ruiqing, et al.&lt;/strong&gt; &amp;ldquo;&lt;a href=&#34;https://robweb-together.github.io/publication/luo2023optimal/&#34;&gt;Optimal Exciting Trajectories for Identifying Dynamic Parameters of Serial Robots&lt;/a&gt;&amp;rdquo;, &lt;em&gt;ICMA&lt;/em&gt;, 2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 轨迹优化算法图片 --&gt;
+&lt;h2 id=&#34;研究意义与发展&#34;&gt;研究意义与发展&lt;/h2&gt;
+&lt;p&gt;运动规划研究在机器人技术发展中具有重要的理论意义和实用价值。通过多传感器融合技术和实时优化算法的开发，我们建立了适应动态环境的机器人运动规划理论体系。自适应学习能力的引入为机器人从经验中学习提供了技术路径，而人机协作规划方法为实现安全、自然的人机交互提供了理论支撑。&lt;/p&gt;
+&lt;p&gt;目前的研究成果在工业自动化、医疗康复、服务机器人、特种作业、农业自动化等领域展现出良好的应用潜力。特别是在复杂环境中的路径规划、多机器人协同操作等场景中，我们的运动规划技术为实现高效、安全的机器人运动提供了可靠保障。&lt;/p&gt;
+&lt;p&gt;未来研究将重点关注深度学习集成、群体机器人规划、动态环境适应、人机自然交互、云端规划优化等前沿技术，为机器人运动规划技术的进一步发展提供理论和技术支撑。&lt;/p&gt;</description>
     </item>
     
   </channel>

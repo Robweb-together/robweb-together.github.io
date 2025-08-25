@@ -1,0 +1,1153 @@
+<!DOCTYPE html><html lang="zh-Hans" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="HuBot" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="运动规划是机器人技术的核心研究领域，致力于解决机器人在复杂环境中如何安全、高效地完成各种任务的问题。我们的研究涵盖了从机械臂操作到移动机器人导航的多个方面，形成了系统的运动规划理论和技术体系。" />
+
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.df9e1d77eafbb0936f26c961fa69f633.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="上海机器人研究所" />
+  <meta property="og:url" content="https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/" />
+  <meta property="og:title" content="运动规划 | 上海机器人研究所" />
+  <meta property="og:description" content="运动规划是机器人技术的核心研究领域，致力于解决机器人在复杂环境中如何安全、高效地完成各种任务的问题。我们的研究涵盖了从机械臂操作到移动机器人导航的多个方面，形成了系统的运动规划理论和技术体系。" /><meta property="og:image" content="https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="zh-Hans" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2024-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2024-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>运动规划 | 上海机器人研究所</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="11e107dbc087cf95b552bec7926ec48f" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2539a3058b6536055b0f14f7d5f9df7b.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">上海机器人研究所</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">上海机器人研究所</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/introduction"><span>主页</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/post"><span>新闻</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/robot"><span>研究</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication"><span>论文</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/awards"><span>获奖</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/member"><span>成员</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/contact"><span>联系</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>运动规划</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 1, 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>运动规划是机器人技术的核心研究领域，致力于解决机器人在复杂环境中如何安全、高效地完成各种任务的问题。我们的研究涵盖了从机械臂操作到移动机器人导航的多个方面，形成了系统的运动规划理论和技术体系。</p>
+<h2 id="研究概述">研究概述</h2>
+<p>运动规划研究聚焦于开发智能化的路径规划和轨迹优化算法，使机器人能够在动态、不确定的环境中实现精确、安全的运动。我们的研究团队在多个关键技术上取得了重要突破，为机器人系统的实际应用提供了理论支撑和技术保障。</p>
+<h2 id="核心研究方向">核心研究方向</h2>
+<h3 id="1-机器人操作">1. 机器人操作</h3>
+<p><strong>研究背景</strong></p>
+<p>机器人操作是机器人系统与物理世界交互的核心能力，在工业制造、医疗康复、服务机器人等领域具有重要应用价值。传统的机器人操作往往依赖于精确的环境模型和预定义的抓取策略，在实际应用中面临环境不确定性、目标物体多样性、操作精度要求高等挑战。特别是在复杂、动态的环境中，机器人需要具备实时感知、智能决策和精确执行的能力，以实现稳定、可靠的物体操作。</p>
+<p><strong>研究内容</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-机器人操作胡">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="robot-operation.jpg" alt="机器人操作【胡】" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      机器人操作【胡】
+    </figcaption></figure>
+<ul>
+<li>开发了基于视觉伺服的抓取规划算法，实现实时目标定位和抓取</li>
+<li>设计了适应不确定环境的抓取策略，提高操作成功率</li>
+<li>实现了多目标物体的智能抓取，支持不同形状和材质的物体</li>
+<li>建立了抓取力优化控制方法，确保安全可靠的物体抓取</li>
+<li>开发了基于网格方向误差映射的视觉伺服方法，适应污染环境</li>
+</ul>
+<p><strong>部分成果</strong></p>
+<ul>
+<li><strong>Yang Qiang, et al.</strong> &ldquo;<a href="/publication/yang2025visual/">Visual Servoing With Grid‐Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement</a>&rdquo;, <em>Journal of Field Robotics</em>, 2025</li>
+</ul>
+<!-- 机械臂抓取规划系统图片 -->
+<h3 id="2-复杂狭窄环境轨迹规划">2. 复杂狭窄环境轨迹规划</h3>
+<p><strong>研究背景</strong></p>
+<p>在工业应用和特种作业中，机械臂经常需要在狭窄、复杂的空间内工作，如管道内部、设备间隙、密闭容器等环境。传统的路径规划方法往往难以处理高维配置空间、复杂约束条件和实时性要求。特别是在多自由度机械臂系统中，需要同时考虑运动学约束、动力学约束、碰撞避免等多个目标，实现安全、高效的轨迹规划。复杂狭窄环境下的轨迹规划技术对于提高机器人系统的适用性和作业效率具有重要意义。</p>
+<p><strong>研究内容</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-复杂狭窄环境轨迹规划">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="复杂狭窄环境轨迹规划" srcset="
+               /robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/trajectory-planning_hu0e3d86bfe386abbf6e03a72c4c41baa8_105907_13acb18d366e65a0785a93d30bd458a8.webp 400w,
+               /robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/trajectory-planning_hu0e3d86bfe386abbf6e03a72c4c41baa8_105907_42b9171cd59d4fc37d8b88126b1e1273.webp 760w,
+               /robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/trajectory-planning_hu0e3d86bfe386abbf6e03a72c4c41baa8_105907_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/trajectory-planning_hu0e3d86bfe386abbf6e03a72c4c41baa8_105907_13acb18d366e65a0785a93d30bd458a8.webp"
+               width="760"
+               height="386"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      复杂狭窄环境轨迹规划
+    </figcaption></figure>
+<ul>
+<li>开发了基于约束的路径规划算法，处理复杂几何约束</li>
+<li>设计了动态避障策略，适应动态环境变化</li>
+<li>实现了多自由度机械臂的协调控制，优化运动性能</li>
+<li>建立了实时路径优化方法，满足实时性要求</li>
+<li>开发了多目标几何优化框架，优化机械臂结构参数</li>
+</ul>
+<p><strong>部分成果</strong></p>
+<ul>
+<li><strong>Hu Xiaomeng, et al.</strong> &ldquo;<a href="/publication/hu2022multi/">Multi-Objective Geometric Optimization of A Multi-Link Manipulator Using Parameterized Design Method</a>&rdquo;, <em>IROS</em>, 2022</li>
+<li><strong>Du Liang, et al.</strong> &ldquo;<a href="/publication/du2020design/">Design and experimental tests of an active cooling system for a kind of in-vessel inspection manipulator</a>&rdquo;, <em>Industrial Robot</em>, 2020</li>
+</ul>
+<!-- 复杂环境避障系统图片 -->
+<h3 id="3-动态运动优化">3. 动态运动优化</h3>
+<p><strong>研究背景</strong></p>
+<p>轨迹优化是提高机器人运动性能的关键技术，需要在满足运动学、动力学约束的前提下，实现最优的运动轨迹。传统的轨迹规划方法往往只考虑基本的运动学约束，难以满足高精度、高效率的应用需求。特别是在康复训练、精密加工、动态任务等场景中，需要综合考虑轨迹平滑性、能量效率、时间优化等多个目标。动态运动优化技术通过智能算法和优化理论，为机器人系统提供高质量的运动轨迹，是实现高性能机器人控制的重要基础。</p>
+<p><strong>研究内容</strong></p>
+<ul>
+<li>开发了基于遗传算法的轨迹优化方法，实现多目标优化</li>
+<li>设计了自适应轨迹平滑算法，提高轨迹质量</li>
+<li>实现了多目标轨迹优化，平衡不同性能指标</li>
+<li>建立了实时轨迹调整机制，适应动态需求</li>
+<li>开发了最优激励轨迹算法，用于动态参数识别</li>
+</ul>
+<p><strong>部分成果</strong></p>
+<ul>
+<li><strong>Cen Yuhui, et al.</strong> &ldquo;<a href="/publication/cen2022trajectory/">Trajectory Optimization Algorithm of Trajectory Rehabilitation Training Mode for Rehabilitation Robot</a>&rdquo;, <em>ROBIO</em>, 2022</li>
+<li><strong>Luo Ruiqing, et al.</strong> &ldquo;<a href="/publication/luo2023optimal/">Optimal Exciting Trajectories for Identifying Dynamic Parameters of Serial Robots</a>&rdquo;, <em>ICMA</em>, 2023</li>
+</ul>
+<!-- 轨迹优化算法图片 -->
+<h2 id="研究意义与发展">研究意义与发展</h2>
+<p>运动规划研究在机器人技术发展中具有重要的理论意义和实用价值。通过多传感器融合技术和实时优化算法的开发，我们建立了适应动态环境的机器人运动规划理论体系。自适应学习能力的引入为机器人从经验中学习提供了技术路径，而人机协作规划方法为实现安全、自然的人机交互提供了理论支撑。</p>
+<p>目前的研究成果在工业自动化、医疗康复、服务机器人、特种作业、农业自动化等领域展现出良好的应用潜力。特别是在复杂环境中的路径规划、多机器人协同操作等场景中，我们的运动规划技术为实现高效、安全的机器人运动提供了可靠保障。</p>
+<p>未来研究将重点关注深度学习集成、群体机器人规划、动态环境适应、人机自然交互、云端规划优化等前沿技术，为机器人运动规划技术的进一步发展提供理论和技术支撑。</p>
+    </div>
+
+    
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/&amp;text=%e8%bf%90%e5%8a%a8%e8%a7%84%e5%88%92" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/&amp;t=%e8%bf%90%e5%8a%a8%e8%a7%84%e5%88%92" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e8%bf%90%e5%8a%a8%e8%a7%84%e5%88%92&amp;body=https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/&amp;title=%e8%bf%90%e5%8a%a8%e8%a7%84%e5%88%92" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%e8%bf%90%e5%8a%a8%e8%a7%84%e5%88%92%20https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://robweb-together.github.io/robot/%E8%BF%90%E5%8A%A8%E8%A7%84%E5%88%92/&amp;title=%e8%bf%90%e5%8a%a8%e8%a7%84%e5%88%92" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/hubot/"><img class="avatar mr-3 avatar-circle" src="/author/hubot/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="HuBot"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/hubot/">HuBot</a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+        
+  
+    
+    
+
+
+
+
+
+  
+    <p class="powered-by">
+      
+      
+      
+      Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> and
+      <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>.
+      <br>
+      © 2018-2025 SRI-Lab
+      
+    </p>
+  </footer>
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.5a3a4e7cbc7b4e121b2d29312cf8ad59.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.6b73888494485d3b0874ca2ec83f614f.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.a675601e9e3d4b1cba675b93de6cd541.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,1173 @@
+<!DOCTYPE html><html lang="zh-Hans" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="HuBot" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="伺服控制是机器人系统的核心技术，致力于通过先进的控制算法和系统架构，实现机器人的精确、稳定、高效运动。我们的研究涵盖了从底层嵌入式控制到高层智能控制的多个层面，形成了完整的控制技术体系。" />
+
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.df9e1d77eafbb0936f26c961fa69f633.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="上海机器人研究所" />
+  <meta property="og:url" content="https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/" />
+  <meta property="og:title" content="伺服控制 | 上海机器人研究所" />
+  <meta property="og:description" content="伺服控制是机器人系统的核心技术，致力于通过先进的控制算法和系统架构，实现机器人的精确、稳定、高效运动。我们的研究涵盖了从底层嵌入式控制到高层智能控制的多个层面，形成了完整的控制技术体系。" /><meta property="og:image" content="https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="zh-Hans" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2024-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2024-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>伺服控制 | 上海机器人研究所</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="0faf2ff9def8d4b6eecd5d4c226eb6fa" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2539a3058b6536055b0f14f7d5f9df7b.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">上海机器人研究所</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">上海机器人研究所</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/introduction"><span>主页</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/post"><span>新闻</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/robot"><span>研究</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication"><span>论文</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/awards"><span>获奖</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/member"><span>成员</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/contact"><span>联系</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>伺服控制</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 1, 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>伺服控制是机器人系统的核心技术，致力于通过先进的控制算法和系统架构，实现机器人的精确、稳定、高效运动。我们的研究涵盖了从底层嵌入式控制到高层智能控制的多个层面，形成了完整的控制技术体系。</p>
+<h2 id="研究概述">研究概述</h2>
+<p>伺服控制研究聚焦于开发高性能的控制算法和系统架构，解决机器人在复杂环境中的控制问题。我们的研究团队在多个关键技术上取得了重要突破，特别是在摩擦建模、自适应控制、实时系统等方面形成了独特的技术优势。</p>
+<h2 id="核心研究方向">核心研究方向</h2>
+<h3 id="1-实时控制系统">1. 实时控制系统</h3>
+<p><strong>研究背景</strong></p>
+<p>现代机器人系统需要在复杂、动态的环境中实现高精度、高可靠性的控制，对实时性提出了极高要求。传统的控制系统往往存在实时性不足、扩展性差、通信延迟等问题，难以满足现代工业应用和特种作业的需求。特别是在多轴协调控制、分布式系统集成等场景中，需要建立高带宽、低延迟的实时控制架构，确保控制指令的及时响应和系统状态的准确反馈。</p>
+<p><strong>研究内容</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-实时控制系统罗">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="real-time-control.jpg" alt="实时控制系统[罗]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      实时控制系统[罗]
+    </figcaption></figure>
+<ul>
+<li>开发了基于EtherCAT的分布式实时控制系统，实现高带宽、低延迟通信</li>
+<li>设计了模块化的嵌入式控制架构，支持多轴协调控制</li>
+<li>实现了基于ROS2的分布式实时控制系统架构（ROS2-ADRCS）</li>
+<li>建立了高精度位置控制方法，包括位置、阻抗和导纳控制策略</li>
+<li>开发了全抢占式事件驱动内核，提高系统实时性和可靠性</li>
+</ul>
+<p><strong>部分成果</strong></p>
+<ul>
+<li><strong>Cen Yuhui, et al.</strong> &ldquo;<a href="/publication/cen2021integrated/">An Integrated Software System Designed for Upper Limb Rehabilitation Robot</a>&rdquo;, <em>ROBIO</em>, 2021</li>
+<li><strong>Guang Chengfang, et al.</strong> &ldquo;<a href="/publication/guang2023design/">Design of a Differential Modular Joint-based Nursing Manipulator and its Digital Twin System</a>&rdquo;, <em>ICMA</em>, 2023</li>
+<li><strong>Zhou Tong, et al.</strong> &ldquo;<a href="/publication/zhou2021integration/">Integration mode of standing balance and trajectory training based on lower limb rehabilitation exoskeleton</a>&rdquo;, <em>ROBIO</em>, 2021</li>
+</ul>
+<!-- 实时控制系统架构图片 -->
+<h3 id="2-基于电流信息的力控研究">2. 基于电流信息的力控研究</h3>
+<p><strong>研究背景</strong></p>
+<p>力控制是机器人实现精确操作和柔顺交互的关键技术，在精密装配、人机协作、医疗康复等应用场景中具有重要价值。传统的力控制方法需要额外的力传感器，不仅增加了系统复杂性和成本，还面临传感器安装困难、维护复杂等问题。基于电流信息的力估计方法通过分析电机电流与输出力矩的关系，实现无传感器的力控制，为机器人系统的简化和成本降低提供了有效途径。</p>
+<p><strong>研究内容</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-基于电流信息的力控研究罗">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="current-based-force-control.jpg" alt="基于电流信息的力控研究[罗]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      基于电流信息的力控研究[罗]
+    </figcaption></figure>
+<ul>
+<li>开发了基于电流信息的力估计方法，实现无传感器力控制</li>
+<li>设计了自适应神经网络计算力矩控制，提高控制精度</li>
+<li>实现了非对称摩擦模型建模，考虑速度、负载和温度依赖效应</li>
+<li>建立了基于电流的阻抗控制策略，实现柔顺交互</li>
+<li>开发了卡尔曼滤波融合方法，结合电流信息和触觉传感器信息</li>
+</ul>
+<p><strong>部分成果</strong></p>
+<ul>
+<li><strong>He Yimin, et al.</strong> &ldquo;<a href="/publication/he2021joint/">A Joint Friction Model of Robotic Manipulator for Low-speed Motion</a>&rdquo;, <em>ROBIO</em>, 2021</li>
+<li><strong>Liu Yukun, et al.</strong> &ldquo;<a href="/publication/liu2022dynamic/">Dynamic modeling and analysis for a differential modular robot joint with the friction model</a>&rdquo;, <em>ROBIO</em>, 2022</li>
+<li><strong>Tian Yujie, et al.</strong> &ldquo;<a href="/publication/tian2024contact/">Contact Force Estimation by Fusing Current and Tactile Information Through KF for Robot Arm</a>&rdquo;, <em>ROBIO</em>, 2024</li>
+<li><strong>He Minghui, et al.</strong> &ldquo;<a href="/publication/he2022parameter/">A Parameter Identification Method for Coupled Dynamics of Robotic Manipulator with Differential Modular Joints</a>&rdquo;, <em>ROBIO</em>, 2022</li>
+</ul>
+<!-- 基于电流信息的力控制系统图片 -->
+<h3 id="3-自适应控制算法">3. 自适应控制算法</h3>
+<p><strong>研究背景</strong></p>
+<p>机器人在实际应用中面临参数不确定、外部干扰、负载变化等问题，传统的固定参数控制方法难以保证系统的稳定性和控制精度。特别是在复杂环境和动态任务中，机器人系统需要具备自适应能力，能够在线识别系统参数、补偿未知干扰、适应环境变化。自适应控制算法通过实时调整控制参数和策略，提高系统的鲁棒性和适应性，是实现智能机器人控制的关键技术。</p>
+<p><strong>研究内容</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-自适应控制算法罗">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="adaptive-control.jpg" alt="自适应控制算法[罗]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      自适应控制算法[罗]
+    </figcaption></figure>
+<ul>
+<li>开发了自适应神经网络计算力矩控制方案，融合参数化和非参数化模型</li>
+<li>设计了多径向基神经网络补偿器（MRBFNNs），实时补偿系统不确定性</li>
+<li>实现了参数在线识别算法，适应负载和温度变化</li>
+<li>建立了鲁棒控制策略，抑制外部干扰和建模误差</li>
+<li>开发了滑模控制方法，实现全局渐近收敛</li>
+</ul>
+<p><strong>部分成果</strong></p>
+<ul>
+<li><strong>Luo Ruiqing, et al.</strong> &ldquo;<a href="/publication/luo2024adaptive/">Adaptive Neural Computed Torque Control for Robot Joints With Asymmetric Friction Model</a>&rdquo;, <em>IEEE Robotics and Automation Letters</em>, 2024</li>
+<li><strong>Liu Menghui, et al.</strong> &ldquo;<a href="/publication/liu2024dynamic/">Dynamic Friction Model with Velocity and Asymmetric Load Dependency for Robot Joints</a>&rdquo;, <em>ICMA</em>, 2024</li>
+<li><strong>Luo Ruiqing, et al.</strong> &ldquo;<a href="/publication/luo2024lie/">Lie-theory-based dynamic model identification of serial robots considering nonlinear friction and optimal excitation trajectory</a>&rdquo;, <em>Robotica</em>, 2024</li>
+<li><strong>Cen Yuhui, et al.</strong> &ldquo;<a href="/publication/cen2022trajectory/">Trajectory Optimization Algorithm of Trajectory Rehabilitation Training Mode for Rehabilitation Robot</a>&rdquo;, <em>ROBIO</em>, 2022</li>
+<li><strong>Luo Ruiqing, et al.</strong> &ldquo;<a href="/publication/luo2023optimal/">Optimal Exciting Trajectories for Identifying Dynamic Parameters of Serial Robots</a>&rdquo;, <em>ICMA</em>, 2023</li>
+</ul>
+<!-- 自适应控制系统图片 -->
+<h2 id="研究意义与发展">研究意义与发展</h2>
+<p>伺服控制研究在机器人技术发展中具有重要的理论意义和实用价值。通过高精度摩擦建模和实时系统架构设计，我们建立了适应复杂环境的机器人控制理论体系。基于神经网络的智能补偿技术为处理系统不确定性和非线性提供了有效方法，而模块化设计理念为控制系统的可扩展性和维护性提供了技术支撑。</p>
+<p>目前的研究成果在工业自动化、医疗康复、服务机器人、特种作业等领域展现出良好的应用潜力。特别是在精密装配、手术机器人、高精度实验设备等场景中，我们的伺服控制技术为实现精确、稳定的机器人操作提供了可靠保障。</p>
+<p>未来研究将重点关注人工智能集成、云端控制、边缘计算、数字孪生等前沿技术，探索群体控制等新兴领域，为机器人控制技术的进一步发展提供理论和技术支撑。</p>
+    </div>
+
+    
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/&amp;text=%e4%bc%ba%e6%9c%8d%e6%8e%a7%e5%88%b6" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/&amp;t=%e4%bc%ba%e6%9c%8d%e6%8e%a7%e5%88%b6" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%e4%bc%ba%e6%9c%8d%e6%8e%a7%e5%88%b6&amp;body=https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/&amp;title=%e4%bc%ba%e6%9c%8d%e6%8e%a7%e5%88%b6" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%e4%bc%ba%e6%9c%8d%e6%8e%a7%e5%88%b6%20https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://robweb-together.github.io/robot/%E4%BC%BA%E6%9C%8D%E6%8E%A7%E5%88%B6/&amp;title=%e4%bc%ba%e6%9c%8d%e6%8e%a7%e5%88%b6" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/hubot/"><img class="avatar mr-3 avatar-circle" src="/author/hubot/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="HuBot"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/hubot/">HuBot</a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+        
+  
+    
+    
+
+
+
+
+
+  
+    <p class="powered-by">
+      
+      
+      
+      Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> and
+      <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>.
+      <br>
+      © 2018-2025 SRI-Lab
+      
+    </p>
+  </footer>
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.5a3a4e7cbc7b4e121b2d29312cf8ad59.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.6b73888494485d3b0874ca2ec83f614f.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.a675601e9e3d4b1cba675b93de6cd541.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
