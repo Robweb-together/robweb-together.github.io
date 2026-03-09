@@ -5,12 +5,28 @@
     <link>https://robweb-together.github.io/author/wan-weiwei/</link>
       <atom:link href="https://robweb-together.github.io/author/wan-weiwei/index.xml" rel="self" type="application/rss+xml" />
     <description>WAN Weiwei</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2026 SRI-Lab</copyright><lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2026 SRI-Lab</copyright><lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robweb-together.github.io/author/wan-weiwei/avatar_hu98fb0c655b01e7978f7f6e0d51616eba_49304_270x270_fill_q75_lanczos_center.jpg</url>
       <title>WAN Weiwei</title>
       <link>https://robweb-together.github.io/author/wan-weiwei/</link>
     </image>
+    
+    <item>
+      <title>Voxel-LIVO: Accurate and Robust LiDAR-Inertial-Visual Fused Odometry and Mapping in Challenge Environment</title>
+      <link>https://robweb-together.github.io/publication/zhang2026voxel-livo/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhang2026voxel-livo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clearance-Adaptive Grasping of Clustered Objects Using Pin-Array Robotic Fingers Under Uncertainty</title>
+      <link>https://robweb-together.github.io/publication/hu2026robots/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/hu2026robots/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Parameter Identification Method for Coupled Dynamics of Robotic Manipulator with Differential Modular Joints</title>

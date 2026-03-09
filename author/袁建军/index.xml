@@ -5,12 +5,36 @@
     <link>https://robweb-together.github.io/author/%E8%A2%81%E5%BB%BA%E5%86%9B/</link>
       <atom:link href="https://robweb-together.github.io/author/%E8%A2%81%E5%BB%BA%E5%86%9B/index.xml" rel="self" type="application/rss+xml" />
     <description>袁建军</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2026 SRI-Lab</copyright><lastBuildDate>Mon, 21 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2026 SRI-Lab</copyright><lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robweb-together.github.io/author/%E8%A2%81%E5%BB%BA%E5%86%9B/avatar_hu124d4fce3cded09085961d58e3b83572_627676_270x270_fill_lanczos_center_3.png</url>
       <title>袁建军</title>
       <link>https://robweb-together.github.io/author/%E8%A2%81%E5%BB%BA%E5%86%9B/</link>
     </image>
+    
+    <item>
+      <title>Voxel-LIVO: Accurate and Robust LiDAR-Inertial-Visual Fused Odometry and Mapping in Challenge Environment</title>
+      <link>https://robweb-together.github.io/publication/zhang2026voxel-livo/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhang2026voxel-livo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tightly-Coupled LiDAR–Inertial Odometry with Geometric-Uncertainty Modeling</title>
+      <link>https://robweb-together.github.io/publication/zhang2026tightly/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhang2026tightly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensorless Payload Estimation of Serial Robots Using an Improved Disturbance Kalman Filter with a Variable-Parameter Noise Model</title>
+      <link>https://robweb-together.github.io/publication/luo2025sensorless/</link>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/luo2025sensorless/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Visual Servoing With Grid‐Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement</title>

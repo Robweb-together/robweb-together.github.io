@@ -52,7 +52,7 @@
   
     
   
-  <meta name="description" content="The accurate estimation of the end-effector load force is essential in dynamic robotic scenarios, especially when the end-effector payload varies, to ensure safe and stable physical interaction among humans, robots, and environments. Currently, most applications still rely on payload calibration schemes, but existing calibration techniques often struggle to balance efficiency and accuracy. Moreover, current-based payload estimation methods, which are a commonly used and low-cost technique, face practical challenges such as non-negligible noise. To handle these issues, we propose a sensorless scheme based on a modified disturbance Kalman filter for accurately estimating the load force exerted on robots. Specifically, we introduce the dynamic model of robots that incorporates the nonlinear friction related to velocity and load. Subsequently, a generalized disturbance observer for the robot dynamics is adopted to avoid the measurement noise of joint acceleration. Considering the influence of friction and velocity on the noise parameters in the Kalman filter, a variable-parameter noise model is established. Finally, experimental results demonstrate that the proposed method achieves better performance in terms of accuracy, response, and overshoot suppression compared to the existing methods." />
+  <meta name="description" content="In the paper, we present a novel sensorless disturbance Kalman filter DKF for accurately estimating the different payload exerted on the end-effector of serial robots. The DKF employs a generalized momentum-based dynamic model of robots that incorporates velocity- and load-dependent nonlinear friction, achieving superior performance in external force estimation. A classic Kalman filter framework is adopted to effectively implement the approach. Furthermore, the influence of load, friction, and velocities on noise parameters within the Kalman filtering algorithm is explicitly considered through a variable-parameter modeling of the noise term, thereby enhancing the overall performance and adaptability of the DKF. Comparative experimental results of multiple external load observations for the robotic end-effector demonstrate that the proposed OKF observer achieves significant improvements in dynamic performance, such as response speed and overshoot, over both the BKF observer and other existing methods. In the design of the external load observer for robotic end-effectors, our study only addresses loads with constant or slowly varying mass, which limits application to highly dynamic scenarios. In practice, loads may change unpredictably in more complex ways. In future work, we will extend this research to more complex and dynamic loading conditions. Moreover, we plan to integrate unidirectional pressure sensors, which could assist in integrating the DKF into a force controller, enabling tasks like collision detection with payloads and assembly." />
 
   
   <link rel="alternate" hreflang="zh-Hans" href="https://robweb-together.github.io/publication/luo2025sensorless/" />
@@ -286,7 +286,7 @@
   <meta property="og:site_name" content="上海机器人研究所" />
   <meta property="og:url" content="https://robweb-together.github.io/publication/luo2025sensorless/" />
   <meta property="og:title" content="Sensorless Payload Estimation of Serial Robots Using an Improved Disturbance Kalman Filter with a Variable-Parameter Noise Model | 上海机器人研究所" />
-  <meta property="og:description" content="The accurate estimation of the end-effector load force is essential in dynamic robotic scenarios, especially when the end-effector payload varies, to ensure safe and stable physical interaction among humans, robots, and environments. Currently, most applications still rely on payload calibration schemes, but existing calibration techniques often struggle to balance efficiency and accuracy. Moreover, current-based payload estimation methods, which are a commonly used and low-cost technique, face practical challenges such as non-negligible noise. To handle these issues, we propose a sensorless scheme based on a modified disturbance Kalman filter for accurately estimating the load force exerted on robots. Specifically, we introduce the dynamic model of robots that incorporates the nonlinear friction related to velocity and load. Subsequently, a generalized disturbance observer for the robot dynamics is adopted to avoid the measurement noise of joint acceleration. Considering the influence of friction and velocity on the noise parameters in the Kalman filter, a variable-parameter noise model is established. Finally, experimental results demonstrate that the proposed method achieves better performance in terms of accuracy, response, and overshoot suppression compared to the existing methods." /><meta property="og:image" content="https://robweb-together.github.io/publication/luo2025sensorless/featured.jpg" />
+  <meta property="og:description" content="In the paper, we present a novel sensorless disturbance Kalman filter DKF for accurately estimating the different payload exerted on the end-effector of serial robots. The DKF employs a generalized momentum-based dynamic model of robots that incorporates velocity- and load-dependent nonlinear friction, achieving superior performance in external force estimation. A classic Kalman filter framework is adopted to effectively implement the approach. Furthermore, the influence of load, friction, and velocities on noise parameters within the Kalman filtering algorithm is explicitly considered through a variable-parameter modeling of the noise term, thereby enhancing the overall performance and adaptability of the DKF. Comparative experimental results of multiple external load observations for the robotic end-effector demonstrate that the proposed OKF observer achieves significant improvements in dynamic performance, such as response speed and overshoot, over both the BKF observer and other existing methods. In the design of the external load observer for robotic end-effectors, our study only addresses loads with constant or slowly varying mass, which limits application to highly dynamic scenarios. In practice, loads may change unpredictably in more complex ways. In future work, we will extend this research to more complex and dynamic loading conditions. Moreover, we plan to integrate unidirectional pressure sensors, which could assist in integrating the DKF into a force controller, enabling tasks like collision detection with payloads and assembly." /><meta property="og:image" content="https://robweb-together.github.io/publication/luo2025sensorless/featured.jpg" />
     <meta property="twitter:image" content="https://robweb-together.github.io/publication/luo2025sensorless/featured.jpg" /><meta property="og:locale" content="zh-Hans" />
   
     
@@ -330,7 +330,7 @@
   
   "author": {
     "@type": "Person",
-    "name": "Ruiqing Luo"
+    "name": "Luo Ruiqing"
   },
   
   "publisher": {
@@ -341,7 +341,7 @@
       "url": "https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "The accurate estimation of the end-effector load force is essential in dynamic robotic scenarios, especially when the end-effector payload varies, to ensure safe and stable physical interaction among humans, robots, and environments. Currently, most applications still rely on payload calibration schemes, but existing calibration techniques often struggle to balance efficiency and accuracy. Moreover, current-based payload estimation methods, which are a commonly used and low-cost technique, face practical challenges such as non-negligible noise. To handle these issues, we propose a sensorless scheme based on a modified disturbance Kalman filter for accurately estimating the load force exerted on robots. Specifically, we introduce the dynamic model of robots that incorporates the nonlinear friction related to velocity and load. Subsequently, a generalized disturbance observer for the robot dynamics is adopted to avoid the measurement noise of joint acceleration. Considering the influence of friction and velocity on the noise parameters in the Kalman filter, a variable-parameter noise model is established. Finally, experimental results demonstrate that the proposed method achieves better performance in terms of accuracy, response, and overshoot suppression compared to the existing methods."
+  "description": "In the paper, we present a novel sensorless disturbance Kalman filter DKF for accurately estimating the different payload exerted on the end-effector of serial robots. The DKF employs a generalized momentum-based dynamic model of robots that incorporates velocity- and load-dependent nonlinear friction, achieving superior performance in external force estimation. A classic Kalman filter framework is adopted to effectively implement the approach. Furthermore, the influence of load, friction, and velocities on noise parameters within the Kalman filtering algorithm is explicitly considered through a variable-parameter modeling of the noise term, thereby enhancing the overall performance and adaptability of the DKF. Comparative experimental results of multiple external load observations for the robotic end-effector demonstrate that the proposed OKF observer achieves significant improvements in dynamic performance, such as response speed and overshoot, over both the BKF observer and other existing methods. In the design of the external load observer for robotic end-effectors, our study only addresses loads with constant or slowly varying mass, which limits application to highly dynamic scenarios. In practice, loads may change unpredictably in more complex ways. In future work, we will extend this research to more complex and dynamic loading conditions. Moreover, we plan to integrate unidirectional pressure sensors, which could assist in integrating the DKF into a force controller, enabling tasks like collision detection with payloads and assembly."
 }
 </script>
 
@@ -758,12 +758,12 @@
     
 
   <span >
-      <a href="/author/ruiqing-luo/">Ruiqing Luo</a></span>, <span >
-      <a href="/author/jianjun-yuan/">Jianjun Yuan</a></span>, <span >
-      <a href="/author/yimin-he/">Yimin He</a></span>, <span >
-      <a href="/author/sheng-bao/">Sheng Bao</a></span>, <span >
-      <a href="/author/liang-du/">Liang Du</a></span>, <span >
-      <a href="/author/zhengtao-hu/">Zhengtao Hu</a></span>
+      <a href="/author/luo-ruiqing/">Luo Ruiqing</a></span>, <span >
+      <a href="/author/%E8%A2%81%E5%BB%BA%E5%86%9B/">袁建军</a></span>, <span >
+      <a href="/author/he-yimin/">He Yimin</a></span>, <span >
+      <a href="/author/%E9%B2%8D%E6%99%9F/">鲍晟</a></span>, <span >
+      <a href="/author/%E6%9D%9C%E4%BA%AE/">杜亮</a></span>, <span >
+      <a href="/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/">胡正涛</a></span>
   </div>
   
   
@@ -849,7 +849,7 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="https://www.mdpi.com/2076-0825/14/12/568" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/LRA.2026.3665064" target="_blank" rel="noopener">
     MDPI</a>
 
 
@@ -883,8 +883,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#2">
+              Journal article
             </a>
           </div>
         </div>
@@ -1037,6 +1037,28 @@
 
 
 
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/%E8%A2%81%E5%BB%BA%E5%86%9B/"><img class="avatar mr-3 avatar-circle" src="/author/%E8%A2%81%E5%BB%BA%E5%86%9B/avatar_hu124d4fce3cded09085961d58e3b83572_627676_270x270_fill_lanczos_center_3.png" alt="袁建军"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/%E8%A2%81%E5%BB%BA%E5%86%9B/">袁建军</a></h5>
+      <h6 class="card-subtitle">教授</h6>
+      <p class="card-text">机器人技术，自动化装备</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
 
   
     
@@ -1049,17 +1071,128 @@
 
 
 
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/%E9%B2%8D%E6%99%9F/"><img class="avatar mr-3 avatar-circle" src="/author/%E9%B2%8D%E6%99%9F/avatar_hub7839f1bdfdabf2b1811b14a8479d283_139467_270x270_fill_q75_lanczos_center.jpg" alt="鲍晟"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/%E9%B2%8D%E6%99%9F/">鲍晟</a></h5>
+      <h6 class="card-subtitle">讲师</h6>
+      <p class="card-text">讲师，机电技术</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
 
   
     
 
 
 
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/%E6%9D%9C%E4%BA%AE/"><img class="avatar mr-3 avatar-circle" src="/author/%E6%9D%9C%E4%BA%AE/avatar_hu9285b0c1ea541e27bb589577ef1bcb1b_249358_270x270_fill_q75_lanczos_center.jpg" alt="杜亮"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/%E6%9D%9C%E4%BA%AE/">杜亮</a></h5>
+      <h6 class="card-subtitle">讲师</h6>
+      <p class="card-text">讲师，机器人技术，自动化装备</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=dAphEr0AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-1297-3865" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
 
   
     
 
 
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/"><img class="avatar mr-3 avatar-circle" src="/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/avatar_hu3beea8551e1fc12956af7f2156ce087d_5873_270x270_fill_q75_lanczos_center.jpg" alt="胡正涛"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/">胡正涛</a></h5>
+      <h6 class="card-subtitle">讲师</h6>
+      <p class="card-text">讲师，机器人技术，自动化装备</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://huzhengtao.work/" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
 
 
   

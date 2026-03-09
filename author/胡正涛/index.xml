@@ -5,12 +5,44 @@
     <link>https://robweb-together.github.io/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/</link>
       <atom:link href="https://robweb-together.github.io/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/index.xml" rel="self" type="application/rss+xml" />
     <description>胡正涛</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2026 SRI-Lab</copyright><lastBuildDate>Mon, 21 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2026 SRI-Lab</copyright><lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robweb-together.github.io/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/avatar_hu3beea8551e1fc12956af7f2156ce087d_5873_270x270_fill_q75_lanczos_center.jpg</url>
       <title>胡正涛</title>
       <link>https://robweb-together.github.io/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/</link>
     </image>
+    
+    <item>
+      <title>Voxel-LIVO: Accurate and Robust LiDAR-Inertial-Visual Fused Odometry and Mapping in Challenge Environment</title>
+      <link>https://robweb-together.github.io/publication/zhang2026voxel-livo/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhang2026voxel-livo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clearance-Adaptive Grasping of Clustered Objects Using Pin-Array Robotic Fingers Under Uncertainty</title>
+      <link>https://robweb-together.github.io/publication/hu2026robots/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/hu2026robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tightly-Coupled LiDAR–Inertial Odometry with Geometric-Uncertainty Modeling</title>
+      <link>https://robweb-together.github.io/publication/zhang2026tightly/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/zhang2026tightly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensorless Payload Estimation of Serial Robots Using an Improved Disturbance Kalman Filter with a Variable-Parameter Noise Model</title>
+      <link>https://robweb-together.github.io/publication/luo2025sensorless/</link>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://robweb-together.github.io/publication/luo2025sensorless/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Visual Servoing With Grid‐Based Directional Error Mapping for Robotic TBM Disc Cutter Replacement</title>

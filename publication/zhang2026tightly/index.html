@@ -1,0 +1,1396 @@
+<!DOCTYPE html><html lang="zh-Hans" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="HuBot" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="In this article, we propose a novel LiDAR-inertial-visual fusion framework, named Voxel-LIVO, which is capable of real-time dense map reconstruction while achieving accurate and robust state estimation. The framework tightly fuses measurements from three heterogeneous sensors via an IESKF and, through a unified hybrid-map strategy, maintains short-term, mid-term, and long-term data association. The system maintains high-precision localization, remains robust to LiDAR and/or visual degeneration, and keeps its memory footprint low. The improvement in system accuracy is attributed to the extraction of high-quality image patches, coupled with affine transformations of those patches guided by LiDAR planes, which markedly enhance image-alignment precision. Additionally, the system further optimizes the state using sequential LiDAR-visual BA. The improvement in system robustness is attributed to both the LiDAR and visual subsystems adopting direct methods, which can capture subtle changes in geometric and visual features. It combines multiple frames of LiDAR and camera within the window to strengthen data association, and projects the local point cloud map onto the image to counter the impact of LiDAR being in blind spots. Voxel-LIVO is tested on a wide range of public datasets and our private datasets, evaluating its performance in terms of localization accuracy, robustness, and point cloud map precision. The results show that Voxel-LIVO achieves the highest accuracy among all the compared state-of-the-art SLAM systems. Furthermore, Voxel-LIVO demonstrates excellent robustness in highly challenging scenarios, particularly when LiDAR and/or camera measurements are degraded." />
+
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://robweb-together.github.io/publication/zhang2026tightly/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.df9e1d77eafbb0936f26c961fa69f633.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://robweb-together.github.io/publication/zhang2026tightly/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="上海机器人研究所" />
+  <meta property="og:url" content="https://robweb-together.github.io/publication/zhang2026tightly/" />
+  <meta property="og:title" content="Tightly-Coupled LiDAR–Inertial Odometry with Geometric-Uncertainty Modeling | 上海机器人研究所" />
+  <meta property="og:description" content="In this article, we propose a novel LiDAR-inertial-visual fusion framework, named Voxel-LIVO, which is capable of real-time dense map reconstruction while achieving accurate and robust state estimation. The framework tightly fuses measurements from three heterogeneous sensors via an IESKF and, through a unified hybrid-map strategy, maintains short-term, mid-term, and long-term data association. The system maintains high-precision localization, remains robust to LiDAR and/or visual degeneration, and keeps its memory footprint low. The improvement in system accuracy is attributed to the extraction of high-quality image patches, coupled with affine transformations of those patches guided by LiDAR planes, which markedly enhance image-alignment precision. Additionally, the system further optimizes the state using sequential LiDAR-visual BA. The improvement in system robustness is attributed to both the LiDAR and visual subsystems adopting direct methods, which can capture subtle changes in geometric and visual features. It combines multiple frames of LiDAR and camera within the window to strengthen data association, and projects the local point cloud map onto the image to counter the impact of LiDAR being in blind spots. Voxel-LIVO is tested on a wide range of public datasets and our private datasets, evaluating its performance in terms of localization accuracy, robustness, and point cloud map precision. The results show that Voxel-LIVO achieves the highest accuracy among all the compared state-of-the-art SLAM systems. Furthermore, Voxel-LIVO demonstrates excellent robustness in highly challenging scenarios, particularly when LiDAR and/or camera measurements are degraded." /><meta property="og:image" content="https://robweb-together.github.io/publication/zhang2026tightly/featured.jpg" />
+    <meta property="twitter:image" content="https://robweb-together.github.io/publication/zhang2026tightly/featured.jpg" /><meta property="og:locale" content="zh-Hans" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2026-01-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2026-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://robweb-together.github.io/publication/zhang2026tightly/"
+  },
+  "headline": "Tightly-Coupled LiDAR–Inertial Odometry with Geometric-Uncertainty Modeling",
+  
+  "image": [
+    "https://robweb-together.github.io/publication/zhang2026tightly/featured.jpg"
+  ],
+  
+  "datePublished": "2026-01-01T00:00:00Z",
+  "dateModified": "2026-01-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Zhang Hongkai"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "上海机器人研究所",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "In this article, we propose a novel LiDAR-inertial-visual fusion framework, named Voxel-LIVO, which is capable of real-time dense map reconstruction while achieving accurate and robust state estimation. The framework tightly fuses measurements from three heterogeneous sensors via an IESKF and, through a unified hybrid-map strategy, maintains short-term, mid-term, and long-term data association. The system maintains high-precision localization, remains robust to LiDAR and/or visual degeneration, and keeps its memory footprint low. The improvement in system accuracy is attributed to the extraction of high-quality image patches, coupled with affine transformations of those patches guided by LiDAR planes, which markedly enhance image-alignment precision. Additionally, the system further optimizes the state using sequential LiDAR-visual BA. The improvement in system robustness is attributed to both the LiDAR and visual subsystems adopting direct methods, which can capture subtle changes in geometric and visual features. It combines multiple frames of LiDAR and camera within the window to strengthen data association, and projects the local point cloud map onto the image to counter the impact of LiDAR being in blind spots. Voxel-LIVO is tested on a wide range of public datasets and our private datasets, evaluating its performance in terms of localization accuracy, robustness, and point cloud map precision. The results show that Voxel-LIVO achieves the highest accuracy among all the compared state-of-the-art SLAM systems. Furthermore, Voxel-LIVO demonstrates excellent robustness in highly challenging scenarios, particularly when LiDAR and/or camera measurements are degraded."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Tightly-Coupled LiDAR–Inertial Odometry with Geometric-Uncertainty Modeling | 上海机器人研究所</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="e92c5c6c7e72287934fe53fd0fb0eed4" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2539a3058b6536055b0f14f7d5f9df7b.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">上海机器人研究所</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">上海机器人研究所</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/introduction"><span>主页</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/post"><span>新闻</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/robot"><span>研究</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication"><span>论文</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/awards"><span>获奖</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/member"><span>成员</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/contact"><span>联系</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Tightly-Coupled LiDAR–Inertial Odometry with Geometric-Uncertainty Modeling</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/zhang-hongkai/">Zhang Hongkai</a></span>, <span >
+      <a href="/author/%E6%9D%9C%E4%BA%AE/">杜亮</a></span>, <span >
+      <a href="/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/">胡正涛</a></span>, <span >
+      <a href="/author/%E9%B2%8D%E6%99%9F/">鲍晟</a></span>, <span >
+      <a href="/author/liang-zhao/">Liang, Zhao</a></span>, <span >
+      <a href="/author/%E8%A2%81%E5%BB%BA%E5%86%9B/">袁建军</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2026
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/zhang2026tightly/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/TIM.2025.3650261" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://ieeexplore.ieee.org/document/11322542" target="_blank" rel="noopener">
+    IEEE Xplore</a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 371px;">
+  <div style="position: relative">
+    <img src="/publication/zhang2026tightly/featured_hu4d49b959d0795410bcbca0bab679ef41_94387_720x2500_fit_q75_h2_lanczos.webp" width="720" height="371" alt="" class="featured-image">
+    <span class="article-header-caption">System overview of LIO-GUM. The system mainly contains geometric-uncertainty model construction, geometric residual computation, and state estimation.</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Real-time and accurate state estimation and map reconstruction are crucial for unmanned systems. However, existing LiDAR-inertial-visual odometry (LIVO) methods typically rely on short-term data association, making it difficult to maintain stable operation in LiDAR or visually degenerated environments. In this work, we present Voxel-LIVO, a precise and robust LIVO and mapping system that leverages a unified adaptive voxel map for short-term, mid-term, and long-term data associations. For LIVO, we employ an iterated error-state Kalman filter (IESKF) to fuse LiDAR, inertial, and visual measurements for efficient state estimation. To enhance the precision of image alignment, we propose a LiDAR-map-assisted visual patch association (LM-VPA) method, which employs LiDAR planar features to perform affine transformations for image patches. For local mapping, we propose a novel sequential LiDAR-visual local bundle adjustment (BA) approach, which facilitates mid-term data association to further enhance the precision of the local map and mitigate state drift. To maintain accuracy while minimizing memory overhead, we propose a hybrid map-management scheme that combines a keyframe-based sparse long-term voxel map with a densely updated sliding-window voxel map. We conducted extensive experiments on public benchmark datasets and our private datasets, and the results demonstrate that our proposed system significantly outperforms other state-of-the-art odometry systems in terms of accuracy and robustness, particularly under highly degenerated environments (see attached video).</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              Journal article
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">IEEE Transactions on Instrumentation and Measurement</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/lidar-inertial-odometry/">LiDAR-inertial odometry</a>
+  
+  <a class="badge badge-light" href="/tag/tightly-coupled/">tightly-coupled</a>
+  
+  <a class="badge badge-light" href="/tag/geometric-uncertainty-modeling/">Geometric-Uncertainty Modeling</a>
+  
+  <a class="badge badge-light" href="/tag/state-estimation/">state estimation</a>
+  
+  <a class="badge badge-light" href="/tag/sensor-fusion/">sensor fusion</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://robweb-together.github.io/publication/zhang2026tightly/&amp;text=Tightly-Coupled%20LiDAR%e2%80%93Inertial%20Odometry%20with%20Geometric-Uncertainty%20Modeling" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://robweb-together.github.io/publication/zhang2026tightly/&amp;t=Tightly-Coupled%20LiDAR%e2%80%93Inertial%20Odometry%20with%20Geometric-Uncertainty%20Modeling" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Tightly-Coupled%20LiDAR%e2%80%93Inertial%20Odometry%20with%20Geometric-Uncertainty%20Modeling&amp;body=https://robweb-together.github.io/publication/zhang2026tightly/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://robweb-together.github.io/publication/zhang2026tightly/&amp;title=Tightly-Coupled%20LiDAR%e2%80%93Inertial%20Odometry%20with%20Geometric-Uncertainty%20Modeling" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Tightly-Coupled%20LiDAR%e2%80%93Inertial%20Odometry%20with%20Geometric-Uncertainty%20Modeling%20https://robweb-together.github.io/publication/zhang2026tightly/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://robweb-together.github.io/publication/zhang2026tightly/&amp;title=Tightly-Coupled%20LiDAR%e2%80%93Inertial%20Odometry%20with%20Geometric-Uncertainty%20Modeling" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/%E6%9D%9C%E4%BA%AE/"><img class="avatar mr-3 avatar-circle" src="/author/%E6%9D%9C%E4%BA%AE/avatar_hu9285b0c1ea541e27bb589577ef1bcb1b_249358_270x270_fill_q75_lanczos_center.jpg" alt="杜亮"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/%E6%9D%9C%E4%BA%AE/">杜亮</a></h5>
+      <h6 class="card-subtitle">讲师</h6>
+      <p class="card-text">讲师，机器人技术，自动化装备</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=dAphEr0AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-1297-3865" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/"><img class="avatar mr-3 avatar-circle" src="/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/avatar_hu3beea8551e1fc12956af7f2156ce087d_5873_270x270_fill_q75_lanczos_center.jpg" alt="胡正涛"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/%E8%83%A1%E6%AD%A3%E6%B6%9B/">胡正涛</a></h5>
+      <h6 class="card-subtitle">讲师</h6>
+      <p class="card-text">讲师，机器人技术，自动化装备</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://huzhengtao.work/" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/%E9%B2%8D%E6%99%9F/"><img class="avatar mr-3 avatar-circle" src="/author/%E9%B2%8D%E6%99%9F/avatar_hub7839f1bdfdabf2b1811b14a8479d283_139467_270x270_fill_q75_lanczos_center.jpg" alt="鲍晟"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/%E9%B2%8D%E6%99%9F/">鲍晟</a></h5>
+      <h6 class="card-subtitle">讲师</h6>
+      <p class="card-text">讲师，机电技术</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/%E8%A2%81%E5%BB%BA%E5%86%9B/"><img class="avatar mr-3 avatar-circle" src="/author/%E8%A2%81%E5%BB%BA%E5%86%9B/avatar_hu124d4fce3cded09085961d58e3b83572_627676_270x270_fill_lanczos_center_3.png" alt="袁建军"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/%E8%A2%81%E5%BB%BA%E5%86%9B/">袁建军</a></h5>
+      <h6 class="card-subtitle">教授</h6>
+      <p class="card-text">机器人技术，自动化装备</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/zhang2024lvio-fusion/">LVIO-Fusion:Tightly-Coupled LiDAR-Visual-Inertial Odometry and Mapping in Degenerate Environments</a></li>
+      
+      <li><a href="/publication/bao2021service/">Service Robots in Wuhan Cabin Hospitals</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+        
+  
+    
+    
+
+
+
+
+
+  
+    <p class="powered-by">
+      
+      
+      
+      Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> and
+      <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>.
+      <br>
+      © 2018-2026 SRI-Lab
+      
+    </p>
+  </footer>
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.5a3a4e7cbc7b4e121b2d29312cf8ad59.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.6b73888494485d3b0874ca2ec83f614f.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.a675601e9e3d4b1cba675b93de6cd541.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

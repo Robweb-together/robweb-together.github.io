@@ -5,20 +5,12 @@
     <link>https://robweb-together.github.io/publication-type/1/</link>
       <atom:link href="https://robweb-together.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2026 SRI-Lab</copyright><lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© 2018-2026 SRI-Lab</copyright><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robweb-together.github.io/media/icon_hue37ceb3013b83a7f1dd4cf5f791eeafe_12613_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://robweb-together.github.io/publication-type/1/</link>
     </image>
-    
-    <item>
-      <title>Sensorless Payload Estimation of Serial Robots Using an Improved Disturbance Kalman Filter with a Variable-Parameter Noise Model</title>
-      <link>https://robweb-together.github.io/publication/luo2025sensorless/</link>
-      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://robweb-together.github.io/publication/luo2025sensorless/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Contact Force Estimation by Fusing Current and Tactile Information Through KF for Robot Arm</title>
