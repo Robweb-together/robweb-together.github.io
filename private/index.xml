@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>团队共享 | 上海机器人研究所</title><link>https://robweb-together.github.io/private/</link><atom:link href="https://robweb-together.github.io/private/index.xml" rel="self" type="application/rss+xml"/><description>团队共享</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><image><url>https://robweb-together.github.io/media/icon_hu13936175733176514910.png</url><title>团队共享</title><link>https://robweb-together.github.io/private/</link></image><item><title>使用说明</title><link>https://robweb-together.github.io/private/start-here/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://robweb-together.github.io/private/start-here/</guid><description>&lt;p>本页用于说明 &lt;code>团队共享&lt;/code> 栏目的使用方式，建议后续优先完善此页，作为团队成员进入专区后的第一站。&lt;/p>
+&lt;h2 id="页面定位">页面定位&lt;/h2>
+&lt;ul>
+&lt;li>说明本专区服务对象是谁&lt;/li>
+&lt;li>说明本专区适合放什么内容&lt;/li>
+&lt;li>说明哪些内容不应直接放在网站页面中&lt;/li>
+&lt;/ul>
+&lt;h2 id="建议组织方式">建议组织方式&lt;/h2>
+&lt;ul>
+&lt;li>按“教程 / 资料 / 工具 / 笔记 / 规范”进行分类&lt;/li>
+&lt;li>每个页面尽量只处理一类主题，便于后期持续扩展&lt;/li>
+&lt;li>对于下载类材料，建议提供简介、适用对象、更新时间和来源说明&lt;/li>
+&lt;/ul>
+&lt;h2 id="建议维护规范">建议维护规范&lt;/h2>
+&lt;ul>
+&lt;li>每次新增资料时补充标题、简介、更新时间&lt;/li>
+&lt;li>对外链资料注明来源与访问方式&lt;/li>
+&lt;li>对于失效资源及时替换或标注停用&lt;/li>
+&lt;li>对于仍在整理中的页面，可在顶部标明“更新中”&lt;/li>
+&lt;/ul>
+&lt;h2 id="后续待补充">后续待补充&lt;/h2>
+&lt;ul>
+&lt;li>团队共享专区的适用范围说明&lt;/li>
+&lt;li>团队成员维护分工&lt;/li>
+&lt;li>内容更新频率与约定&lt;/li>
+&lt;li>资料命名规则&lt;/li>
+&lt;/ul></description></item><item><title>教程与实操</title><link>https://robweb-together.github.io/private/tutorials/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://robweb-together.github.io/private/tutorials/</guid><description>&lt;p>本页用于集中管理“从零开始能照着做”的实操型内容，适合作为后续教程集合页或总索引页。&lt;/p>
+&lt;h2 id="适合收录的内容">适合收录的内容&lt;/h2>
+&lt;ul>
+&lt;li>开发环境安装与配置&lt;/li>
+&lt;li>常用软件工具的使用说明&lt;/li>
+&lt;li>数据处理流程&lt;/li>
+&lt;li>实验复现步骤&lt;/li>
+&lt;li>网站维护与发布流程&lt;/li>
+&lt;/ul>
+&lt;h2 id="推荐页面结构">推荐页面结构&lt;/h2>
+&lt;p>每篇教程建议至少包含以下部分：&lt;/p>
+&lt;ol>
+&lt;li>背景与适用对象&lt;/li>
+&lt;li>前置条件&lt;/li>
+&lt;li>操作步骤&lt;/li>
+&lt;li>常见问题&lt;/li>
+&lt;li>参考资料&lt;/li>
+&lt;/ol>
+&lt;h2 id="可先补充的教程主题">可先补充的教程主题&lt;/h2>
+&lt;ul>
+&lt;li>Hugo 本地预览与构建&lt;/li>
+&lt;li>内容新增与图片资源管理&lt;/li>
+&lt;li>论文条目录入规范&lt;/li>
+&lt;li>网站模板覆盖与静态资源维护&lt;/li>
+&lt;/ul>
+&lt;h2 id="占位备注">占位备注&lt;/h2>
+&lt;p>当前为栏目模板页，后续可以继续拆分为多个具体教程页面。&lt;/p></description></item><item><title>共享资料</title><link>https://robweb-together.github.io/private/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://robweb-together.github.io/private/resources/</guid><description>&lt;p>本页适合作为共享资料总目录。建议以“索引说明”为主，而不是直接堆积大量零散链接。&lt;/p>
+&lt;h2 id="资料分类建议">资料分类建议&lt;/h2>
+&lt;ul>
+&lt;li>课程与培训资料&lt;/li>
+&lt;li>实验室内部文档&lt;/li>
+&lt;li>常用下载资源&lt;/li>
+&lt;li>外部参考链接&lt;/li>
+&lt;li>历史归档材料&lt;/li>
+&lt;/ul>
+&lt;h2 id="索引模板">索引模板&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">资料名称&lt;/th>
+&lt;th style="text-align: left">简介&lt;/th>
+&lt;th style="text-align: left">访问方式&lt;/th>
+&lt;th style="text-align: left">更新日期&lt;/th>
+&lt;th style="text-align: left">备注&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">示例资料 A&lt;/td>
+&lt;td style="text-align: left">简要说明该资料用途&lt;/td>
+&lt;td style="text-align: left">内部网盘 / 文档链接&lt;/td>
+&lt;td style="text-align: left">2026-03&lt;/td>
+&lt;td style="text-align: left">占位&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">示例资料 B&lt;/td>
+&lt;td style="text-align: left">简要说明适用对象&lt;/td>
+&lt;td style="text-align: left">外部链接 / 附件&lt;/td>
+&lt;td style="text-align: left">2026-03&lt;/td>
+&lt;td style="text-align: left">占位&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="建议补充字段">建议补充字段&lt;/h2>
+&lt;ul>
+&lt;li>适用对象&lt;/li>
+&lt;li>是否需要权限&lt;/li>
+&lt;li>资料负责人&lt;/li>
+&lt;li>是否仍在更新&lt;/li>
+&lt;/ul>
+&lt;h2 id="占位备注">占位备注&lt;/h2>
+&lt;p>后续如果资料较多，建议将不同类别拆成独立子页面，再由本页统一索引。&lt;/p></description></item><item><title>工具与工作流</title><link>https://robweb-together.github.io/private/tools-workflows/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://robweb-together.github.io/private/tools-workflows/</guid><description>&lt;p>本页用于沉淀团队常用工具和协作流程，适合放置“怎么做事”的约定型内容。&lt;/p>
+&lt;h2 id="可收录主题">可收录主题&lt;/h2>
+&lt;ul>
+&lt;li>常用软件与版本要求&lt;/li>
+&lt;li>平台账号申请流程&lt;/li>
+&lt;li>数据备份与共享流程&lt;/li>
+&lt;li>网站内容更新流程&lt;/li>
+&lt;li>常用脚本说明&lt;/li>
+&lt;/ul>
+&lt;h2 id="推荐组织方式">推荐组织方式&lt;/h2>
+&lt;h3 id="工具清单">工具清单&lt;/h3>
+&lt;ul>
+&lt;li>工具名称&lt;/li>
+&lt;li>用途&lt;/li>
+&lt;li>安装方式&lt;/li>
+&lt;li>维护人&lt;/li>
+&lt;/ul>
+&lt;h3 id="工作流说明">工作流说明&lt;/h3>
+&lt;ul>
+&lt;li>适用场景&lt;/li>
+&lt;li>标准步骤&lt;/li>
+&lt;li>注意事项&lt;/li>
+&lt;li>常见错误&lt;/li>
+&lt;/ul>
+&lt;h2 id="占位主题">占位主题&lt;/h2>
+&lt;ul>
+&lt;li>网站更新工作流&lt;/li>
+&lt;li>论文成果发布工作流&lt;/li>
+&lt;li>团队资料整理规范&lt;/li>
+&lt;li>图片与多媒体资源处理流程&lt;/li>
+&lt;/ul></description></item><item><title>学习笔记</title><link>https://robweb-together.github.io/private/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://robweb-together.github.io/private/notes/</guid><description>&lt;p>本页适合用于整理学习笔记和内部分享内容，后续可继续拆分为专题笔记页。&lt;/p>
+&lt;h2 id="可收录内容">可收录内容&lt;/h2>
+&lt;ul>
+&lt;li>论文阅读笔记&lt;/li>
+&lt;li>技术路线梳理&lt;/li>
+&lt;li>组会分享摘要&lt;/li>
+&lt;li>培训纪要&lt;/li>
+&lt;li>实践经验总结&lt;/li>
+&lt;/ul>
+&lt;h2 id="建议模板">建议模板&lt;/h2>
+&lt;p>每篇笔记可包含以下部分：&lt;/p>
+&lt;ol>
+&lt;li>主题&lt;/li>
+&lt;li>背景&lt;/li>
+&lt;li>关键结论&lt;/li>
+&lt;li>个人理解或团队讨论点&lt;/li>
+&lt;li>后续行动项&lt;/li>
+&lt;/ol>
+&lt;h2 id="占位主题">占位主题&lt;/h2>
+&lt;ul>
+&lt;li>近期重点论文阅读记录&lt;/li>
+&lt;li>内部技术分享纪要&lt;/li>
+&lt;li>某类工具链实践经验总结&lt;/li>
+&lt;/ul></description></item><item><title>内容模板</title><link>https://robweb-together.github.io/private/page-template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://robweb-together.github.io/private/page-template/</guid><description>&lt;p>本页提供一个建议模板，后续新增内部资料页面时可以直接复制并修改。&lt;/p>
+&lt;h2 id="建议-front-matter">建议 Front Matter&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nn">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">页面标题&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">summary&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">一句话说明本页内容&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">weight&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">10&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nn">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="建议正文结构">建议正文结构&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## 内容简介
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">简要说明本页用途、适用对象和阅读方式。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## 核心内容
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> 要点 1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> 要点 2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> 要点 3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## 相关链接
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> 资料 A
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> 资料 B
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## 更新记录
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> 2026-03：初始化页面
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="使用建议">使用建议&lt;/h2>
+&lt;ul>
+&lt;li>页面标题尽量简洁明确&lt;/li>
+&lt;li>&lt;code>summary&lt;/code> 用于列表页展示，建议单独填写&lt;/li>
+&lt;li>内容较长时可以继续拆分为子页面&lt;/li>
+&lt;li>若包含下载资料，建议同时提供说明文字而不是只放链接&lt;/li>
+&lt;/ul></description></item></channel></rss>
